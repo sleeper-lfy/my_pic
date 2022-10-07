@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>视频列表</title>
+	<link href="http://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"  crossorigin="anonymous">
+	<style>
+		
+
+		.row{
+			margin-bottom: 2rem;
+		}
+		.m-card{
+			margin-bottom: 0.5rem;
+		}
+		@media (min-width: 1200px) {
+			.container, .container-lg, .container-md, .container-sm, .container-xl {
+			max-width: 93rem;
+			}
+			img{
+				width:auto;
+				height: 25rem;
+				object-fit: contain;
+			}
+		}
+		@media (max-width: 576px) {
+			img{
+				width:auto;
+				height: 14rem;
+				object-fit: contain;
+			}
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="app">
+		<div class="p-3">
+			<nav>
+			<ul class="nav nav-tabs" id="myTab" role="tablist">
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">AV女优</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
+			    <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website" type="button" role="tab" aria-controls="website" aria-selected="false">网站</button>
+			  </li>
+			</ul>
+			</nav>
+			<div class="tab-content mt-3" id="nav-tabContent">
+				<div class="container tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="nav-home-tab">
+						<div class="row row-cols-md-5 row-cols-2">
+						<div class="col m-card" v-for="avi in avList">
+						  <div class="card">
+							  <img :src="avi.imgSrc" class="card-img-top" alt="av01.top">
+							  <div class="card-body">
+								<h5 class="card-title">{{avi.name}}</h5>
+								<p class="card-text"><div v-html="avi.cardText"></div></p>
+								<a :href="avi.url" target="_blank" class="btn btn-primary">跳转</a>
+							  </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="website" role="tabpanel" aria-labelledby="nav-website-tab">
+					<div class="row row-cols-md-5 row-cols-2">
+						<div class="col m-card" v-for="avi in websiteList">
+						  <div class="card">
+							  <img :src="avi.imgSrc" class="card-img-top" alt="av01.top">
+							  <div class="card-body">
+								<h5 class="card-title">{{avi.name}}</h5>
+								<p class="card-text"><div v-html="avi.cardText"></div></p>
+								<a :href="avi.url" target="_blank" class="btn btn-primary">跳转</a>
+							  </div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+</body>
+	<!-- <script src="http://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" /> -->
+	<script src="https://cdn.staticfile.org/vue/2.7.0/vue.min.js"></script>
+	<script>
+		new Vue({
+		el: '#app',
+		data: function() {
+			return {
+				websiteList: [
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/hanime.jpg',
+						name: '里番',
+						cardText: '<a href="https://hanime1.me/" target="_blank">hanime1</a>',
+						url: 'https://hanime1.me/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/jabletv-apk.png',
+						name: 'jable',
+						cardText: 'jable网站',
+						cardText: '<a href="https://jable.tv/hot/" target="_blank">jable</a>',
+						url: 'https://jable.tv/hot/',
+					},
+				],
+				avList: [
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/楓可憐.webp',
+						name: '楓可憐',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%A5%93%E5%8F%AF%E6%86%90?id=19896" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/kaede-karen/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/河合明日菜.webp',
+						name: '河合明日菜',
+						cardText: '<a href="https://www.av01.tv/search/videos?actress=%E6%B2%B3%E5%90%88%E6%98%8E%E6%97%A5%E8%8F%9C&id=1446" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/asuna-kawai/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/三上悠亜.jpg',
+						name: '三上悠亜',
+						cardText: '<a href="https://www.av01.tv/actor/%E4%B8%89%E4%B8%8A%E6%82%A0%E4%BA%9E?id=216" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/yua-mikami/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/桃乃木香奈.webp',
+						name: '桃乃木香奈',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%A1%83%E4%B9%83%E6%9C%A8%E9%A6%99%E5%A5%88?id=112" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/momonogi-kana/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/葵.webp',
+						name: '葵',
+						cardText: '<a href="https://www.av01.tv/actor/%E8%91%B5?id=1519" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/aoi/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/鈴村愛里.webp',
+						name: '鈴村愛里',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E9%88%B4%E6%9D%91%E6%84%9B%E9%87%8C?id=135" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/airi-suzumura/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/樞木葵.jfif',
+						name: '樞木葵',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%A8%9E%E6%9C%A8%E8%91%B5?id=152" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/aoi-kururugi/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/深田詠美.webp',
+						name: '深田詠美',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%B7%B1%E7%94%B0%E8%A9%A0%E7%BE%8E?id=18373" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/hukada-eimi/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/高橋聖子.webp',
+						name: '高橋聖子',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E9%AB%98%E6%A9%8B%E8%81%96%E5%AD%90?id=65" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/shoko-takasaki/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/明日花綺羅.webp',
+						name: '明日花綺羅',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%98%8E%E6%97%A5%E8%8A%B1%E7%B6%BA%E7%BE%85?id=3418" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/kirara-asuka/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/河北彩花.jfif',
+						name: '河北彩花',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%B2%B3%E5%8C%97%E5%BD%A9%E8%8A%B1?id=232" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/1e9ea762a50cc007b849c6e5703113be/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/楪可憐.jpg',
+						name: '楪可憐',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%A5%AA%E5%8F%AF%E6%86%90?id=111134" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/86b2f23f95cc485af79fe847c5b9de8d/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/櫻空桃.webp',
+						name: '櫻空桃',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%AB%BB%E7%A9%BA%E6%A1%83?id=1736" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/sakura-momo/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/安齋拉拉.webp',
+						name: '安齋拉拉',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E5%AE%89%E9%BD%8B%E6%8B%89%E6%8B%89?id=51466" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/52a33aabdfd0440202e57950dafe079f/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/伊藤舞雪.jpg',
+						name: '伊藤舞雪',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E4%BC%8A%E8%97%A4%E8%88%9E%E9%9B%AA?id=280" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/mayuki-ito/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/神宫寺奈绪.webp',
+						name: '神宫寺奈绪',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E7%A5%9E%E5%AE%AE%E5%AF%BA%E5%A5%88%E7%B7%92?id=1366" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/jinguji-nao/',
+					},
+					{
+						imgSrc: 'https://raw.githubusercontent.com/sleeper-lfy/my_pic/main/桥本有菜.webp',
+						name: '桥本有菜',
+						cardText: 'av01.top',
+						cardText: '<a href="https://www.av01.tv/actor/%E6%A9%8B%E6%9C%AC%E6%9C%89%E8%8F%9C?id=224" target="_blank">av01</a>',
+						url: 'https://jable.tv/models/arina-hashimoto/',
+					},
+
+				]
+			}
+		},
+		mounted() {
+    		let script = document.createElement('script');
+	        script.type = 'text/javascript';
+	        script.src = 'http://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js';
+	        document.body.appendChild(script);
+	        script.onload = ()=>{
+		      var triggerTabList = Array.prototype.slice.call(document.querySelectorAll('#myTab button'))
+				triggerTabList.forEach(function (triggerEl) {
+				  var tabTrigger = new bootstrap.Tab(triggerEl)
+				  triggerEl.addEventListener('click', function (event) {
+				    event.preventDefault()
+				    tabTrigger.show()
+				  })
+				})
+		    }
+  		}
+		})
+	</script>
+</html>
