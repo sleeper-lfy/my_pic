@@ -43,6 +43,9 @@
 			    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">AV女优</button>
 			  </li>
 			  <li class="nav-item" role="presentation">
+			    <button class="nav-link active" id="celebrity-tab" data-bs-toggle="tab" data-bs-target="#celebrity" type="button" role="tab" aria-controls="celebrity" aria-selected="true">网红素人</button>
+			  </li>
+			  <li class="nav-item" role="presentation">
 			    <button class="nav-link" id="website-tab" data-bs-toggle="tab" data-bs-target="#website" type="button" role="tab" aria-controls="website" aria-selected="false">网站</button>
 			  </li>
 			</ul>
@@ -62,6 +65,22 @@
 						</div>
 					</div>
 				</div>
+
+				<div class="tab-pane fade" id="celebrity" role="tabpanel" aria-labelledby="nav-celebrity-tab">
+					<div class="row row-cols-md-5 row-cols-2">
+						<div class="col m-card" v-for="avi in celebrityList">
+							<div class="card">
+								<img :src="avi.imgSrc" class="card-img-top" alt="av01.top">
+								<div class="card-body">
+									<h5 class="card-title">{{avi.name}}</h5>
+									<p class="card-text"><div v-html="avi.cardText"></div></p>
+									<a :href="avi.url" target="_blank" class="btn btn-primary">跳转</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
 				<div class="tab-pane fade" id="website" role="tabpanel" aria-labelledby="nav-website-tab">
 					<div class="row row-cols-md-5 row-cols-2">
 						<div class="col m-card" v-for="avi in websiteList">
@@ -75,7 +94,7 @@
 							</div>
 						</div>
 				</div>
-			</div>
+
 		</div>
 	</div>
 	
@@ -100,6 +119,14 @@
 						cardText: 'jable网站',
 						cardText: '<a href="https://jable.tv/hot/" target="_blank">jable</a>',
 						url: 'https://jable.tv/hot/',
+					},
+				],
+				celebrityList: [
+					{
+						imgSrc: './webp/OBOKOZU.jpg',
+						name: 'OBOKOZU',
+						cardText: '<a href="https://cn.pornhub.com/model/obokozu/videos" target="_blank">pornhub</a>',
+						url: 'https://cn.pornhub.com/model/obokozu/videos',
 					},
 				],
 				avList: [
