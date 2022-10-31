@@ -14,7 +14,7 @@
 <body>
 	<div class="p-1">
 		<h3 class="text-center p-4">
-			<a href="">我的PC控制</a>
+			<a id="myPcA">我的PC控制</a>
 		</h3>
 	</div>	
 </body>
@@ -26,10 +26,8 @@
     }
      $(function(){
 		$.getJSON("data/ip.json",function(data){
-			$.each(data,function(infoIndex,info){
-				console.log(info.ip)
-			})
-
+			console.log(data.ip+getUrlParam("controlKey"))
+			$("#myPcA").attr("href",data.ip+"?controlKey="+getUrlParam("controlKey"))
 		})
 	}); 
 	
