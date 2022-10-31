@@ -27,7 +27,7 @@
      $(function(){
 		$.getJSON("data/ip.json",function(data){
 			console.log(data.ip+getUrlParam("controlKey"))
-			$("#myPcA").attr("href",data.ip+"?controlKey="+getUrlParam("controlKey"))
+			$("#myPcA").attr("href","http://"+data.ip+":8080/controller.html?controlKey="+getUrlParam("controlKey"))
 		})
 	}); 
 	
