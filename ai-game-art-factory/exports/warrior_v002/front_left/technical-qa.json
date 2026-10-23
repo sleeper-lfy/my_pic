@@ -1,0 +1,763 @@
+{
+  "status": "technical_pass",
+  "art_approval": "pending",
+  "source_sha256": "c83349c54c2f91bb3344b252901ed968267c9a9a7dd585f4b36f6507b5c80b77",
+  "frames": [
+    {
+      "name": "idle_00",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        58,
+        60,
+        213,
+        230
+      ],
+      "safe_margin_px": 26,
+      "bbox_alpha_ge16": [
+        82,
+        64,
+        173,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10885,
+      "fully_opaque_pixels": 147,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 43,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "idle_01",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        30,
+        61,
+        184,
+        230
+      ],
+      "safe_margin_px": 26,
+      "bbox_alpha_ge16": [
+        83,
+        64,
+        173,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10559,
+      "fully_opaque_pixels": 141,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 26,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "idle_02",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        66,
+        60,
+        181,
+        230
+      ],
+      "safe_margin_px": 26,
+      "bbox_alpha_ge16": [
+        83,
+        64,
+        172,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10552,
+      "fully_opaque_pixels": 138,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 46,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "idle_03",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        30,
+        61,
+        197,
+        230
+      ],
+      "safe_margin_px": 26,
+      "bbox_alpha_ge16": [
+        83,
+        64,
+        173,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10789,
+      "fully_opaque_pixels": 151,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 19,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_00",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        52,
+        45,
+        212,
+        235
+      ],
+      "safe_margin_px": 21,
+      "bbox_alpha_ge16": [
+        81,
+        63,
+        173,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 11023,
+      "fully_opaque_pixels": 111,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 30,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_01",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        36,
+        43,
+        197,
+        230
+      ],
+      "safe_margin_px": 26,
+      "bbox_alpha_ge16": [
+        49,
+        69,
+        196,
+        224
+      ],
+      "significant_safe_margin_px": 32,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 13570,
+      "fully_opaque_pixels": 121,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 19,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_02",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        28,
+        43,
+        208,
+        233
+      ],
+      "safe_margin_px": 23,
+      "bbox_alpha_ge16": [
+        59,
+        47,
+        206,
+        224
+      ],
+      "significant_safe_margin_px": 32,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 13987,
+      "fully_opaque_pixels": 180,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 58,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 2,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_03",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        37,
+        43,
+        196,
+        228
+      ],
+      "safe_margin_px": 28,
+      "bbox_alpha_ge16": [
+        82,
+        59,
+        191,
+        224
+      ],
+      "significant_safe_margin_px": 32,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10959,
+      "fully_opaque_pixels": 128,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 11,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_04",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        60,
+        55,
+        213,
+        235
+      ],
+      "safe_margin_px": 21,
+      "bbox_alpha_ge16": [
+        64,
+        88,
+        188,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10866,
+      "fully_opaque_pixels": 129,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 14,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_05",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        29,
+        60,
+        199,
+        230
+      ],
+      "safe_margin_px": 26,
+      "bbox_alpha_ge16": [
+        74,
+        82,
+        198,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 9676,
+      "fully_opaque_pixels": 103,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 9,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_06",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        32,
+        54,
+        213,
+        227
+      ],
+      "safe_margin_px": 29,
+      "bbox_alpha_ge16": [
+        86,
+        63,
+        186,
+        224
+      ],
+      "significant_safe_margin_px": 32,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10871,
+      "fully_opaque_pixels": 122,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 11,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "attack_07",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        42,
+        64,
+        197,
+        228
+      ],
+      "safe_margin_px": 28,
+      "bbox_alpha_ge16": [
+        81,
+        67,
+        180,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 11120,
+      "fully_opaque_pixels": 129,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 3,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "defense_00",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        28,
+        59,
+        213,
+        238
+      ],
+      "safe_margin_px": 18,
+      "bbox_alpha_ge16": [
+        73,
+        71,
+        188,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 11187,
+      "fully_opaque_pixels": 141,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 6,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "defense_01",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        32,
+        67,
+        193,
+        229
+      ],
+      "safe_margin_px": 27,
+      "bbox_alpha_ge16": [
+        78,
+        71,
+        190,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10478,
+      "fully_opaque_pixels": 124,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 1,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "defense_02",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        65,
+        63,
+        206,
+        227
+      ],
+      "safe_margin_px": 29,
+      "bbox_alpha_ge16": [
+        78,
+        71,
+        189,
+        224
+      ],
+      "significant_safe_margin_px": 32,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10720,
+      "fully_opaque_pixels": 120,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 1,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    },
+    {
+      "name": "defense_03",
+      "dimensions": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "bbox_alpha_nonzero": [
+        33,
+        66,
+        194,
+        227
+      ],
+      "safe_margin_px": 29,
+      "bbox_alpha_ge16": [
+        81,
+        70,
+        191,
+        225
+      ],
+      "significant_safe_margin_px": 31,
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "visible_pixels": 10646,
+      "fully_opaque_pixels": 133,
+      "errors": [],
+      "source_crop_boundary": {
+        "edge_nonzero_alpha_pixels": 1,
+        "edge_significant_alpha_ge16_pixels": 0,
+        "edge_max_alpha": 1,
+        "interpretation": "A significant occupied crop edge can mean source clipping or contamination by another cell. Output padding does not fix it."
+      },
+      "placement_clipping": {
+        "alpha_sum_lost": 0,
+        "significant_alpha_ge16_pixels_lost": 0
+      }
+    }
+  ],
+  "atlas_exact_reconstruction": true,
+  "decoded_animations": [
+    {
+      "file": "preview-attack.apng",
+      "decoded_frames": 8,
+      "bytes": 279734,
+      "durations_ms": [
+        100.0,
+        140.0,
+        120.0,
+        60.0,
+        70.0,
+        100.0,
+        120.0,
+        160.0
+      ],
+      "duration_ms": 870.0
+    },
+    {
+      "file": "preview-attack.gif",
+      "decoded_frames": 8,
+      "bytes": 102621,
+      "durations_ms": [
+        100,
+        140,
+        120,
+        60,
+        70,
+        100,
+        120,
+        160
+      ],
+      "duration_ms": 870
+    },
+    {
+      "file": "preview-attack.webp",
+      "decoded_frames": 8,
+      "bytes": 204312,
+      "durations_ms": [
+        100,
+        140,
+        120,
+        60,
+        70,
+        100,
+        120,
+        160
+      ],
+      "duration_ms": 870
+    },
+    {
+      "file": "preview-defense.apng",
+      "decoded_frames": 4,
+      "bytes": 130711,
+      "durations_ms": [
+        120.0,
+        180.0,
+        220.0,
+        180.0
+      ],
+      "duration_ms": 700.0
+    },
+    {
+      "file": "preview-defense.gif",
+      "decoded_frames": 4,
+      "bytes": 49307,
+      "durations_ms": [
+        120,
+        180,
+        220,
+        180
+      ],
+      "duration_ms": 700
+    },
+    {
+      "file": "preview-defense.webp",
+      "decoded_frames": 4,
+      "bytes": 96024,
+      "durations_ms": [
+        120,
+        180,
+        220,
+        180
+      ],
+      "duration_ms": 700
+    },
+    {
+      "file": "preview-idle.apng",
+      "decoded_frames": 4,
+      "bytes": 129766,
+      "durations_ms": [
+        250.0,
+        250.0,
+        250.0,
+        250.0
+      ],
+      "duration_ms": 1000.0
+    },
+    {
+      "file": "preview-idle.gif",
+      "decoded_frames": 4,
+      "bytes": 49427,
+      "durations_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "duration_ms": 1000
+    },
+    {
+      "file": "preview-idle.webp",
+      "decoded_frames": 4,
+      "bytes": 95534,
+      "durations_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "duration_ms": 1000
+    }
+  ],
+  "errors": [],
+  "not_automatically_verified": [
+    "hand anatomy",
+    "identity/clothing continuity",
+    "weapon grip",
+    "actual foot contact",
+    "agreement with guide poses",
+    "commercial art quality"
+  ]
+}

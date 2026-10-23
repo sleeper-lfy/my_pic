@@ -1,0 +1,92 @@
+{
+  "source": "assets/characters/warrior_v002/design-original.png",
+  "source_sha256": "01ab267e08f7fe14946a6d893c4fbff9e3eecfbdd5e6fe81f3edb8eb2ee01083",
+  "operation": "Unmodified rectangular crops. No repainting, alpha removal or per-asset rescaling.",
+  "limitations": [
+    "Character views include the held hammer; these are not separable character/weapon animation layers.",
+    "Crescent hammer is a detached static design; animated reuse is pending.",
+    "Concept proportion remains taller than the target 3.5 heads."
+  ],
+  "files": [
+    {
+      "path": "assets/characters/warrior_v002/design-front_left.png",
+      "source_rectangle": [
+        0,
+        0,
+        627,
+        660
+      ],
+      "size": [
+        627,
+        660
+      ],
+      "sha256": "9790137af650ac49a46bfefd79b9e0ca0a52e7f36ab2107845a1d834b9e3ad78",
+      "alpha_bbox": [
+        0,
+        7,
+        627,
+        660
+      ]
+    },
+    {
+      "path": "assets/characters/warrior_v002/design-front_right.png",
+      "source_rectangle": [
+        627,
+        0,
+        1254,
+        660
+      ],
+      "size": [
+        627,
+        660
+      ],
+      "sha256": "5a91ee84cc71d632c11c9ff77923a15eb6e5370788a3a81e54e147b3d5f1adf6",
+      "alpha_bbox": [
+        0,
+        1,
+        627,
+        660
+      ]
+    },
+    {
+      "path": "assets/weapons/warrior_v002/hammer_block.png",
+      "source_rectangle": [
+        0,
+        660,
+        627,
+        1254
+      ],
+      "size": [
+        627,
+        594
+      ],
+      "sha256": "413c615d7732a547e7448de6acac3029a41533141c060b46d014962d46192caa",
+      "alpha_bbox": [
+        0,
+        0,
+        627,
+        594
+      ]
+    },
+    {
+      "path": "assets/weapons/warrior_v002/hammer_crescent.png",
+      "source_rectangle": [
+        627,
+        660,
+        1254,
+        1254
+      ],
+      "size": [
+        627,
+        594
+      ],
+      "sha256": "78320555157d2793e0537c201ce86e754b22f828ecf799f2a3593332be799314",
+      "alpha_bbox": [
+        1,
+        0,
+        597,
+        594
+      ]
+    }
+  ]
+}

@@ -59,7 +59,7 @@ def cached(name, inputs, outputs, command, state, force=False, context=''):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--profile',type=Path,default=ROOT/'profiles/tower_defense.yaml')
+    parser.add_argument('--profile',type=Path,help='Profile YAML; defaults to warrior_v002 for warrior, tower_defense for older commands')
     sub=parser.add_subparsers(dest='command',required=True)
     d=sub.add_parser('doctor');d.add_argument('--output',type=Path,default=ROOT/'reports/environment-local.json')
     d.add_argument('--comfy-url',default='http://127.0.0.1:8188')
@@ -70,10 +70,62 @@ def main():
     e.add_argument('--legacy-diagnostic',action='store_true',help='Explicitly rerun the rejected 2D interpolation experiments, for regression only')
     r=sub.add_parser('reference-baseline',help='Import licensed public anatomy/skin/native-motion references without generating art')
     r.add_argument('--kind',choices=['anatomy','motion','all'],default='all')
+    w=sub.add_parser('warrior',help='Build the new human-rig motion guides or export retained illustrated warrior sheets')
+    w.add_argument('--stage',choices=['motion','export','all'],default='export')
+    w.add_argument('--direction',choices=['front_left','front_right','all'],default='all',
+                   help='Export direction; the motion stage always renders both true-camera guides')
+    w.add_argument('--sheet-dir',type=Path,default=ROOT/'assets/characters/warrior_v002')
+    w.add_argument('--output',type=Path,default=ROOT/'exports/warrior_v002')
     sub.add_parser('review');sub.add_parser('test');sub.add_parser('godot-check')
     args=parser.parse_args()
+    args.profile=args.profile or ROOT/'profiles'/('warrior_v002.yaml' if args.command=='warrior' else 'tower_defense.yaml')
     if args.command in ['structure','experiment'] and not args.legacy_diagnostic:
         raise RuntimeError('Legacy human-form baseline was rejected. Use reference-baseline first; --legacy-diagnostic is for reproducing old failures only.')
+    if args.command=='warrior':
+        import yaml
+        profile=yaml.safe_load(args.profile.read_text(encoding='utf-8'))
+        if (profile.get('profile_id')!='fortress_hammer_warrior_v002' or
+                profile.get('sheet',{}).get('columns')!=4 or profile.get('sheet',{}).get('rows')!=4 or
+                profile.get('export',{}).get('width')!=256 or profile.get('export',{}).get('height')!=256):
+            raise ValueError('Warrior export currently supports only its versioned 4x4, 256px profile')
+        args.sheet_dir=args.sheet_dir.resolve();args.output=args.output.resolve()
+        directions=['front_left','front_right'] if args.direction=='all' else [args.direction]
+        source_sheets=profile.get('source_sheets',{d:f'sheet-{d}.png' for d in ['front_left','front_right']})
+        measured_layouts=profile.get('art_sources',{}).get('measured_layouts',{})
+        if any(d not in source_sheets for d in directions):
+            raise ValueError('Warrior profile is missing a selected direction in source_sheets')
+        if args.stage in ['export','all']:
+            missing=[args.sheet_dir/source_sheets[direction] for direction in directions
+                     if not (args.sheet_dir/source_sheets[direction]).is_file()]
+            if missing:
+                raise RuntimeError('Retained illustrated source sheets are missing: '+', '.join(map(str,missing))+
+                                   '. This command does not generate art or substitute a placeholder.')
+            missing_layouts=[args.sheet_dir/measured_layouts[d] for d in directions
+                             if d in measured_layouts and not (args.sheet_dir/measured_layouts[d]).is_file()]
+            if missing_layouts:
+                raise RuntimeError('Required measured layouts are missing: '+', '.join(map(str,missing_layouts))+
+                                   '. Draft and repaired artwork must be assembled with their recorded source rectangles.')
+        if args.stage in ['motion','all']:
+            exe=shutil.which('blender')
+            if not exe:raise RuntimeError('Blender unavailable; run doctor')
+            execute([exe,'--background','--factory-startup','--threads','2','--python',ROOT/'workflows/blender/warrior_motion.py'])
+            execute([exe,'--background','--factory-startup','--threads','2','--python',ROOT/'workflows/blender/warrior_motion_audit.py'])
+            execute([sys.executable,ROOT/'workflows/blender/warrior_motion_review.py'])
+        if args.stage in ['export','all']:
+            args.output.mkdir(parents=True,exist_ok=True)
+            timing_file=args.output/'durations.json'
+            timing_file.write_text(json.dumps(profile['animation']['durations_ms'],indent=2),encoding='utf-8')
+            (args.output/'used-profile.json').write_text(json.dumps({'profile_id':profile['profile_id'],
+                'version':profile['version'],'sha256':digest(args.profile),'profile':profile},indent=2),encoding='utf-8')
+            for direction in directions:
+                command=[sys.executable,ROOT/'scripts/warrior_export.py','--sheet',args.sheet_dir/source_sheets[direction],
+                         '--direction',direction,'--output',args.output,'--durations-json',timing_file]
+                layout=args.sheet_dir/measured_layouts.get(direction,f'layout-{direction}.json')
+                if layout.is_file():command.extend(['--layout-json',layout])
+                execute(command)
+            if args.direction=='all':
+                execute([sys.executable,ROOT/'scripts/warrior_export.py','--comparison','--output',args.output])
+        print('Warrior build complete. See profiles/warrior_v002.yaml; human art review remains pending.');return
     if args.command=='reference-baseline':
         exe=shutil.which('blender')
         if not exe:raise RuntimeError('Blender unavailable; run doctor')

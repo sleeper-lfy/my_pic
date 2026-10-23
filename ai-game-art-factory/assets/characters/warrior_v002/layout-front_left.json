@@ -1,0 +1,226 @@
+{
+  "schema": "warrior-reviewed-layout/1",
+  "source_sha256": "c83349c54c2f91bb3344b252901ed968267c9a9a7dd585f4b36f6507b5c80b77",
+  "uniform_scale": 0.59,
+  "target_foot_anchor": [
+    128,
+    224
+  ],
+  "cells": {
+    "idle_00": {
+      "source_rect": [
+        0,
+        0,
+        313,
+        320
+      ],
+      "source_foot_anchor": [
+        170,
+        311
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "idle_01": {
+      "source_rect": [
+        313,
+        0,
+        314,
+        320
+      ],
+      "source_foot_anchor": [
+        170,
+        311
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "idle_02": {
+      "source_rect": [
+        627,
+        0,
+        313,
+        320
+      ],
+      "source_foot_anchor": [
+        170,
+        311
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "idle_03": {
+      "source_rect": [
+        940,
+        0,
+        314,
+        320
+      ],
+      "source_foot_anchor": [
+        170,
+        311
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_00": {
+      "source_rect": [
+        0,
+        320,
+        313,
+        322
+      ],
+      "source_foot_anchor": [
+        170,
+        304
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_01": {
+      "source_rect": [
+        313,
+        320,
+        314,
+        322
+      ],
+      "source_foot_anchor": [
+        170,
+        306
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_02": {
+      "source_rect": [
+        627,
+        320,
+        313,
+        322
+      ],
+      "source_foot_anchor": [
+        170,
+        306
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_03": {
+      "source_rect": [
+        940,
+        320,
+        314,
+        322
+      ],
+      "source_foot_anchor": [
+        170,
+        306
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_04": {
+      "source_rect": [
+        0,
+        642,
+        313,
+        309
+      ],
+      "source_foot_anchor": [
+        170,
+        288
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_05": {
+      "source_rect": [
+        313,
+        642,
+        314,
+        309
+      ],
+      "source_foot_anchor": [
+        170,
+        287
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_06": {
+      "source_rect": [
+        627,
+        642,
+        313,
+        309
+      ],
+      "source_foot_anchor": [
+        170,
+        288
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "attack_07": {
+      "source_rect": [
+        940,
+        642,
+        314,
+        309
+      ],
+      "source_foot_anchor": [
+        170,
+        287
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "defense_00": {
+      "source_rect": [
+        0,
+        951,
+        313,
+        303
+      ],
+      "source_foot_anchor": [
+        170,
+        280
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "defense_01": {
+      "source_rect": [
+        313,
+        951,
+        314,
+        303
+      ],
+      "source_foot_anchor": [
+        170,
+        280
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "defense_02": {
+      "source_rect": [
+        627,
+        951,
+        313,
+        303
+      ],
+      "source_foot_anchor": [
+        170,
+        281
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    },
+    "defense_03": {
+      "source_rect": [
+        940,
+        951,
+        314,
+        303
+      ],
+      "source_foot_anchor": [
+        170,
+        281
+      ],
+      "anchor_note": "Visually reviewed stance-center x=170 in source cell; lowest substantial boot alpha estimates ground y. No claim of skeletal pixel-accurate foot tracking."
+    }
+  },
+  "review_notes": [
+    "Grid row boundaries chosen inside visually empty gaps to retain complete boots and raised hammer.",
+    "Original RGBA pixels including low-alpha dust retained. No threshold applied to export alpha; alpha32 used for coordinate measurement only.",
+    "One common scale for every frame. Source art differs from exact guide silhouettes; this registration does not establish exact bone or grip alignment.",
+    "Both directions share0.59 base pixel scale so the highest corrected hammer fits with >=8px margin; source group correction0.52 only normalizes its higher-resolution drawings.",
+    "Final common scale0.59 for BOTH directions preserves all low-alpha source pixels with >=8px output margin; source normalization0.52 remains shared across the three correction frames."
+  ]
+}

@@ -1,0 +1,1297 @@
+{
+  "schema": "warrior-sprite-export/1",
+  "direction": "front_right",
+  "source": {
+    "file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+    "sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+    "size": [
+      1254,
+      1254
+    ],
+    "cell_size": 313.5
+  },
+  "uniform_cell_scale": 0.59,
+  "frame_size": [
+    256,
+    256
+  ],
+  "background_removed": false,
+  "inbetween_generation": false,
+  "art_approval": "pending",
+  "atlas": "atlas.png",
+  "frames": [
+    {
+      "name": "idle_00",
+      "action": "idle",
+      "index": 0,
+      "local_frame": 0,
+      "file": "frames/idle_00.png",
+      "rect": [
+        0,
+        0,
+        256,
+        256
+      ],
+      "duration_ms": 250,
+      "source_rect": [
+        0,
+        0,
+        313,
+        322
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        0,
+        0,
+        313,
+        322
+      ],
+      "source_foot_anchor_local": [
+        163,
+        315
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.15000000000000568
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        38
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "ea20815713abb575e13d878ab22ce9835276e9e3208a9f28ee243812a70fcab3"
+    },
+    {
+      "name": "idle_01",
+      "action": "idle",
+      "index": 1,
+      "local_frame": 1,
+      "file": "frames/idle_01.png",
+      "rect": [
+        256,
+        0,
+        256,
+        256
+      ],
+      "duration_ms": 250,
+      "source_rect": [
+        313,
+        0,
+        314,
+        322
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        313,
+        0,
+        314,
+        322
+      ],
+      "source_foot_anchor_local": [
+        163,
+        314
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        0.2599999999999909
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        39
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "49a4f7c6fac14390aa2d7f9c4b1e08eb17ff7a132886eb16b5b26bb80ed5a3e8"
+    },
+    {
+      "name": "idle_02",
+      "action": "idle",
+      "index": 2,
+      "local_frame": 2,
+      "file": "frames/idle_02.png",
+      "rect": [
+        512,
+        0,
+        256,
+        256
+      ],
+      "duration_ms": 250,
+      "source_rect": [
+        0,
+        0,
+        313,
+        324
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/front_right-idle02-extracted.png",
+      "source_sha256": "10fee17d4dc8c58ea4432cb736323cf18837b5796f2d93d7ba1786a9d9282e99",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        0,
+        0,
+        313,
+        324
+      ],
+      "source_foot_anchor_local": [
+        163,
+        315
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.15000000000000568
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        38
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "4098c59e31054310a454f7cee8f3cf2c86317fd8c937feaa2117850743751f52"
+    },
+    {
+      "name": "idle_03",
+      "action": "idle",
+      "index": 3,
+      "local_frame": 3,
+      "file": "frames/idle_03.png",
+      "rect": [
+        768,
+        0,
+        256,
+        256
+      ],
+      "duration_ms": 250,
+      "source_rect": [
+        940,
+        0,
+        314,
+        320
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        940,
+        0,
+        314,
+        320
+      ],
+      "source_foot_anchor_local": [
+        163,
+        314
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        0.2599999999999909
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        39
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "512e65c1c48f184f5d36d0f8883793c4286a9873b497dc79c6a5ab0bab6d282e"
+    },
+    {
+      "name": "attack_00",
+      "action": "attack",
+      "index": 4,
+      "local_frame": 0,
+      "file": "frames/attack_00.png",
+      "rect": [
+        0,
+        256,
+        256,
+        256
+      ],
+      "duration_ms": 100,
+      "source_rect": [
+        0,
+        322,
+        313,
+        324
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        0,
+        322,
+        313,
+        324
+      ],
+      "source_foot_anchor_local": [
+        163,
+        306
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.46000000000000796
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        43
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "65f0abc0de56fcd68e16413d8a3d40202a54176071d839ac8c1b22b8370f1e9e"
+    },
+    {
+      "name": "attack_01",
+      "action": "attack",
+      "index": 5,
+      "local_frame": 1,
+      "file": "frames/attack_01.png",
+      "rect": [
+        256,
+        256,
+        256,
+        256
+      ],
+      "duration_ms": 140,
+      "source_rect": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/front_right-windup-corrected.png",
+      "source_sha256": "969ae894e5fb465b70b47ba0be5f052bb8c12cfa1aa5294e0030c2c56a28a2f5",
+      "uniform_source_scale": 0.3068,
+      "source_resolution_normalization": 0.52,
+      "effective_source_pixel_scale": 0.3068,
+      "source_rect_rounded": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "source_foot_anchor_local": [
+        375,
+        696
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.05000000000001137,
+        -0.4671999999999912
+      ],
+      "placement_from_source_crop_px": [
+        13,
+        10
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "5c314131853cb1da2685fae45ca2e1f3ddc72b6bd3c4bdc9791e42bd34e874e2"
+    },
+    {
+      "name": "attack_02",
+      "action": "attack",
+      "index": 6,
+      "local_frame": 2,
+      "file": "frames/attack_02.png",
+      "rect": [
+        512,
+        256,
+        256,
+        256
+      ],
+      "duration_ms": 120,
+      "source_rect": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/front_right-windup-corrected.png",
+      "source_sha256": "969ae894e5fb465b70b47ba0be5f052bb8c12cfa1aa5294e0030c2c56a28a2f5",
+      "uniform_source_scale": 0.3068,
+      "source_resolution_normalization": 0.52,
+      "effective_source_pixel_scale": 0.3068,
+      "source_rect_rounded": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "source_foot_anchor_local": [
+        375,
+        696
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.05000000000001137,
+        -0.4671999999999912
+      ],
+      "placement_from_source_crop_px": [
+        13,
+        10
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "51708214a119f52b5c3aa430b2042ca99067a10d03e762be9a6e4d199d8f3cd2"
+    },
+    {
+      "name": "attack_03",
+      "action": "attack",
+      "index": 7,
+      "local_frame": 3,
+      "file": "frames/attack_03.png",
+      "rect": [
+        768,
+        256,
+        256,
+        256
+      ],
+      "duration_ms": 60,
+      "source_rect": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/front_right-windup-corrected.png",
+      "source_sha256": "969ae894e5fb465b70b47ba0be5f052bb8c12cfa1aa5294e0030c2c56a28a2f5",
+      "uniform_source_scale": 0.3068,
+      "source_resolution_normalization": 0.52,
+      "effective_source_pixel_scale": 0.3068,
+      "source_rect_rounded": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "source_foot_anchor_local": [
+        375,
+        696
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.05000000000001137,
+        -0.4671999999999912
+      ],
+      "placement_from_source_crop_px": [
+        13,
+        10
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "ae13b7f309ec23b55ba6652e02b09c3a34f2a17da2020b1a818788a4e43803e5"
+    },
+    {
+      "name": "attack_04",
+      "action": "attack",
+      "index": 8,
+      "local_frame": 4,
+      "file": "frames/attack_04.png",
+      "rect": [
+        0,
+        512,
+        256,
+        256
+      ],
+      "duration_ms": 70,
+      "source_rect": [
+        0,
+        646,
+        313,
+        302
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        0,
+        646,
+        313,
+        302
+      ],
+      "source_foot_anchor_local": [
+        163,
+        274
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.3400000000000034
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        62
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "75421ca0096e469d873e1c268e1b7db45fbe36bed6e4df91bf20101f80765e4a"
+    },
+    {
+      "name": "attack_05",
+      "action": "attack",
+      "index": 9,
+      "local_frame": 5,
+      "file": "frames/attack_05.png",
+      "rect": [
+        256,
+        512,
+        256,
+        256
+      ],
+      "duration_ms": 100,
+      "source_rect": [
+        313,
+        646,
+        314,
+        302
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        313,
+        646,
+        314,
+        302
+      ],
+      "source_foot_anchor_local": [
+        163,
+        275
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        0.25
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        62
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "441eed32eae9faa89582c778fc87ba393a851f114e2c1b6cbd392438d3795747"
+    },
+    {
+      "name": "attack_06",
+      "action": "attack",
+      "index": 10,
+      "local_frame": 6,
+      "file": "frames/attack_06.png",
+      "rect": [
+        512,
+        512,
+        256,
+        256
+      ],
+      "duration_ms": 120,
+      "source_rect": [
+        627,
+        646,
+        313,
+        302
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        627,
+        646,
+        313,
+        302
+      ],
+      "source_foot_anchor_local": [
+        163,
+        280
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        0.19999999999998863
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        59
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "b28861171190ac1518a2b36fcb7fa4864d1fef34864b53fb6532c8d33dc7e14b"
+    },
+    {
+      "name": "attack_07",
+      "action": "attack",
+      "index": 11,
+      "local_frame": 7,
+      "file": "frames/attack_07.png",
+      "rect": [
+        768,
+        512,
+        256,
+        256
+      ],
+      "duration_ms": 160,
+      "source_rect": [
+        940,
+        646,
+        314,
+        302
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        940,
+        646,
+        314,
+        302
+      ],
+      "source_foot_anchor_local": [
+        163,
+        288
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.0800000000000125
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        54
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "f453165f89d0035876ca88a0caecf68e3946959bb14017827b9265ae3416fe65"
+    },
+    {
+      "name": "defense_00",
+      "action": "defense",
+      "index": 12,
+      "local_frame": 0,
+      "file": "frames/defense_00.png",
+      "rect": [
+        0,
+        768,
+        256,
+        256
+      ],
+      "duration_ms": 120,
+      "source_rect": [
+        0,
+        948,
+        313,
+        306
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        0,
+        948,
+        313,
+        306
+      ],
+      "source_foot_anchor_local": [
+        163,
+        279
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.3900000000000148
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        59
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "1fc2ad67eb24916cd3bb436ace03412b2bdcf48c74411371e5ee31303d81a7e0"
+    },
+    {
+      "name": "defense_01",
+      "action": "defense",
+      "index": 13,
+      "local_frame": 1,
+      "file": "frames/defense_01.png",
+      "rect": [
+        256,
+        768,
+        256,
+        256
+      ],
+      "duration_ms": 180,
+      "source_rect": [
+        313,
+        948,
+        314,
+        306
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        313,
+        948,
+        314,
+        306
+      ],
+      "source_foot_anchor_local": [
+        163,
+        279
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.3900000000000148
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        59
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "3dbf40a3e8c13b28e0fd33bbfe6c5b6aad338df0ece4f04e24eb5932dd609c16"
+    },
+    {
+      "name": "defense_02",
+      "action": "defense",
+      "index": 14,
+      "local_frame": 2,
+      "file": "frames/defense_02.png",
+      "rect": [
+        512,
+        768,
+        256,
+        256
+      ],
+      "duration_ms": 220,
+      "source_rect": [
+        627,
+        948,
+        313,
+        306
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        627,
+        948,
+        313,
+        306
+      ],
+      "source_foot_anchor_local": [
+        163,
+        279
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.3900000000000148
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        59
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "eb625c53c7e6080df89c2221c94c6202604967739b8f26ce401ce4dd6d206361"
+    },
+    {
+      "name": "defense_03",
+      "action": "defense",
+      "index": 15,
+      "local_frame": 3,
+      "file": "frames/defense_03.png",
+      "rect": [
+        768,
+        768,
+        256,
+        256
+      ],
+      "duration_ms": 180,
+      "source_rect": [
+        940,
+        948,
+        314,
+        306
+      ],
+      "source_file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "uniform_source_scale": 0.59,
+      "source_resolution_normalization": 1.0,
+      "effective_source_pixel_scale": 0.59,
+      "source_rect_rounded": [
+        940,
+        948,
+        314,
+        306
+      ],
+      "source_foot_anchor_local": [
+        163,
+        279
+      ],
+      "target_foot_anchor": [
+        128,
+        224
+      ],
+      "anchor_rounding_error_px": [
+        0.17000000000001592,
+        -0.3900000000000148
+      ],
+      "placement_from_source_crop_px": [
+        32,
+        59
+      ],
+      "translation_px": [
+        0,
+        0
+      ],
+      "sha256": "3420c6b17179e900818122fdb35befdd4bef5e7c39f2af0a013757127ee7cb21"
+    }
+  ],
+  "animations": {
+    "idle": {
+      "frames": [
+        "idle_00",
+        "idle_01",
+        "idle_02",
+        "idle_03"
+      ],
+      "duration_ms": 1000,
+      "durations_ms": [
+        250,
+        250,
+        250,
+        250
+      ],
+      "loop": true,
+      "gif": {
+        "file": "preview-idle.gif",
+        "background": "#26313e",
+        "alpha": false,
+        "palette": "one shared 256-color median-cut palette; no dithering",
+        "timing_quantization_ms": 10,
+        "requested_durations_ms": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "quantized_durations_ms": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "decoded_durations_ms": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "decoded_frames": 4,
+        "duration_ms": 1000,
+        "dimensions": [
+          256,
+          256
+        ],
+        "bytes": 65455,
+        "sha256": "411e54b38c61a453f085c156e80915b098c14c04897232d80a1125be9c92a3bc"
+      }
+    },
+    "attack": {
+      "frames": [
+        "attack_00",
+        "attack_01",
+        "attack_02",
+        "attack_03",
+        "attack_04",
+        "attack_05",
+        "attack_06",
+        "attack_07"
+      ],
+      "duration_ms": 870,
+      "durations_ms": [
+        100,
+        140,
+        120,
+        60,
+        70,
+        100,
+        120,
+        160
+      ],
+      "loop": false,
+      "gif": {
+        "file": "preview-attack.gif",
+        "background": "#26313e",
+        "alpha": false,
+        "palette": "one shared 256-color median-cut palette; no dithering",
+        "timing_quantization_ms": 10,
+        "requested_durations_ms": [
+          100,
+          140,
+          120,
+          60,
+          70,
+          100,
+          120,
+          160
+        ],
+        "quantized_durations_ms": [
+          100,
+          140,
+          120,
+          60,
+          70,
+          100,
+          120,
+          160
+        ],
+        "decoded_durations_ms": [
+          100,
+          140,
+          120,
+          60,
+          70,
+          100,
+          120,
+          160
+        ],
+        "decoded_frames": 8,
+        "duration_ms": 870,
+        "dimensions": [
+          256,
+          256
+        ],
+        "bytes": 126714,
+        "sha256": "3fb691b0f74f03ef65c28b6c4a19732cb7c8cfe9b604d77e12c026ea34123ef6"
+      }
+    },
+    "defense": {
+      "frames": [
+        "defense_00",
+        "defense_01",
+        "defense_02",
+        "defense_03"
+      ],
+      "duration_ms": 700,
+      "durations_ms": [
+        120,
+        180,
+        220,
+        180
+      ],
+      "loop": false,
+      "gif": {
+        "file": "preview-defense.gif",
+        "background": "#26313e",
+        "alpha": false,
+        "palette": "one shared 256-color median-cut palette; no dithering",
+        "timing_quantization_ms": 10,
+        "requested_durations_ms": [
+          120,
+          180,
+          220,
+          180
+        ],
+        "quantized_durations_ms": [
+          120,
+          180,
+          220,
+          180
+        ],
+        "decoded_durations_ms": [
+          120,
+          180,
+          220,
+          180
+        ],
+        "decoded_frames": 4,
+        "duration_ms": 700,
+        "dimensions": [
+          256,
+          256
+        ],
+        "bytes": 61411,
+        "sha256": "722d4c12e497be553a5fdb81485f83acff387e2793254d4875361c579688defb"
+      }
+    }
+  },
+  "anchor_convention": "top-left pixel origin; source foot anchors are explicitly reviewed image landmarks, not measured skeletal sockets",
+  "target_anchor": [
+    128,
+    224
+  ],
+  "layout": {
+    "schema": "warrior-reviewed-layout/1",
+    "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+    "uniform_scale": 0.59,
+    "target_foot_anchor": [
+      128,
+      224
+    ],
+    "cells": {
+      "idle_00": {
+        "source_rect": [
+          0,
+          0,
+          313,
+          322
+        ],
+        "source_foot_anchor": [
+          163,
+          315
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "idle_01": {
+        "source_rect": [
+          313,
+          0,
+          314,
+          322
+        ],
+        "source_foot_anchor": [
+          163,
+          314
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "idle_02": {
+        "source_file": "front_right-idle02-extracted.png",
+        "uniform_source_scale": 1.0,
+        "source_rect": [
+          0,
+          0,
+          313,
+          324
+        ],
+        "source_foot_anchor": [
+          163,
+          315
+        ],
+        "anchor_note": "Two original rectangular sprite regions selected to exclude neighboring attack hammer; see source-regions report."
+      },
+      "idle_03": {
+        "source_rect": [
+          940,
+          0,
+          314,
+          320
+        ],
+        "source_foot_anchor": [
+          163,
+          314
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "attack_00": {
+        "source_rect": [
+          0,
+          322,
+          313,
+          324
+        ],
+        "source_foot_anchor": [
+          163,
+          306
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "attack_01": {
+        "source_file": "front_right-windup-corrected.png",
+        "uniform_source_scale": 0.52,
+        "source_rect": [
+          0,
+          0,
+          724,
+          724
+        ],
+        "source_foot_anchor": [
+          375,
+          696
+        ],
+        "anchor_note": "All three corrected drawings share same resolution-normalization factor0.52 and same approximate stance center/boot baseline; no per-frame fit."
+      },
+      "attack_02": {
+        "source_file": "front_right-windup-corrected.png",
+        "uniform_source_scale": 0.52,
+        "source_rect": [
+          724,
+          0,
+          724,
+          724
+        ],
+        "source_foot_anchor": [
+          375,
+          696
+        ],
+        "anchor_note": "All three corrected drawings share same resolution-normalization factor0.52 and same approximate stance center/boot baseline; no per-frame fit."
+      },
+      "attack_03": {
+        "source_file": "front_right-windup-corrected.png",
+        "uniform_source_scale": 0.52,
+        "source_rect": [
+          1448,
+          0,
+          724,
+          724
+        ],
+        "source_foot_anchor": [
+          375,
+          696
+        ],
+        "anchor_note": "All three corrected drawings share same resolution-normalization factor0.52 and same approximate stance center/boot baseline; no per-frame fit."
+      },
+      "attack_04": {
+        "source_rect": [
+          0,
+          646,
+          313,
+          302
+        ],
+        "source_foot_anchor": [
+          163,
+          274
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "attack_05": {
+        "source_rect": [
+          313,
+          646,
+          314,
+          302
+        ],
+        "source_foot_anchor": [
+          163,
+          275
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "attack_06": {
+        "source_rect": [
+          627,
+          646,
+          313,
+          302
+        ],
+        "source_foot_anchor": [
+          163,
+          280
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "attack_07": {
+        "source_rect": [
+          940,
+          646,
+          314,
+          302
+        ],
+        "source_foot_anchor": [
+          163,
+          288
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "defense_00": {
+        "source_rect": [
+          0,
+          948,
+          313,
+          306
+        ],
+        "source_foot_anchor": [
+          163,
+          279
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "defense_01": {
+        "source_rect": [
+          313,
+          948,
+          314,
+          306
+        ],
+        "source_foot_anchor": [
+          163,
+          279
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "defense_02": {
+        "source_rect": [
+          627,
+          948,
+          313,
+          306
+        ],
+        "source_foot_anchor": [
+          163,
+          279
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      },
+      "defense_03": {
+        "source_rect": [
+          940,
+          948,
+          314,
+          306
+        ],
+        "source_foot_anchor": [
+          163,
+          279
+        ],
+        "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+      }
+    },
+    "review_notes": [
+      "Three wrong-facing attack poses replaced by one coherently drawn correction strip.",
+      "Main sheet and separate higher-resolution correction group each use one shared scale.",
+      "idle_02 extracted by reviewed original-pixel rectangles to avoid a neighboring hammer tip at the nominal row boundary.",
+      "Foot anchors are reviewed pixel landmarks; no claim of exact agreement with native skeleton foot projections.",
+      "Both directions share0.59 base pixel scale so the highest corrected hammer fits with >=8px margin; source group correction0.52 only normalizes its higher-resolution drawings.",
+      "Final common scale0.59 for BOTH directions preserves all low-alpha source pixels with >=8px output margin; source normalization0.52 remains shared across the three correction frames."
+    ]
+  },
+  "source_scale_policy": "Effective pixel scale = layout uniform_scale times per-source uniform_source_scale (resolution normalization, default1). Every frame from the same source file must share that effective scale.",
+  "operations": "explicit reviewed crop; shared-scale BICUBIC affine resample; integer placement from reviewed foot anchor; lossless packing",
+  "sources": [
+    {
+      "file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/sheet-front_right-draft.png",
+      "sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "uniform_scale": 0.59
+    },
+    {
+      "file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/front_right-idle02-extracted.png",
+      "sha256": "10fee17d4dc8c58ea4432cb736323cf18837b5796f2d93d7ba1786a9d9282e99",
+      "dimensions": [
+        313,
+        324
+      ],
+      "uniform_scale": 0.59
+    },
+    {
+      "file": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior_v002/front_right-windup-corrected.png",
+      "sha256": "969ae894e5fb465b70b47ba0be5f052bb8c12cfa1aa5294e0030c2c56a28a2f5",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "uniform_scale": 0.3068
+    }
+  ],
+  "atlas_sha256": "f85f7956d7e85dfc1242c49a7f8c5f9e2f56d374ef78c7b011c42c4c454e1451"
+}

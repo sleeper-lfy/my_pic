@@ -1,0 +1,188 @@
+{
+  "profile_id": "fortress_hammer_warrior_v002",
+  "version": "0.2.0",
+  "sha256": "d4253e56a228d95644acd10da056ad6d5a0bdecad20aa1a5a1f95415ded54b1a",
+  "profile": {
+    "schema_version": 1,
+    "profile_id": "fortress_hammer_warrior_v002",
+    "version": "0.2.0",
+    "status": "pending_user_review",
+    "scope": "one_character_public_human_rig_and_illustrated_animation_validation",
+    "priority": [
+      "art_quality",
+      "identity_consistency",
+      "animation_stability",
+      "reuse",
+      "automation"
+    ],
+    "character": {
+      "id": "fortress_hammer_warrior",
+      "version": "0.2.0",
+      "heads_tall_target": 3.5,
+      "identity": [
+        "adult_square_face",
+        "dark_hair_silver_forelock",
+        "short_beard",
+        "burgundy_scarf"
+      ],
+      "dominant_hand": "anatomical_right"
+    },
+    "style": {
+      "outlines": "dark_colored_designed_tapered",
+      "shading_levels_target": 3,
+      "texture": "restrained_hand_painted",
+      "palette": [
+        "#405469",
+        "#8f9ba5",
+        "#b27a4d",
+        "#682639",
+        "#4b342b",
+        "#e7dcc5"
+      ]
+    },
+    "camera": {
+      "projection": "orthographic",
+      "directions": [
+        "front_left",
+        "front_right"
+      ],
+      "azimuth_degrees": [
+        -45,
+        45
+      ],
+      "elevation_degrees": 12
+    },
+    "reference": {
+      "anatomy": "makehuman_cc0_native_mesh_rig_weights",
+      "native_bones": 163,
+      "source_manifest": "assets/public_references/makehuman/SOURCE.json",
+      "motion_type": "authored_hammer_actions_on_native_rig",
+      "downloaded_walk_retargeted": false,
+      "allow_legacy_xy_joint_interpolation": false,
+      "rendered_guides_are_final_2d_art": false
+    },
+    "art_sources": {
+      "directory": "assets/characters/warrior_v002",
+      "measured_layouts": {
+        "front_left": "layout-front_left.json",
+        "front_right": "layout-front_right.json"
+      },
+      "original_generation_bytes_retained": "required",
+      "sha256_traceability": "required",
+      "reproducible_pixel_identical_ai_generation": false
+    },
+    "source_sheets": {
+      "front_left": "sheet-front_left.png",
+      "front_right": "sheet-front_right-draft.png"
+    },
+    "sheet": {
+      "columns": 4,
+      "rows": 4,
+      "frames_per_direction": 16,
+      "order": [
+        "idle_00",
+        "idle_01",
+        "idle_02",
+        "idle_03",
+        "attack_00",
+        "attack_01",
+        "attack_02",
+        "attack_03",
+        "attack_04",
+        "attack_05",
+        "attack_06",
+        "attack_07",
+        "defense_00",
+        "defense_01",
+        "defense_02",
+        "defense_03"
+      ]
+    },
+    "export": {
+      "directory": "exports/warrior_v002",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "display_sizes": [
+        64,
+        96,
+        128
+      ],
+      "guide_foot_anchor_target_px": [
+        128,
+        224
+      ],
+      "actual_art_foot_anchor": "measured_per_frame_not_assumed_from_guide",
+      "minimum_padding_target_px": 8,
+      "preserve_source_alpha": true,
+      "preview_formats": [
+        "gif",
+        "webp",
+        "apng"
+      ],
+      "gif_preview_background": "dark_gray",
+      "gif_timing_resolution_ms": 10,
+      "comparison_gif": "actions-comparison.gif",
+      "per_frame_rescaling": false,
+      "per_frame_translation": "explicit_offsets_or_measured_foot_anchors",
+      "irregular_generated_sheet": "use_measured_source_rects_and_foot_anchors",
+      "measured_layout_scaling": "one_shared_scale_per_original_source_image"
+    },
+    "animation": {
+      "actions": [
+        "idle",
+        "attack",
+        "defense"
+      ],
+      "sample_counts": {
+        "idle": 4,
+        "attack": 8,
+        "defense": 4
+      },
+      "durations_ms": {
+        "idle": [
+          250,
+          250,
+          250,
+          250
+        ],
+        "attack": [
+          100,
+          140,
+          120,
+          60,
+          70,
+          100,
+          120,
+          160
+        ],
+        "defense": [
+          120,
+          180,
+          220,
+          180
+        ]
+      },
+      "timing_policy": "authored_per_action_recorded_in_atlas_json",
+      "interpolation_2d_inbetween_generation": false,
+      "status": "validation_samples_pending_art_review"
+    },
+    "weapons": {
+      "primary": "rectangular_iron_copper_hammer",
+      "secondary": "crescent_copper_hammer",
+      "animated_secondary_weapon_reuse": "not_validated",
+      "arbitrary_runtime_weapon_swapping": "not_implemented"
+    },
+    "approval": {
+      "technical_checks": "see_export_technical_qa",
+      "ai_visual_review": "see_generation_and_review_reports",
+      "human_art_review": "pending_user_review",
+      "supersedes_legacy_rejection": false,
+      "commercial_quality_approved": false
+    },
+    "local_environment": {
+      "windows_comfyui_8gb_validation": "not_run",
+      "cloud_results_are_local_hardware_validation": false
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tool": "image_gen",
+  "transparent_background": true,
+  "model_version": null,
+  "seed": null,
+  "prompt": "Paint this exact THREE-POSE human guide as a polished 2D game warrior. Output a WIDE HORIZONTAL TRANSPARENT STRIP, THREE equally spaced fullbody figures in one row. Reference1 is the EXACT pose/camera/anatomy layout: EVERY figure FACES LEFT. In all THREE figures his NOSE points toward the LEFT edge of the image. Maintain this camera. Reference2 is his armor/face design (also FACING LEFT).\n\nCharacter: mature adult man, dark swept hair with silver forelock, short black beard, square strong face, blue-gray steel armor edged copper, burgundy scarf/cape, ivory elbow cloth, brown belt/boots/gloves, compact stocky fourheads tall. Hand-painted2D with tapered dark outlines, designed3tone shadows, same finish as reference2. One rectangular steel copper fortress hammer in his anatomical RIGHT HAND, which is the far arm on LEFT side of the image. Anatomical LEFT arm is near viewer on RIGHT side of body, free hand counterbalancing, does not grasp hammer. Complete fingers properly gripping.\n\nTHREE poses follow reference1:\nLEFT CELL: looking and facing LEFT, windup hammer behind far/right shoulder beside LEFT side of head; free arm bent at waist. No turning around.\nCENTER CELL: looking and facing LEFT, right hammer raised ABOVE far shoulder on LEFT side of head, elbow bent; free left arm bends across waist.\nRIGHT CELL: looking and facing LEFT, weapon arm extends diagonally forward toward UPPER LEFT, hammer above-left of face, starting overhead strike at an enemy LEFT; free left arm counterbalances on RIGHT.\nThe silhouettes must follow reference1. Do NOT turn the nose to the right in any pose. All feet fixed baseline, identical scale and outfit. This is one coherent 3-frame windup/swing sequence. Three complete human figures, exactly one per cell, generous transparent margins all around, NO grids/text/labels/background/floor/effects. Do not duplicate idle or downstrike pose. Wide3:1 composition.",
+  "reference_files": [
+    "assets/characters/warrior_v002/generation-inputs/guide-front_right-windup-trio.png",
+    "assets/characters/warrior_v002/design-front_right.png"
+  ],
+  "reference_crop": {
+    "source": "assets/characters/warrior_v002/generation-inputs/guide-front_right-v1.png",
+    "rect": [
+      512,
+      512,
+      2048,
+      1024
+    ]
+  },
+  "retained_file": "assets/characters/warrior_v002/front_right-windup-corrected.png",
+  "replaces": [
+    "attack_01",
+    "attack_02",
+    "attack_03"
+  ],
+  "visual_review": "All three faces now point screen left with correct far/right hammer arm. One coherent higher-resolution source group, explicitly normalized to main sheet scale by reviewed layout.",
+  "human_approval": "pending"
+}

@@ -1,0 +1,57 @@
+{
+  "actions": {
+    "idle": {
+      "range": [
+        1.0,
+        25.0
+      ],
+      "curves": 652,
+      "max_socket_matrix_error": 3.6992132663726807e-06,
+      "max_foot_movement": 4.0996420464041806e-08,
+      "max_bone_length_error": 8.940696716308594e-07,
+      "scale_channels": [],
+      "negative_quaternion_dots": []
+    },
+    "attack": {
+      "range": [
+        1.0,
+        21.0
+      ],
+      "curves": 652,
+      "max_socket_matrix_error": 3.829598426818848e-06,
+      "max_foot_movement": 4.0996420464041806e-08,
+      "max_bone_length_error": 8.940696716308594e-07,
+      "scale_channels": [],
+      "negative_quaternion_dots": []
+    },
+    "defense": {
+      "range": [
+        1.0,
+        17.0
+      ],
+      "curves": 652,
+      "max_socket_matrix_error": 3.3676624298095703e-06,
+      "max_foot_movement": 4.0996420464041806e-08,
+      "max_bone_length_error": 8.940696716308594e-07,
+      "scale_channels": [],
+      "negative_quaternion_dots": []
+    }
+  },
+  "parent": "MakeHuman_Rig",
+  "parent_type": "BONE",
+  "parent_bone": "wrist.R",
+  "weight_sum_range": [
+    0.9999999552965164,
+    1.0000000447034836
+  ],
+  "unweighted_vertices": 0,
+  "sample_count": 63,
+  "status": "technical_pass",
+  "errors": [],
+  "limitations": [
+    "Native Blender timing uses 24fps quantized source frames; painted sprite milliseconds are authored separately.",
+    "Palm wrapping quality is visual and not proven by zero socket drift.",
+    "This validates structural guide animation, not painted-frame identity or art approval."
+  ],
+  "corrected_issue": "Equivalent rotation quaternions use the same hemisphere before interpolation; key poses unchanged."
+}

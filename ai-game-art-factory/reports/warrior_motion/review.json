@@ -1,0 +1,535 @@
+{
+  "status": "technical_pass",
+  "decoded_frames": 32,
+  "cell_size": [
+    512,
+    512
+  ],
+  "sheets": [
+    2048,
+    2048
+  ],
+  "max_bone_length_error_m": 8.940696716308594e-07,
+  "sample_count": 63,
+  "frames": [
+    {
+      "file": "previews/warrior_motion/front_left/pose_00.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        202,
+        175,
+        330,
+        461
+      ],
+      "margin": 51,
+      "sha256": "8b0be50ec2ee50b84780b8a4e10131036acdd0891adad5085baca02cf7496e12"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        199,
+        174,
+        329,
+        461
+      ],
+      "margin": 51,
+      "sha256": "b08e8f8936cb726dc723585d60dac54e5a5426913b53f4694d331070f4e3630e"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        202,
+        175,
+        330,
+        461
+      ],
+      "margin": 51,
+      "sha256": "c3618797cb472979150cf91151e11b44cb6b3ced9ff820c9a1f228bde1ea224d"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        204,
+        175,
+        330,
+        461
+      ],
+      "margin": 51,
+      "sha256": "1a2abfdff206cc2b2f62456d0fcbb08390c01c9b430fb68a2c60f0b78e10add4"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        202,
+        175,
+        330,
+        461
+      ],
+      "margin": 51,
+      "sha256": "58c0ffe65c5c0daf4124594c38fc8c28caf79a38004b3afa53d712719d2d6440"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        124,
+        173,
+        349,
+        461
+      ],
+      "margin": 51,
+      "sha256": "521e3c2650c2bf1d4bd5a7ba9a6b768dc0b95ddaaacdd32a5bf2b8f86e832992"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        132,
+        123,
+        347,
+        461
+      ],
+      "margin": 51,
+      "sha256": "66869d39933af0489d5c9d7b812d1add0d386a5e1d79d6c9998a88a229bc9942"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_07.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        210,
+        144,
+        334,
+        461
+      ],
+      "margin": 51,
+      "sha256": "97f7759e2d4aebfe4164a90240e77322b1188cf74131da3ac82525ab487c9aeb"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_08.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        210,
+        181,
+        378,
+        461
+      ],
+      "margin": 51,
+      "sha256": "40c6f709616f7329eb2bd8be9af84591ba11befc593e356a319275072536011d"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_09.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        210,
+        183,
+        361,
+        461
+      ],
+      "margin": 51,
+      "sha256": "d9c05152b177e2de63e05ff712c3a13017cc0dd4444038a715be55a952255b5a"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_10.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        210,
+        177,
+        322,
+        461
+      ],
+      "margin": 51,
+      "sha256": "28b868d50df32dbb16b5494e4fbdf3e45cba1ef821b3518145b34db597ef3e9c"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_11.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        202,
+        175,
+        330,
+        461
+      ],
+      "margin": 51,
+      "sha256": "e2407d75273f1c4e56a498f1d32c7fe3b862181bfd413d14b367bc32cb44f8fb"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_12.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        193,
+        175,
+        350,
+        461
+      ],
+      "margin": 51,
+      "sha256": "8e78db8385f2d9226d497607fad3db46a9fb1afe048cb2c7a9c651f0b491ac8b"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_13.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        197,
+        176,
+        342,
+        461
+      ],
+      "margin": 51,
+      "sha256": "004b18be4eff03e7e3562aa144401b80586c04b5528d156c7bd90d45f0f23e5d"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_14.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        195,
+        174,
+        340,
+        461
+      ],
+      "margin": 51,
+      "sha256": "f6da4ca494eaca8fee997274dd0cdb89fec1b99286d34567ea1b714dc0361fbf"
+    },
+    {
+      "file": "previews/warrior_motion/front_left/pose_15.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        193,
+        175,
+        350,
+        461
+      ],
+      "margin": 51,
+      "sha256": "76db704f058b23c9077aeeacc50274ccf29c714bc97f47cb56802c2301bb6dd7"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_00.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        121,
+        175,
+        316,
+        461
+      ],
+      "margin": 51,
+      "sha256": "5927b1985c83730a36f8d733329f4360c118ad9a24f680ce8ca63b3724ae1b44"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_01.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        123,
+        174,
+        318,
+        461
+      ],
+      "margin": 51,
+      "sha256": "8ca84fb4ccb42b6ffb756b3d02e606631a4bcc08ae7e83c5d4fe5ab50015520b"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_02.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        121,
+        175,
+        316,
+        461
+      ],
+      "margin": 51,
+      "sha256": "54f01e5142d311e4e5a0ab13ee1a7ff093732eece3c42a8423de6f9bdd079849"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_03.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        118,
+        175,
+        314,
+        461
+      ],
+      "margin": 51,
+      "sha256": "fca044dec39bb27ef4fd0b7b3b81355fa3ad861376041db842fea3d214fc76c3"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_04.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        121,
+        175,
+        316,
+        461
+      ],
+      "margin": 51,
+      "sha256": "2c07ae88f09c9710e9f09075f2098c350023a19e21169a97781124a052d1e315"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_05.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        190,
+        165,
+        312,
+        461
+      ],
+      "margin": 51,
+      "sha256": "afb87851d2e5474ba70cac5431a9680d36a9ac259b4090a85aa55cec856c7d86"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_06.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        186,
+        104,
+        309,
+        461
+      ],
+      "margin": 51,
+      "sha256": "d1e21b49984b699f594246e0dfd2a96fe665e7ca90d2366dfe86dbb95a810cf4"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_07.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        114,
+        120,
+        321,
+        461
+      ],
+      "margin": 51,
+      "sha256": "949a84f97f60b363b191ef4188b5d304bf60a27f09232ae23d3159d23c4c17a8"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_08.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        85,
+        183,
+        330,
+        461
+      ],
+      "margin": 51,
+      "sha256": "6307a7225c95c91e8aa5783396cd437adf2d9ca5074e6d98e3313ade72e8ab81"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_09.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        136,
+        186,
+        329,
+        461
+      ],
+      "margin": 51,
+      "sha256": "87b0df884dcf5160b56a309c00e8af4df913b1513b596f7dd6e0d47b89ed8fac"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_10.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        122,
+        178,
+        320,
+        461
+      ],
+      "margin": 51,
+      "sha256": "c5045db68b818c9b63ea9e01f7fbd4d2ad4c2adb8b578387ab0aff14be646223"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_11.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        121,
+        175,
+        316,
+        461
+      ],
+      "margin": 51,
+      "sha256": "a6e87b8ad4cd35f4f3733db1b6628644e6ae1bfe34f8e1800c68839cbc58901b"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_12.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        98,
+        175,
+        304,
+        461
+      ],
+      "margin": 51,
+      "sha256": "b6e90c3ff1d90de48a25d33acb635026b00f8ce639e0f0379eeafee839827f85"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_13.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        97,
+        159,
+        302,
+        461
+      ],
+      "margin": 51,
+      "sha256": "b9967579e29b20aa6657b93f9c317b76fbbb27b11bc5fbbc92dfad349ea954d4"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_14.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        107,
+        165,
+        302,
+        461
+      ],
+      "margin": 51,
+      "sha256": "af49db89913f0e9664908163413f90c6ea142f37bc8358ab8970b65c894866dc"
+    },
+    {
+      "file": "previews/warrior_motion/front_right/pose_15.png",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "alpha_bbox": [
+        98,
+        175,
+        304,
+        461
+      ],
+      "margin": 51,
+      "sha256": "8d43f78efaf2484f5baf12be3aa5f2f867b957b16006088fd395ff90cd51c3a9"
+    }
+  ],
+  "human_art_acceptance": "pending",
+  "scope": "3D anatomical guide, original authored combat; finished painted output checked separately",
+  "limitations": [
+    "Guide hands are posed using native finger bones; palm wrap still requires visual correction in 2D art.",
+    "CharacterRoot is ground origin, not a per-frame cropped image anchor.",
+    "Public BVH walking data is not retargeted or represented as combat motion."
+  ]
+}

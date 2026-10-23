@@ -1,0 +1,36 @@
+{
+  "source": "assets/characters/warrior_v002/sheet-front_right-draft.png",
+  "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+  "output": "assets/characters/warrior_v002/front_right-idle02-extracted.png",
+  "output_sha256": "10fee17d4dc8c58ea4432cb736323cf18837b5796f2d93d7ba1786a9d9282e99",
+  "regions": [
+    {
+      "rectangle": [
+        627,
+        0,
+        940,
+        315
+      ],
+      "position": [
+        0,
+        0
+      ]
+    },
+    {
+      "rectangle": [
+        807,
+        315,
+        887,
+        324
+      ],
+      "position": [
+        180,
+        315
+      ]
+    }
+  ],
+  "operation": "Lossless selection of two rectangles belonging to idle_02, excluding neighboring rejected attack hammer tip.",
+  "alpha_threshold_applied": false,
+  "art_repainted": false,
+  "review": "Source significant boot pixels at row315 x201..214 retained; neighboring hammer pixels x112..117 are outside selected sprite region."
+}

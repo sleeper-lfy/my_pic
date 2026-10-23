@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "engine": "Godot4.6.3",
+  "backend": "Xorg dummy + Mesa llvmpipe OpenGL4.5",
+  "loading_marker": "WARRIOR_SPRITES_READY clips=6 frames=32 dimensions=256x256 art=pending",
+  "screenshot": "exports/warrior_v002/godot-actual-size.png",
+  "screenshot_size": [
+    1260,
+    800
+  ],
+  "screenshot_sha256": "d60a7ee4014b21b9a5bab8ec50827388cfb49e1545ac575fec8e7fd6e68ee2e3",
+  "captured_timeline_ms": 400,
+  "native_display_sizes": [
+    256,
+    96
+  ],
+  "art_approval": "pending",
+  "limitations": [
+    "Screenshot verifies one real rendered timeline sample; technical loading and capture do not certify animation or art quality."
+  ]
+}

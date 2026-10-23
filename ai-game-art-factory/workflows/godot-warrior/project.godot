@@ -1,0 +1,15 @@
+config_version=5
+
+[application]
+config/name="Hammer Warrior - Illustrated Action Review"
+run/main_scene="res://review.tscn"
+
+[display]
+window/size/viewport_width=1260
+window/size/viewport_height=800
+window/size/window_width_override=1260
+window/size/window_height_override=800
+
+[rendering]
+renderer/rendering_method="gl_compatibility"
+environment/defaults/default_clear_color=Color(0.89, 0.9, 0.88, 1)

@@ -1,0 +1,235 @@
+{
+  "schema": "warrior-reviewed-layout/1",
+  "source_sha256": "2b892818b9412b525f7159046dab3c0beb2caa748ab581232339b71ff69350fa",
+  "uniform_scale": 0.59,
+  "target_foot_anchor": [
+    128,
+    224
+  ],
+  "cells": {
+    "idle_00": {
+      "source_rect": [
+        0,
+        0,
+        313,
+        322
+      ],
+      "source_foot_anchor": [
+        163,
+        315
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "idle_01": {
+      "source_rect": [
+        313,
+        0,
+        314,
+        322
+      ],
+      "source_foot_anchor": [
+        163,
+        314
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "idle_02": {
+      "source_file": "front_right-idle02-extracted.png",
+      "uniform_source_scale": 1.0,
+      "source_rect": [
+        0,
+        0,
+        313,
+        324
+      ],
+      "source_foot_anchor": [
+        163,
+        315
+      ],
+      "anchor_note": "Two original rectangular sprite regions selected to exclude neighboring attack hammer; see source-regions report."
+    },
+    "idle_03": {
+      "source_rect": [
+        940,
+        0,
+        314,
+        320
+      ],
+      "source_foot_anchor": [
+        163,
+        314
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "attack_00": {
+      "source_rect": [
+        0,
+        322,
+        313,
+        324
+      ],
+      "source_foot_anchor": [
+        163,
+        306
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "attack_01": {
+      "source_file": "front_right-windup-corrected.png",
+      "uniform_source_scale": 0.52,
+      "source_rect": [
+        0,
+        0,
+        724,
+        724
+      ],
+      "source_foot_anchor": [
+        375,
+        696
+      ],
+      "anchor_note": "All three corrected drawings share same resolution-normalization factor0.52 and same approximate stance center/boot baseline; no per-frame fit."
+    },
+    "attack_02": {
+      "source_file": "front_right-windup-corrected.png",
+      "uniform_source_scale": 0.52,
+      "source_rect": [
+        724,
+        0,
+        724,
+        724
+      ],
+      "source_foot_anchor": [
+        375,
+        696
+      ],
+      "anchor_note": "All three corrected drawings share same resolution-normalization factor0.52 and same approximate stance center/boot baseline; no per-frame fit."
+    },
+    "attack_03": {
+      "source_file": "front_right-windup-corrected.png",
+      "uniform_source_scale": 0.52,
+      "source_rect": [
+        1448,
+        0,
+        724,
+        724
+      ],
+      "source_foot_anchor": [
+        375,
+        696
+      ],
+      "anchor_note": "All three corrected drawings share same resolution-normalization factor0.52 and same approximate stance center/boot baseline; no per-frame fit."
+    },
+    "attack_04": {
+      "source_rect": [
+        0,
+        646,
+        313,
+        302
+      ],
+      "source_foot_anchor": [
+        163,
+        274
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "attack_05": {
+      "source_rect": [
+        313,
+        646,
+        314,
+        302
+      ],
+      "source_foot_anchor": [
+        163,
+        275
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "attack_06": {
+      "source_rect": [
+        627,
+        646,
+        313,
+        302
+      ],
+      "source_foot_anchor": [
+        163,
+        280
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "attack_07": {
+      "source_rect": [
+        940,
+        646,
+        314,
+        302
+      ],
+      "source_foot_anchor": [
+        163,
+        288
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "defense_00": {
+      "source_rect": [
+        0,
+        948,
+        313,
+        306
+      ],
+      "source_foot_anchor": [
+        163,
+        279
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "defense_01": {
+      "source_rect": [
+        313,
+        948,
+        314,
+        306
+      ],
+      "source_foot_anchor": [
+        163,
+        279
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "defense_02": {
+      "source_rect": [
+        627,
+        948,
+        313,
+        306
+      ],
+      "source_foot_anchor": [
+        163,
+        279
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    },
+    "defense_03": {
+      "source_rect": [
+        940,
+        948,
+        314,
+        306
+      ],
+      "source_foot_anchor": [
+        163,
+        279
+      ],
+      "anchor_note": "Reviewed approximate stance-center and boot ground landmark, not a projected bone coordinate."
+    }
+  },
+  "review_notes": [
+    "Three wrong-facing attack poses replaced by one coherently drawn correction strip.",
+    "Main sheet and separate higher-resolution correction group each use one shared scale.",
+    "idle_02 extracted by reviewed original-pixel rectangles to avoid a neighboring hammer tip at the nominal row boundary.",
+    "Foot anchors are reviewed pixel landmarks; no claim of exact agreement with native skeleton foot projections.",
+    "Both directions share0.59 base pixel scale so the highest corrected hammer fits with >=8px margin; source group correction0.52 only normalizes its higher-resolution drawings.",
+    "Final common scale0.59 for BOTH directions preserves all low-alpha source pixels with >=8px output margin; source normalization0.52 remains shared across the three correction frames."
+  ]
+}

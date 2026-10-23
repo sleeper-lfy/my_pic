@@ -1,0 +1,88 @@
+{
+  "review_type": "AI independent visual inspection",
+  "status": "human_approval_pending_with_known_defects",
+  "inspected_files": [
+    {
+      "path": "assets/characters/warrior_v002/sheet-front_left.png",
+      "sha256": "c83349c54c2f91bb3344b252901ed968267c9a9a7dd585f4b36f6507b5c80b77"
+    },
+    {
+      "path": "exports/warrior_v002/front_left/contact-review.png",
+      "sha256": "70e91d5a3edc01312b90c850ceb86e2895906702ca6595c77083176662ad8af7"
+    },
+    {
+      "path": "exports/warrior_v002/front_left/frames/attack_01.png",
+      "sha256": "2cd38e479289fbceb69720a145e84f24b4bc593c1a594cb7c8c48ec6395635c3"
+    },
+    {
+      "path": "exports/warrior_v002/front_left/frames/attack_03.png",
+      "sha256": "128c1bdafb124029a47cb4f2ed60cb1f2a2540206b8bae3c94cbbf2847284dab"
+    },
+    {
+      "path": "exports/warrior_v002/front_left/frames/attack_04.png",
+      "sha256": "27e56c2f87ff254c4aea61604cf4c13249c5fed5565b1216d39d44904fa802c8"
+    },
+    {
+      "path": "exports/warrior_v002/front_left/frames/attack_05.png",
+      "sha256": "355962e6ac9619be6c3dcdb93b257ccc68850c03197ef95db5b07aec34f9b9b1"
+    },
+    {
+      "path": "exports/warrior_v002/front_left/frames/attack_06.png",
+      "sha256": "d4e156a7a5d884803e6d0b6f87ff9bd266ce30cbcd1f3d6af440f92f479b3554"
+    },
+    {
+      "path": "exports/warrior_v002/front_left/frames/defense_02.png",
+      "sha256": "9696b399a5568b08522f39b1a47c6907401fb4b55fb45b104849472d3c8b5315"
+    }
+  ],
+  "positive_observations": [
+    "Clear adult human silhouette with readable head, torso, two arms and two legs; no visible extra limbs in inspected keys.",
+    "Primary identity is broadly retained: dark hair with silver forelock, beard, burgundy scarf, blue-gray and copper armor.",
+    "Right-handed hammer grip is visually continuous in inspected attack keys; no obvious detached or floating weapon.",
+    "96px and128px contact previews retain a readable face and hammer silhouette."
+  ],
+  "issues": [
+    {
+      "frames": [
+        "defense_01",
+        "defense_02"
+      ],
+      "severity": "medium",
+      "observation": "Hammer overlaps the near-side face; defense_02 covers the near eye and about half of the face, reducing identity readability."
+    },
+    {
+      "frames": [
+        "attack_03",
+        "attack_04",
+        "attack_05",
+        "attack_06"
+      ],
+      "severity": "review_required",
+      "observation": "Large pose jumps between overhead swing and impact, then low followthrough and recovery. The contact sheet suggests possible stepped timing; native 3D continuity does not prove the illustrated eight-key clip is smooth.",
+      "uncertainty": "This inspection viewed static contact and individual frames, not real-time playback."
+    },
+    {
+      "frames": [
+        "all"
+      ],
+      "severity": "medium",
+      "observation": "Standing proportions appear closer to roughly four heads than exactly3.5; no exact anatomical landmark measurement was performed on painted sprites."
+    },
+    {
+      "frames": [
+        "attack_04",
+        "attack_05",
+        "attack_06"
+      ],
+      "severity": "low_to_medium",
+      "observation": "Shoulder trim, skirt plates and gripping-hand contour show small redrawing differences. Not diagnosed as broken anatomy, but pixel identity is not constant."
+    }
+  ],
+  "not_verified": [
+    "Full articulated 2D skeletal rig",
+    "Runtime interchangeable separate weapon layer",
+    "Zero temporal flicker",
+    "Commercial-quality or human art approval"
+  ],
+  "scope_note": "The native mesh and bone technical audit is separate from this painted-output visual assessment."
+}

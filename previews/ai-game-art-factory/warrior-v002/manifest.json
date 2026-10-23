@@ -1,0 +1,899 @@
+{
+  "copies": [
+    {
+      "source": "assets/characters/warrior_v002/design-original.png",
+      "file": "art/design-original.png",
+      "bytes": 1377949,
+      "sha256": "01ab267e08f7fe14946a6d893c4fbff9e3eecfbdd5e6fe81f3edb8eb2ee01083",
+      "size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "assets/characters/warrior_v002/design-front_left.png",
+      "file": "art/design-front_left.png",
+      "bytes": 470375,
+      "sha256": "9790137af650ac49a46bfefd79b9e0ca0a52e7f36ab2107845a1d834b9e3ad78",
+      "size": [
+        627,
+        660
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/atlas.png",
+      "file": "art/sheet-front_left.png",
+      "bytes": 541080,
+      "sha256": "6a724c25f385216953e66257cacf44f6794b5f170d01a80e26817f688eb375ee",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/atlas.json",
+      "file": "sprites/front_left/atlas.json",
+      "bytes": 31185,
+      "sha256": "a2a52b905eece9f0b5eed41fa4550fe19e4fb6cbde2947849dcab63fd9dd0420"
+    },
+    {
+      "source": "exports/warrior_v002/front_left/atlas.png",
+      "file": "sprites/front_left/atlas.png",
+      "bytes": 541080,
+      "sha256": "6a724c25f385216953e66257cacf44f6794b5f170d01a80e26817f688eb375ee",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/contact-review.png",
+      "file": "sprites/front_left/contact-review.png",
+      "bytes": 216247,
+      "sha256": "4d9f645c08d2f11b13d3f1cd30ed8c3fa6c6da1c3137ebf4b0a4f0e6bbabafc4",
+      "size": [
+        1200,
+        880
+      ],
+      "mode": "RGB",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_00.png",
+      "file": "sprites/front_left/frames/attack_00.png",
+      "bytes": 33743,
+      "sha256": "e7d485f6eb102e8b0f4cef4b846a6635228f3938be4c46a9db586b9dbd56dc46",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_01.png",
+      "file": "sprites/front_left/frames/attack_01.png",
+      "bytes": 41509,
+      "sha256": "71aaca4623b32983c743a05dbc4bb3d83904e1998f3525b27ddea262dea3a7c8",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_02.png",
+      "file": "sprites/front_left/frames/attack_02.png",
+      "bytes": 43434,
+      "sha256": "08d011ec5043cff1507661b5096775c60bef61071ef0cc49b026a5a6b5fc8523",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_03.png",
+      "file": "sprites/front_left/frames/attack_03.png",
+      "bytes": 34329,
+      "sha256": "c7a33a79ba79f8211261089f8efd652d5ddbf33bc73b9f9ee48e02ba86e296bf",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_04.png",
+      "file": "sprites/front_left/frames/attack_04.png",
+      "bytes": 33048,
+      "sha256": "b580b70adba9920beb23a2248975ec1b110f2dd2413e94e64d7069712e11326f",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_05.png",
+      "file": "sprites/front_left/frames/attack_05.png",
+      "bytes": 30602,
+      "sha256": "781c10186952ecbfe52e7a57a750563b2c61f20e8d6b70e8c2de46c5323014ed",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_06.png",
+      "file": "sprites/front_left/frames/attack_06.png",
+      "bytes": 33386,
+      "sha256": "0b9d3eded6c453f9a1588da0e9a0dc69072dae80ba95563374ba2451aee797a9",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/attack_07.png",
+      "file": "sprites/front_left/frames/attack_07.png",
+      "bytes": 33982,
+      "sha256": "910963fa6c6eed8d87c0b0e3b50ccec506c1e15c355c88d9270396bf24563ee5",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/defense_00.png",
+      "file": "sprites/front_left/frames/defense_00.png",
+      "bytes": 34860,
+      "sha256": "926fa34ded91abf28ff6a7c2da4b36d3cffd66fc1fb19cf553cf3e4bb69c190a",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/defense_01.png",
+      "file": "sprites/front_left/frames/defense_01.png",
+      "bytes": 31921,
+      "sha256": "cca640bf5fd383b0dc2ece543f02af553cef3a61d228096d770006558a4b280f",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/defense_02.png",
+      "file": "sprites/front_left/frames/defense_02.png",
+      "bytes": 32711,
+      "sha256": "a129f7bf964d757351b6d13eb28201f6fc07d08e803fff4c1cdbf7f7538df4b9",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/defense_03.png",
+      "file": "sprites/front_left/frames/defense_03.png",
+      "bytes": 33175,
+      "sha256": "9b333ad4d970079dde1218c3a8a450b5c5db2632b27f3e58653a22413e2d708e",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/idle_00.png",
+      "file": "sprites/front_left/frames/idle_00.png",
+      "bytes": 33376,
+      "sha256": "0a4c8663d1bee0e8c5295a07f1adb3885bc381b7d00828d32d3fa78c6b8e9405",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/idle_01.png",
+      "file": "sprites/front_left/frames/idle_01.png",
+      "bytes": 32826,
+      "sha256": "5d3e8822db52ebe595e8e0eb1c37f3e2df05aa4c751af543b32f9aaec9abe3ac",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/idle_02.png",
+      "file": "sprites/front_left/frames/idle_02.png",
+      "bytes": 32507,
+      "sha256": "4c4d83f4d880c322324d83e81b1ac69fbd41827359d3138aa866b09937ac923a",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/frames/idle_03.png",
+      "file": "sprites/front_left/frames/idle_03.png",
+      "bytes": 33073,
+      "sha256": "3b7eb5ba13a1a991f2cc6c4ae853010568b380915fad53f79bc422ae751f64f6",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-attack.apng",
+      "file": "sprites/front_left/preview-attack.apng",
+      "bytes": 279734,
+      "sha256": "afe122237d0b26924e726ae7d94e190a45c375f78f7aff889011ea345982fa31",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 8
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-attack.gif",
+      "file": "sprites/front_left/preview-attack.gif",
+      "bytes": 102621,
+      "sha256": "c6cb6d54dd0793a8d1c2760d5784df80501bdf458c8f3860638678679250213d",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "P",
+      "decoded_frames": 8
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-attack.webp",
+      "file": "sprites/front_left/preview-attack.webp",
+      "bytes": 204312,
+      "sha256": "28d07693ac964414c4b5eab713d1d461f98995ace648a7da0dab92b37bf3d22d",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 8
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-defense.apng",
+      "file": "sprites/front_left/preview-defense.apng",
+      "bytes": 130711,
+      "sha256": "1dd4eab116b08b13cd01c00da7ee60d6069e75bd4326616434e842017a8b43e4",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-defense.gif",
+      "file": "sprites/front_left/preview-defense.gif",
+      "bytes": 49307,
+      "sha256": "2106f4e1465bea4f03b7dff4831e978a8934bd4adf91b8a7a9660862235ef71c",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "P",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-defense.webp",
+      "file": "sprites/front_left/preview-defense.webp",
+      "bytes": 96024,
+      "sha256": "149195afa295c0d1af337166df7c74b99ae95245cff7fc5ca52739ba1fa94326",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-idle.apng",
+      "file": "sprites/front_left/preview-idle.apng",
+      "bytes": 129766,
+      "sha256": "6ea3fa638d1e1696feb791df344f52c0c5c8566c17e166ff701567bf9173a235",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-idle.gif",
+      "file": "sprites/front_left/preview-idle.gif",
+      "bytes": 49427,
+      "sha256": "3eb2293f25b852497d0410ac19067e6bf3f76950163107d0b3693c628d31669e",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "P",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_left/preview-idle.webp",
+      "file": "sprites/front_left/preview-idle.webp",
+      "bytes": 95534,
+      "sha256": "b9fc2012ea1b1333fc3def381e9752453ec21410a933c6f02fa184a49e2cce9f",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_left/technical-qa.json",
+      "file": "sprites/front_left/technical-qa.json",
+      "bytes": 17354,
+      "sha256": "c983fcaf9010ae128b968d6bebdfb67f4b7389b6c241d33beb75a9afc7d8463d"
+    },
+    {
+      "source": "previews/warrior_motion/guide-front_left.png",
+      "file": "motion-guides/guide-front_left.png",
+      "bytes": 632009,
+      "sha256": "7bfe9d5963de2f6e6b83d2641e0268b8418e6cf7366683c4060e21b4484f4cb0",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "previews/warrior_motion/front_left-idle.webp",
+      "file": "motion-guides/front_left-idle.webp",
+      "bytes": 159066,
+      "sha256": "34b1470f650730bb0945b6637bcc0cde042f2354020ab30ed4a8a4cef26fed88",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "previews/warrior_motion/front_left-attack.webp",
+      "file": "motion-guides/front_left-attack.webp",
+      "bytes": 300912,
+      "sha256": "f8f83b5d41af7a86db7511affa811852afffe7c376509e87aeb7e9d0c02b819d",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 8
+    },
+    {
+      "source": "previews/warrior_motion/front_left-defense.webp",
+      "file": "motion-guides/front_left-defense.webp",
+      "bytes": 166140,
+      "sha256": "83f1dee6a3d70475e73b290c87b5315b6e8f027b52dcd58692d254ee7643bccb",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "assets/characters/warrior_v002/design-front_right.png",
+      "file": "art/design-front_right.png",
+      "bytes": 481415,
+      "sha256": "5a91ee84cc71d632c11c9ff77923a15eb6e5370788a3a81e54e147b3d5f1adf6",
+      "size": [
+        627,
+        660
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/atlas.png",
+      "file": "art/sheet-front_right.png",
+      "bytes": 684410,
+      "sha256": "f85f7956d7e85dfc1242c49a7f8c5f9e2f56d374ef78c7b011c42c4c454e1451",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/atlas.json",
+      "file": "sprites/front_right/atlas.json",
+      "bytes": 31511,
+      "sha256": "d197318fc08a93e8e9f6ea2453faff3db6d5262254578bbfca42a8105de910cc"
+    },
+    {
+      "source": "exports/warrior_v002/front_right/atlas.png",
+      "file": "sprites/front_right/atlas.png",
+      "bytes": 684410,
+      "sha256": "f85f7956d7e85dfc1242c49a7f8c5f9e2f56d374ef78c7b011c42c4c454e1451",
+      "size": [
+        1024,
+        1024
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/contact-review.png",
+      "file": "sprites/front_right/contact-review.png",
+      "bytes": 271987,
+      "sha256": "fb51fe282404273b91b4bfb5498070bdb03098bd844f753dd604231efb973cf8",
+      "size": [
+        1200,
+        880
+      ],
+      "mode": "RGB",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_00.png",
+      "file": "sprites/front_right/frames/attack_00.png",
+      "bytes": 46087,
+      "sha256": "65f0abc0de56fcd68e16413d8a3d40202a54176071d839ac8c1b22b8370f1e9e",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_01.png",
+      "file": "sprites/front_right/frames/attack_01.png",
+      "bytes": 40018,
+      "sha256": "5c314131853cb1da2685fae45ca2e1f3ddc72b6bd3c4bdc9791e42bd34e874e2",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_02.png",
+      "file": "sprites/front_right/frames/attack_02.png",
+      "bytes": 40889,
+      "sha256": "51708214a119f52b5c3aa430b2042ca99067a10d03e762be9a6e4d199d8f3cd2",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_03.png",
+      "file": "sprites/front_right/frames/attack_03.png",
+      "bytes": 43878,
+      "sha256": "ae13b7f309ec23b55ba6652e02b09c3a34f2a17da2020b1a818788a4e43803e5",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_04.png",
+      "file": "sprites/front_right/frames/attack_04.png",
+      "bytes": 43560,
+      "sha256": "75421ca0096e469d873e1c268e1b7db45fbe36bed6e4df91bf20101f80765e4a",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_05.png",
+      "file": "sprites/front_right/frames/attack_05.png",
+      "bytes": 38021,
+      "sha256": "441eed32eae9faa89582c778fc87ba393a851f114e2c1b6cbd392438d3795747",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_06.png",
+      "file": "sprites/front_right/frames/attack_06.png",
+      "bytes": 45498,
+      "sha256": "b28861171190ac1518a2b36fcb7fa4864d1fef34864b53fb6532c8d33dc7e14b",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/attack_07.png",
+      "file": "sprites/front_right/frames/attack_07.png",
+      "bytes": 45457,
+      "sha256": "f453165f89d0035876ca88a0caecf68e3946959bb14017827b9265ae3416fe65",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/defense_00.png",
+      "file": "sprites/front_right/frames/defense_00.png",
+      "bytes": 43088,
+      "sha256": "1fc2ad67eb24916cd3bb436ace03412b2bdcf48c74411371e5ee31303d81a7e0",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/defense_01.png",
+      "file": "sprites/front_right/frames/defense_01.png",
+      "bytes": 40417,
+      "sha256": "3dbf40a3e8c13b28e0fd33bbfe6c5b6aad338df0ece4f04e24eb5932dd609c16",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/defense_02.png",
+      "file": "sprites/front_right/frames/defense_02.png",
+      "bytes": 40021,
+      "sha256": "eb625c53c7e6080df89c2221c94c6202604967739b8f26ce401ce4dd6d206361",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/defense_03.png",
+      "file": "sprites/front_right/frames/defense_03.png",
+      "bytes": 44548,
+      "sha256": "3420c6b17179e900818122fdb35befdd4bef5e7c39f2af0a013757127ee7cb21",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/idle_00.png",
+      "file": "sprites/front_right/frames/idle_00.png",
+      "bytes": 44991,
+      "sha256": "ea20815713abb575e13d878ab22ce9835276e9e3208a9f28ee243812a70fcab3",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/idle_01.png",
+      "file": "sprites/front_right/frames/idle_01.png",
+      "bytes": 44840,
+      "sha256": "49a4f7c6fac14390aa2d7f9c4b1e08eb17ff7a132886eb16b5b26bb80ed5a3e8",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/idle_02.png",
+      "file": "sprites/front_right/frames/idle_02.png",
+      "bytes": 45408,
+      "sha256": "4098c59e31054310a454f7cee8f3cf2c86317fd8c937feaa2117850743751f52",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/frames/idle_03.png",
+      "file": "sprites/front_right/frames/idle_03.png",
+      "bytes": 44769,
+      "sha256": "512e65c1c48f184f5d36d0f8883793c4286a9873b497dc79c6a5ab0bab6d282e",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-attack.apng",
+      "file": "sprites/front_right/preview-attack.apng",
+      "bytes": 339109,
+      "sha256": "e8e7f772acbb26fd3be59a8d6e753ff71ec73b2ccab893ee568f1ed94a9804a9",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 8
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-attack.gif",
+      "file": "sprites/front_right/preview-attack.gif",
+      "bytes": 126714,
+      "sha256": "3fb691b0f74f03ef65c28b6c4a19732cb7c8cfe9b604d77e12c026ea34123ef6",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "P",
+      "decoded_frames": 8
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-attack.webp",
+      "file": "sprites/front_right/preview-attack.webp",
+      "bytes": 248216,
+      "sha256": "d2d9df67984a15e70ae11cf302ac9a950658736c528f54507d13b392d6cea38d",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 8
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-defense.apng",
+      "file": "sprites/front_right/preview-defense.apng",
+      "bytes": 165739,
+      "sha256": "b807e234de5a50dde9a67c0884fcca51744fb6939aa23c4f3d87f1fb2a8dd30e",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-defense.gif",
+      "file": "sprites/front_right/preview-defense.gif",
+      "bytes": 61411,
+      "sha256": "722d4c12e497be553a5fdb81485f83acff387e2793254d4875361c579688defb",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "P",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-defense.webp",
+      "file": "sprites/front_right/preview-defense.webp",
+      "bytes": 121314,
+      "sha256": "7a52f8f74736d28450d995b143d566b6f93a4524c7c2ab36569810633247a05d",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-idle.apng",
+      "file": "sprites/front_right/preview-idle.apng",
+      "bytes": 177803,
+      "sha256": "6444bfdf9d21fc11841c4a530034318662374b672b79f1d2f2de0c1a7ef666e4",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-idle.gif",
+      "file": "sprites/front_right/preview-idle.gif",
+      "bytes": 65455,
+      "sha256": "411e54b38c61a453f085c156e80915b098c14c04897232d80a1125be9c92a3bc",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "P",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_right/preview-idle.webp",
+      "file": "sprites/front_right/preview-idle.webp",
+      "bytes": 131128,
+      "sha256": "d91417067999e8296ee362f947a47703311a564c1de4ffcc5e2c279e5d783897",
+      "size": [
+        256,
+        256
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "exports/warrior_v002/front_right/technical-qa.json",
+      "file": "sprites/front_right/technical-qa.json",
+      "bytes": 17354,
+      "sha256": "c88ffb96dc8f1df86e1282cf7f08f261b26e01e1875e68d486df2b5d86f6585e"
+    },
+    {
+      "source": "previews/warrior_motion/guide-front_right.png",
+      "file": "motion-guides/guide-front_right.png",
+      "bytes": 660479,
+      "sha256": "7a78831dd7cfb712d0ae0ffc2ea187936bc403ee4e54cb2165b2387abbb06e1d",
+      "size": [
+        2048,
+        2048
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "previews/warrior_motion/front_right-idle.webp",
+      "file": "motion-guides/front_right-idle.webp",
+      "bytes": 200026,
+      "sha256": "c00b00a0365e4d93a34cac30b09ac964dc950e9a3a6c7e3320b7449224b3799f",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "previews/warrior_motion/front_right-attack.webp",
+      "file": "motion-guides/front_right-attack.webp",
+      "bytes": 346230,
+      "sha256": "5ebec74225b9d822208fdf3870693aab0d59eb221b90360f105a427c31305405",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 8
+    },
+    {
+      "source": "previews/warrior_motion/front_right-defense.webp",
+      "file": "motion-guides/front_right-defense.webp",
+      "bytes": 198242,
+      "sha256": "f26aa042a794f71240f86223bde4262e3363c357462725a3ac2426945e044880",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 4
+    },
+    {
+      "source": "assets/weapons/warrior_v002/hammer_block.png",
+      "file": "weapons/hammer_block.png",
+      "bytes": 187863,
+      "sha256": "413c615d7732a547e7448de6acac3029a41533141c060b46d014962d46192caa",
+      "size": [
+        627,
+        594
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "assets/weapons/warrior_v002/hammer_crescent.png",
+      "file": "weapons/hammer_crescent.png",
+      "bytes": 193065,
+      "sha256": "78320555157d2793e0537c201ce86e754b22f828ecf799f2a3593332be799314",
+      "size": [
+        627,
+        594
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/godot-actual-size.png",
+      "file": "godot-actual-size.png",
+      "bytes": 283983,
+      "sha256": "d60a7ee4014b21b9a5bab8ec50827388cfb49e1545ac575fec8e7fd6e68ee2e3",
+      "size": [
+        1260,
+        800
+      ],
+      "mode": "RGBA",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/actions-comparison.gif",
+      "file": "actions-comparison.gif",
+      "bytes": 1337194,
+      "sha256": "f6c5428c59debfed84afc72ddd76f967648dc1e26a1469ad952694083a44e8ea",
+      "size": [
+        864,
+        692
+      ],
+      "mode": "P",
+      "decoded_frames": 17
+    },
+    {
+      "source": "exports/warrior_v002/actions-comparison.png",
+      "file": "actions-comparison.png",
+      "bytes": 198264,
+      "sha256": "547cefbdaa02d6a734a132da80b728ebb02e964a05d1747c4f4a7f806e694a2b",
+      "size": [
+        864,
+        692
+      ],
+      "mode": "RGB",
+      "decoded_frames": 1
+    },
+    {
+      "source": "exports/warrior_v002/comparison-gif.json",
+      "file": "comparison-gif.json",
+      "bytes": 9998,
+      "sha256": "d319db79234037a61c776dc8fe38035317466452782c69690b94f29cbcaf1f43"
+    }
+  ],
+  "original_pixels_preserved": true
+}
