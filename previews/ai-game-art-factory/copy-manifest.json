@@ -1,0 +1,2033 @@
+{
+  "method": "byte-identical copies, no image resampling or regeneration",
+  "files": [
+    {
+      "repository_path": "previews/ai-game-art-factory/source-assets/characters/route_a/joint-keyposes-v001.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/assets/characters/route_a/joint-keyposes-v001.png",
+      "sha256": "f903aa65d9f7811b827b14156b3dcbdd7bfedb1e07535e71410e798d6ed04eb0",
+      "bytes": 1469829
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/source-assets/characters/warrior-parts-v001.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/assets/characters/warrior-parts-v001.png",
+      "sha256": "4281a02b2219b80375a06ffbf1cfecffe63bad68b5dbe452c782516fbc9c13e4",
+      "bytes": 1505754
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/source-assets/references/warrior-concept-v001.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/assets/references/warrior-concept-v001.png",
+      "sha256": "9f29b3bba40de950b1744b13e2db660beb41849f65cac382ed99132ac98ac379",
+      "bytes": 1752163
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/source-assets/references/warrior-concept-v002.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/assets/references/warrior-concept-v002.png",
+      "sha256": "52e5092db711f0fac69736b8a5fec65d34f5913237a5ef5304e1af89760b3633",
+      "bytes": 1757660
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/source-assets/weapons/hammer_a.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/assets/weapons/hammer_a.png",
+      "sha256": "d012ac4814366683bd34ab2f8f77c7fa55a1f024a3c0a581abee7688e78460d8",
+      "bytes": 81867
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/source-assets/weapons/hammer_b.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/assets/weapons/hammer_b.png",
+      "sha256": "f7e50404860f6ffde93caf46bc3a48dbb6bccfcd5b9fc6c4815b50c9c0a5151b",
+      "bytes": 90286
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/B_hammer_a-contact.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/B_hammer_a-contact.png",
+      "sha256": "fb331df7d068ef1b9906d504fe4d298917c014b0b3ac7213c48b3642fba441f3",
+      "bytes": 77814
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/B_hammer_a.webp",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/B_hammer_a.webp",
+      "sha256": "a4c1366844e906903e55f9a3e6d3929a47b0e3547a43bcf20e35fa45273605c6",
+      "bytes": 327418
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/B_hammer_b-contact.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/B_hammer_b-contact.png",
+      "sha256": "737f597d16d9a562cf916068155af0ae949f92bf89353013710e9eccbbab6ee3",
+      "bytes": 79212
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/B_hammer_b.webp",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/B_hammer_b.webp",
+      "sha256": "69ccf749630d2cce4d37453bcab5882375af874533eb3f1876618e8521acd966",
+      "bytes": 332302
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/C_hammer_a-contact.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/C_hammer_a-contact.png",
+      "sha256": "3b88e833b412f9daf9a64338c95e9b1dadee4aca21e63215e352bd13c275a7f6",
+      "bytes": 65687
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/C_hammer_a.webp",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/C_hammer_a.webp",
+      "sha256": "ebb69687e0e489b9de9e0d68f746e8d1b828a8def4fad2196d63fe09c7c8a400",
+      "bytes": 269194
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/C_hammer_b-contact.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/C_hammer_b-contact.png",
+      "sha256": "0b016bdba6f432501950472a67c0f3cbe2e0db0fbe5555255b175270bc04f237",
+      "bytes": 66736
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/C_hammer_b.webp",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/C_hammer_b.webp",
+      "sha256": "516895165a727bf2d3021d9662f12c7ba205d83a53842cfe166b1bd7c9e28c3f",
+      "bytes": 272648
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/actual-size-comparison.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/actual-size-comparison.png",
+      "sha256": "6ed288df7c2dbf41ecbe1e55a029d755a42eecaa60c8d32e2ed69d53ba4ab15d",
+      "bytes": 106435
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/before-layout-contact.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/before-layout-contact.png",
+      "sha256": "ac1cd9f7a83ab36598954728444edfdf576aaa611cdf18165369c9377e158510",
+      "bytes": 74752
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/before-layout.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/before-layout.png",
+      "sha256": "9001e490a9d8c1bb480da8f3dfcda658f85a5926a31007696de4bfd3b2bf375e",
+      "bytes": 102585
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/parts_experiment/godot-actual-size.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/parts_experiment/godot-actual-size.png",
+      "sha256": "708c1c45f4d55ff8718c109dcb0a3ddac60a82e3681592452292f38122cb24ef",
+      "bytes": 128501
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/route-comparison.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/route-comparison.png",
+      "sha256": "d4ad90598f214791ffbce8b4499a1e02e407cb0edfd628770477516a36e9b2a3",
+      "bytes": 370571
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/route_a/contact-sheet.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/route_a/contact-sheet.png",
+      "sha256": "a8f214b8662ab3af656015b76cf5478cd9442650c2913424ddca0a6da8e43362",
+      "bytes": 146340
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/route_a/diagnostic-keyposes.apng",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/route_a/diagnostic-keyposes.apng",
+      "sha256": "45512f207a86bb92a5d1a5ae26b3381a0689d7d58574d878c5827df3e1fe853a",
+      "bytes": 173992
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/static-review.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/static-review.png",
+      "sha256": "15715de4c24f25f838ad17452770f68de0725f2e4e2aa749c3832c2a310611ff",
+      "bytes": 654564
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/contact-sheet.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/contact-sheet.png",
+      "sha256": "06462b28bb1a55a3602815d7497e637ceefcec410d078e233feef357abddcb5e",
+      "bytes": 125743
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_00_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_00_depth.png",
+      "sha256": "5a86cfb63a014e485255234797b9edd4b6058890afa569ab8c20556ed505e194",
+      "bytes": 36349
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_00_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_00_flat.png",
+      "sha256": "54f9c21134d166c839e3b231e5bf6804b5aaeb2868585bfcdf595786664fa12d",
+      "bytes": 41572
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_00_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_00_normal.png",
+      "sha256": "6f335132aa43f22cb583dd23737f9c147491ba90a0d410d467745ea18ab0d499",
+      "bytes": 49971
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_00_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_00_pose.png",
+      "sha256": "7aaef5c3eb5c16a548fc472803ade2f44b86fe97775815c24859f166698b9c6b",
+      "bytes": 2861
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_00_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_00_silhouette.png",
+      "sha256": "e2486aefbfa92346c1cfed24ba85490d07346f648f77610f8610a31188b90716",
+      "bytes": 31294
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_01_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_01_depth.png",
+      "sha256": "d18cd42af865c8deb9cb3b0084cda499c612b2e1569a9b5e07fa7449d96cd441",
+      "bytes": 38424
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_01_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_01_flat.png",
+      "sha256": "1b322509723bddbaf91aea8ba66156c27c6f80223a681ed4e6bf140fd6063e2c",
+      "bytes": 43230
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_01_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_01_normal.png",
+      "sha256": "047c2758af0dcf1173b723efd2595171743998ca7a3fe1c6117f1d01c231f171",
+      "bytes": 52107
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_01_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_01_pose.png",
+      "sha256": "8b2fefbc8c34920b9e861d6e0127d8bf4e6500372bdcd03cbd3be26b164573c9",
+      "bytes": 3235
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_01_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_01_silhouette.png",
+      "sha256": "e0dadecb8d0ed85c3a83f4ae6e29632d275763cfb09ad840ac4cbb51eb6c3213",
+      "bytes": 31949
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_02_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_02_depth.png",
+      "sha256": "18030d3bb75c06cb13cef464fdba72ea583d35c7c4f8e8cd184b8497155f1c90",
+      "bytes": 36943
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_02_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_02_flat.png",
+      "sha256": "8088e8b7e07a562afb301be57868e75fc0f633888bd2cab975462f637be6a3e9",
+      "bytes": 41710
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_02_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_02_normal.png",
+      "sha256": "4c7f01163e9e3a69c9aed3c8868698410a7b1e8e4dc3cfa6c5a56c0ffa5329c1",
+      "bytes": 51158
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_02_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_02_pose.png",
+      "sha256": "8f1de3897e16a06b30846cd4ff97ef88ad15949a90cfef550bc979c6f5b62f28",
+      "bytes": 3073
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_02_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_02_silhouette.png",
+      "sha256": "53f8440a22de58e241f96f78a9c1f7367213f7052deab63df1e81a40aa40155e",
+      "bytes": 31322
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_03_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_03_depth.png",
+      "sha256": "825a96e602ea285a1d1a0954481eab89fda9de457fb652ef616f3c9c9c7b3e0b",
+      "bytes": 36709
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_03_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_03_flat.png",
+      "sha256": "0edca3cc1c220693d2f4ea519ae2f602db7a744ff2764d77962c7dd2be322080",
+      "bytes": 41780
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_03_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_03_normal.png",
+      "sha256": "49e89fb587018b78dbaa878acea945adc5be6f8036b80250023658f3a1ce3588",
+      "bytes": 50390
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_03_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_03_pose.png",
+      "sha256": "bfd202375c84b470a0453fcbc0019f6484073703ddb06871b5352e832dbca2ae",
+      "bytes": 2891
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_block/attack_03_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_block/attack_03_silhouette.png",
+      "sha256": "ae251b0e3fcc344bb272e0ae9a57c71c5d8d7324220d99a923bc2572916085ec",
+      "bytes": 31423
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_00_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_00_depth.png",
+      "sha256": "f1fb47ec5d611d6899e929d3e85d14f773d0bcf6e93c5f2d192d99d72faa7f93",
+      "bytes": 36417
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_00_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_00_flat.png",
+      "sha256": "5af4201cf2e860640092bce599c28f200cb07a5bbd81241520fa4ab61da1324c",
+      "bytes": 41525
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_00_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_00_normal.png",
+      "sha256": "1c133c664b122dc1555bd2a70db25d50317443402f6ed499a6c3f7963a2ceae3",
+      "bytes": 50529
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_00_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_00_pose.png",
+      "sha256": "7aaef5c3eb5c16a548fc472803ade2f44b86fe97775815c24859f166698b9c6b",
+      "bytes": 2861
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_00_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_00_silhouette.png",
+      "sha256": "1353467dc1dda507d93569208a37f7fc6e1238334f905c8c343f71a5b563b88b",
+      "bytes": 31351
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_01_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_01_depth.png",
+      "sha256": "2223ca041877d7ab3b7a31cb59b9159e73904a38ee1a8d9c45a76aac50fc62ac",
+      "bytes": 38190
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_01_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_01_flat.png",
+      "sha256": "c520699573f00379195477a020f25ec4fa10ca180fbefa0037187420f4e65346",
+      "bytes": 43110
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_01_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_01_normal.png",
+      "sha256": "1b79afc412a98c6e099134ea691310e172e8b6c21a2465d3a6d5dd9644a8019a",
+      "bytes": 52708
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_01_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_01_pose.png",
+      "sha256": "8b2fefbc8c34920b9e861d6e0127d8bf4e6500372bdcd03cbd3be26b164573c9",
+      "bytes": 3235
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_01_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_01_silhouette.png",
+      "sha256": "5342877ca3ea0d2d5d21744cf00467afc8ec70a9cbd6b7714afa995d3c66846e",
+      "bytes": 32003
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_02_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_02_depth.png",
+      "sha256": "44846bb0830430bd3c6e6aabb878253ecf3a70292cde5e6aa82b048e77ea94fa",
+      "bytes": 36866
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_02_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_02_flat.png",
+      "sha256": "eb47d4c48c57fb55c5b46f567ddc253e80f908ca6c30a1ecd33396bb2bd9efb1",
+      "bytes": 41450
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_02_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_02_normal.png",
+      "sha256": "17be9f7917bd7bff12bef1131b3876f5f655bf37341567722ff57e719d228acc",
+      "bytes": 51504
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_02_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_02_pose.png",
+      "sha256": "8f1de3897e16a06b30846cd4ff97ef88ad15949a90cfef550bc979c6f5b62f28",
+      "bytes": 3073
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_02_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_02_silhouette.png",
+      "sha256": "b8186f8a8699c8db8085aeea434d57bacba7b240305aa0a78efef6772376e3e2",
+      "bytes": 31279
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_03_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_03_depth.png",
+      "sha256": "121e55638c5d27f66c3f7231a3ff81e15a6b45478098df108ab81a01280bdd2e",
+      "bytes": 36693
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_03_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_03_flat.png",
+      "sha256": "98163e68ff71cb3ac02e3f01565b51b7976f7669d131c49c1700bf35acc4a897",
+      "bytes": 41589
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_03_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_03_normal.png",
+      "sha256": "77cd1f9a72ad26c4e342d930e372432e1bdfd904de801791deb54ae48a2b3679",
+      "bytes": 50871
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_03_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_03_pose.png",
+      "sha256": "bfd202375c84b470a0453fcbc0019f6484073703ddb06871b5352e832dbca2ae",
+      "bytes": 2891
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_left/hammer_crescent/attack_03_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_left/hammer_crescent/attack_03_silhouette.png",
+      "sha256": "1107c9d28886c5fc6595bda7d969c3c6fd4c5ec7d621886d40547c1b4d114785",
+      "bytes": 31368
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_00_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_00_depth.png",
+      "sha256": "bdd04f5c82706b40f35ac56d569ed66f2b41ca51643970bfddfe8f0dcd31d1ea",
+      "bytes": 36064
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_00_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_00_flat.png",
+      "sha256": "7184d2afe73c851e70f2519c9c5a63a448cc8e6ff6efabea9391bec422d98cd7",
+      "bytes": 41155
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_00_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_00_normal.png",
+      "sha256": "18eb057c6c26d8babcc4f236086e6793ad1f4fd53763be163699baf3d19fdf2b",
+      "bytes": 48592
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_00_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_00_pose.png",
+      "sha256": "ab32313f911ca98ac4e8892342d9f5687871031278ef949ac4a2697157aedb0c",
+      "bytes": 2743
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_00_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_00_silhouette.png",
+      "sha256": "5390ff8afad8c29ac9b7273cbb8442d136d0e59184d0081f3e48054f7607f2fb",
+      "bytes": 30811
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_01_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_01_depth.png",
+      "sha256": "06206794d3e8745fd370335a633fc375e1e402e47fb7418a06857bbb411d0ceb",
+      "bytes": 37782
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_01_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_01_flat.png",
+      "sha256": "595f53a20b12c158e87ef5515aa747002e3408055970a0aa4d8a90352e835958",
+      "bytes": 42686
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_01_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_01_normal.png",
+      "sha256": "bc34b144ab72ffd3d15c26c77a59cdbcb893cc5daf7c591805963d6ed0b5659f",
+      "bytes": 51236
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_01_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_01_pose.png",
+      "sha256": "cde4d3f59e2d45cb77b442f65a495a8802f39dffb244a044c7d778119468fea5",
+      "bytes": 2915
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_01_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_01_silhouette.png",
+      "sha256": "f06c0cf44e56c1e9a66f7231db70c672567123c6b6c3bc7c0b4663cb1d244ef7",
+      "bytes": 31843
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_02_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_02_depth.png",
+      "sha256": "94e1b49d81e4fbc4f97a5b7ddc98fd9bd38b89f68c4182fb9645a538ff40c578",
+      "bytes": 36297
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_02_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_02_flat.png",
+      "sha256": "4d74afd387cd321f0afc2bb75a62dae248c1fef84665d292cf4b9d3ec742c299",
+      "bytes": 40676
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_02_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_02_normal.png",
+      "sha256": "a7ae3ab295866c6da48d42cbe257ad2c5b035d229fe31e5299aa4cd179c8b985",
+      "bytes": 48201
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_02_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_02_pose.png",
+      "sha256": "038ebbd4540826c3e5fd7372cd548cc4efeae9479cdef6ebf0afd1a6e10a59e5",
+      "bytes": 2909
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_02_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_02_silhouette.png",
+      "sha256": "3f53120e42ab3ec5e2740b67f3b544c56671bf9a9f15716489d499eb74f8a796",
+      "bytes": 30592
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_03_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_03_depth.png",
+      "sha256": "c52c41b680915ccc337866e79362eed086ed25bb0f8511a53d976617b4b3abb4",
+      "bytes": 36140
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_03_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_03_flat.png",
+      "sha256": "63cf8a2d12627a17ba773583c051722d03da8d2e51f53f493c6e9bbc56472e76",
+      "bytes": 41071
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_03_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_03_normal.png",
+      "sha256": "381abb49482157f5d01796d6743769bfb929c0b5e5dbfeac7900aaa1a1185a5b",
+      "bytes": 48058
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_03_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_03_pose.png",
+      "sha256": "2289e0557d0c7385a62fd22846f69ec76898bd9f2b2eef18330992fc6dbfa80c",
+      "bytes": 2834
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_block/attack_03_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_block/attack_03_silhouette.png",
+      "sha256": "9528d8014c874f4ce3683cb4b3354e1a6fe5ed4e9ad2657e81cb38c9ce82ce27",
+      "bytes": 31033
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_00_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_00_depth.png",
+      "sha256": "a1ef85b19fcb3fe91ee5f712d7e16e3828c17916cb417a993966bbdb29df7de4",
+      "bytes": 36069
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_00_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_00_flat.png",
+      "sha256": "15c517a492bba8cc1e6137c730e2217f2d31e1d4fbdf4089972473ca0497d147",
+      "bytes": 41036
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_00_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_00_normal.png",
+      "sha256": "d3e931abd823f9d581b5c1fb91fde0d9a126a0b636607005c10cd2a71db78997",
+      "bytes": 49387
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_00_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_00_pose.png",
+      "sha256": "ab32313f911ca98ac4e8892342d9f5687871031278ef949ac4a2697157aedb0c",
+      "bytes": 2743
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_00_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_00_silhouette.png",
+      "sha256": "27559b92fdd11a8265110f8ce6c5e1d2b97a014434e722a071d3f15818d57fef",
+      "bytes": 30849
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_01_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_01_depth.png",
+      "sha256": "0edecf943d0d081584c238d1a0a38ca6ddab68d4b9d483a8586e1324cdcbdf26",
+      "bytes": 37733
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_01_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_01_flat.png",
+      "sha256": "256085c50fa130e8f65dd07ceba233cb757f73671f531e729eac22842b90e2b1",
+      "bytes": 42566
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_01_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_01_normal.png",
+      "sha256": "4f92583cb33a6bbf958bebf5fe2cbc199a643793d07ef6ad353f24b9a001248f",
+      "bytes": 51824
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_01_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_01_pose.png",
+      "sha256": "cde4d3f59e2d45cb77b442f65a495a8802f39dffb244a044c7d778119468fea5",
+      "bytes": 2915
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_01_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_01_silhouette.png",
+      "sha256": "76052d7a2d5e7da6e01cb98db0ea27a60af32fd7da9967255d217a4291eedee8",
+      "bytes": 31727
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_02_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_02_depth.png",
+      "sha256": "95b4949dbb108e05f8c810536d83e245424b5992f84854b2370c758451d43de4",
+      "bytes": 36176
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_02_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_02_flat.png",
+      "sha256": "83e23e9e6b52dd9583a9eef37e611a2ada03db30204245318221822537814e45",
+      "bytes": 40586
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_02_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_02_normal.png",
+      "sha256": "d7020d32cbcb5e862843e422e46e9325bd3695b661ad2a491643627ccd41b56b",
+      "bytes": 48970
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_02_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_02_pose.png",
+      "sha256": "038ebbd4540826c3e5fd7372cd548cc4efeae9479cdef6ebf0afd1a6e10a59e5",
+      "bytes": 2909
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_02_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_02_silhouette.png",
+      "sha256": "5a20144c43451bde51633d98c15be5ebe809165541d5e41985f5a1b168a431a8",
+      "bytes": 30780
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_03_depth.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_03_depth.png",
+      "sha256": "6f3df56886ea0fa33e08b64bc1f953f33d90d3dbe2ef9f39399e2367120293f1",
+      "bytes": 36174
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_03_flat.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_03_flat.png",
+      "sha256": "879e16f0816c2c252c13da373e72405f936304b36f019f09e66f6d6c433b28f9",
+      "bytes": 41149
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_03_normal.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_03_normal.png",
+      "sha256": "9eb6062948ae78f306cc773ba764e5757b1971dbb10caf7f2793031b6298104a",
+      "bytes": 49174
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_03_pose.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_03_pose.png",
+      "sha256": "2289e0557d0c7385a62fd22846f69ec76898bd9f2b2eef18330992fc6dbfa80c",
+      "bytes": 2834
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/front_right/hammer_crescent/attack_03_silhouette.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/front_right/hammer_crescent/attack_03_silhouette.png",
+      "sha256": "283503b1b7f9dc74808fe3575f91ae98e0ecfa09aaa7f2ae92a948b0f206edac",
+      "bytes": 31081
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/guide-channels.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/guide-channels.png",
+      "sha256": "0c5089da0c637374edf7ba1ec836ca71c5f953858407470d0ce3c3cc40438acc",
+      "bytes": 94461
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/review-materials/structure/route-a-guide-strip.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/previews/structure/route-a-guide-strip.png",
+      "sha256": "e188f40c1bb9a76e2c2c523b17d3e85ba9ea193452811b5e1888916ae6df320a",
+      "bytes": 25941
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000.png",
+      "sha256": "d3fc3356cecf644613316779a8325fd22abc20337db0fe5a5df9081a454b76fb",
+      "bytes": 38360
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000_body.png",
+      "sha256": "d318a25af954d84a8bf14b9881258769761127b3bb14dffa2126b0fff36d858b",
+      "bytes": 34067
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000_front_hand.png",
+      "sha256": "395c3c683da45621f138ce3e4addbfd559179b4d9090ccf8d43abff8a7739fdd",
+      "bytes": 943
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_000_weapon.png",
+      "sha256": "1962c53deeb801dc3fe500f6a0d45770d778579af3c47af6a827263fcdbb4d53",
+      "bytes": 6920
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001.png",
+      "sha256": "4c981a1ce3e0f566cc54e028f3bb349c7b266313decf87a36386e5671ea82c67",
+      "bytes": 36926
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001_body.png",
+      "sha256": "eacafdf6e7b0bad5b34bcbea939b0564df4db7d579fe18bf31ba3507b33284a7",
+      "bytes": 33535
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001_front_hand.png",
+      "sha256": "854aaf49ef97e31f610378a749bf00c958b5446d45794b3372fe2eb65db8ac52",
+      "bytes": 956
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_001_weapon.png",
+      "sha256": "ec7de8917e6ef0f739951f9aa3e5f78262f1aa8273f3a68d3fad405c7a384fdb",
+      "bytes": 6131
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002.png",
+      "sha256": "57689d7882c26aa939c0f4b21c1adf86471f8618767a6bd54e8c741f913cf567",
+      "bytes": 35880
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002_body.png",
+      "sha256": "df7b9f59f57852e45c77d1dfc7d23b87bb90c505742cb2af6a100b17b006529b",
+      "bytes": 33153
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002_front_hand.png",
+      "sha256": "3859d2622c9d13447a5190c4dfdd8328d88c6fd2128b794b8cba732b221b4902",
+      "bytes": 956
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_002_weapon.png",
+      "sha256": "25d5c3e46ac4ebdcf5059a39a7994883566bea52016cd44e18ebf0a2a056b4df",
+      "bytes": 5803
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003.png",
+      "sha256": "b3c7356e3e254894909161d2262d9ff07de92942b1d463708bf8f01e4f4e4043",
+      "bytes": 36267
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003_body.png",
+      "sha256": "67f74e2c81caa8e3f86d89d4c9c1e7588f646a30914c357e2d417aedb6832b79",
+      "bytes": 33212
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003_front_hand.png",
+      "sha256": "54d5f5878b3a0191ec9179642245e9eb930c2e1f9bb9ce569c3c07ecd2e63ca2",
+      "bytes": 949
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_003_weapon.png",
+      "sha256": "7a8fdeb50d876eded4791ffe0178f2c02adf93a7077c1c76725637117ba6615d",
+      "bytes": 5891
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004.png",
+      "sha256": "0abf07c59ca070b57f111a3aab59b36225d0485a4e14ecd835c57a4005074b9f",
+      "bytes": 38531
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004_body.png",
+      "sha256": "dfa38c576fa349b08a46e0ea44638170b1a154fdabe07b38f7d9f6c0e85b2ec6",
+      "bytes": 34109
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004_front_hand.png",
+      "sha256": "696ac2e92728858e238fe217556e849fb3fe1da02ab5679366adce9a52cd263f",
+      "bytes": 956
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_004_weapon.png",
+      "sha256": "39bf740f656c6dec05609543d4dc388e424876b901f4058211068314489f73ec",
+      "bytes": 6124
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005.png",
+      "sha256": "b3763e488a931877e08e45f05b0cf6c6e86181fee57d300d208144e13ab9d6bb",
+      "bytes": 32687
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005_body.png",
+      "sha256": "94a2e820f56e151ac0209cfa950d275760213e9e84d14ee109d0973e5bf756cc",
+      "bytes": 32252
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005_front_hand.png",
+      "sha256": "d740c5e23c3c647c6402ff58b9dcfe66e7842eb92a3d7572b8316261d3fcacbb",
+      "bytes": 945
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_005_weapon.png",
+      "sha256": "7dbddf10bcdfda49588c0bd9a82f4c665b4cede75401cf6eec0ee9b62e4b5f4a",
+      "bytes": 4102
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006.png",
+      "sha256": "e4cc516e2472443ed225b78b660531ed8b07fb5d546e6888a01aa1e5257dcd57",
+      "bytes": 32660
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006_body.png",
+      "sha256": "4d5df5aefbfb077d87d1e5274dfc8e99f8f08fc97dca416039c5423ce5c91c5e",
+      "bytes": 31599
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006_front_hand.png",
+      "sha256": "39db3cfacfd9e14e08156d00368885a348434ade14bfd72762d30e45f299087c",
+      "bytes": 961
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_006_weapon.png",
+      "sha256": "66bbe78d8745e0ad4fda021584b4261fc1e3fb0d7c729c93dc2f273c6218b9ac",
+      "bytes": 3606
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007.png",
+      "sha256": "d9cd620d7b1a2807d46b95605a87f69b14432f93a93d3e05d1a8f545470ae575",
+      "bytes": 34517
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007_body.png",
+      "sha256": "132d234aaca5bbd2145001a7e901fb1f0afee48312be3c3b8b0506a3cc526e17",
+      "bytes": 31401
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007_front_hand.png",
+      "sha256": "cbe80c39586dec67d6090fff4a70c5dfab322d5babf7b584ba4bb140c76495a7",
+      "bytes": 973
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_007_weapon.png",
+      "sha256": "44587c5abdd6a8029858a1a987f2a33580c2f0abdd952d4c0cd0fe41fb29ddcc",
+      "bytes": 4628
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008.png",
+      "sha256": "3b3e839e92d3bdebb877f6411efed45a9f11be58d97e5272f4c95c194eb374ee",
+      "bytes": 37044
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008_body.png",
+      "sha256": "4ed5b68e4667bd9277391b5d9ed460af45047706d30587e03aa4ea00432269e9",
+      "bytes": 31034
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008_front_hand.png",
+      "sha256": "8156fc34748175c9509e67d24c2d0279b8786abc1d4ec8fa0c0d1ccc1a9d2776",
+      "bytes": 961
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_008_weapon.png",
+      "sha256": "dea72f33a3d673f7f0170fd035b25ac8c13a6d97c454896cf3c5154250e38e2f",
+      "bytes": 7233
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009.png",
+      "sha256": "b99dc23600ff89855380d738040505e3ddb3b419554df31ea53ba96dced8f3f4",
+      "bytes": 33717
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009_body.png",
+      "sha256": "523bd8bc8683d5c6c5d24cbbcf1c43eca48616c757088d513c42d4eb8489db3d",
+      "bytes": 31522
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009_front_hand.png",
+      "sha256": "c9213ba4e35496ed348ca55efe45a30296d8a53f96c0d2fb2705ff0b69535940",
+      "bytes": 963
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_009_weapon.png",
+      "sha256": "b2e0e7ac16a23848b9a8dc46809a8fabd722954a62c42eb69ac5e617f6904c7c",
+      "bytes": 3521
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010.png",
+      "sha256": "3f15131ea52963f72f2fbe3348fe4224f76b5b39d43a75cbdf85a50e8d12c874",
+      "bytes": 31933
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010_body.png",
+      "sha256": "b0ee936eb0062767cab2ed4f8009a402d396158e429b7c294fec08d72f6bcc58",
+      "bytes": 31875
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010_front_hand.png",
+      "sha256": "73d928f7c162f36e91d927d0e7133d798068e9d5711ce3e48dafe67d68e0f09f",
+      "bytes": 940
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_010_weapon.png",
+      "sha256": "097d13364b37cd7205e6565a803337d503fe0264b72bc3139de13fabff33c266",
+      "bytes": 2336
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011.png",
+      "sha256": "4f48444fec194892ded45158ebddc9b878df7c00e41a28ca40dd1ddc68df9182",
+      "bytes": 32444
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011_body.png",
+      "sha256": "1306ff57c6840c7ae5832bb316d8ad431af73ce0710e6fe885245a005c569d56",
+      "bytes": 32334
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011_front_hand.png",
+      "sha256": "aaac334b8028415b1a182e98ab6376f6b8605e3a123e9747036172f469b7cead",
+      "bytes": 969
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_011_weapon.png",
+      "sha256": "b5bf3ec7c10a9d25accb590f70a92093896f0807a921f62252cb967e15f29013",
+      "bytes": 3583
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012.png",
+      "sha256": "76b7492f4cb2d8b013bc7e3380801f3050e68da3d7d631e94d299be25154078f",
+      "bytes": 36243
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012_body.png",
+      "sha256": "6a9b69b6e5367d452a232bd6987f1b9f15136384250ed73cd517748efd98edf9",
+      "bytes": 33579
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012_front_hand.png",
+      "sha256": "097dee6675ccffe6dc45f6821970590506bb4fa3647280e5a7c5833d6bb1bf25",
+      "bytes": 959
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/attack_012_weapon.png",
+      "sha256": "25d92e5b30c4c380268112de578f4054c6b49c887124473e95075d188d420f56",
+      "bytes": 6923
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_a/sheet.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_a/sheet.png",
+      "sha256": "40f43715f1f14ddda4b88b75d6000a97c8ddb423390f7894ac2ceabba4f50654",
+      "bytes": 218833
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000.png",
+      "sha256": "f14b34370d2446fff97cdce5d53759a039caa4ee7c91fc404f4550e3e2d18e65",
+      "bytes": 39008
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000_body.png",
+      "sha256": "d318a25af954d84a8bf14b9881258769761127b3bb14dffa2126b0fff36d858b",
+      "bytes": 34067
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000_front_hand.png",
+      "sha256": "395c3c683da45621f138ce3e4addbfd559179b4d9090ccf8d43abff8a7739fdd",
+      "bytes": 943
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_000_weapon.png",
+      "sha256": "df5f70228804c149797d2d41c16be19bb00efedea700a300dc0952d2d80d44c2",
+      "bytes": 7492
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001.png",
+      "sha256": "d6f8af295098da2071552fa4610c952abdc61500fee956a7e7b3ebf81a136270",
+      "bytes": 37699
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001_body.png",
+      "sha256": "eacafdf6e7b0bad5b34bcbea939b0564df4db7d579fe18bf31ba3507b33284a7",
+      "bytes": 33535
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001_front_hand.png",
+      "sha256": "854aaf49ef97e31f610378a749bf00c958b5446d45794b3372fe2eb65db8ac52",
+      "bytes": 956
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_001_weapon.png",
+      "sha256": "9bf227f257fe3b7ba3ccb351d5ca48be648e3c7315d07d90b2ff133cad169bcf",
+      "bytes": 6652
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002.png",
+      "sha256": "54b3d664ca7d1a585144e66b6658daf6485171860db14cf66d96a279f9cc410d",
+      "bytes": 36556
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002_body.png",
+      "sha256": "df7b9f59f57852e45c77d1dfc7d23b87bb90c505742cb2af6a100b17b006529b",
+      "bytes": 33153
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002_front_hand.png",
+      "sha256": "3859d2622c9d13447a5190c4dfdd8328d88c6fd2128b794b8cba732b221b4902",
+      "bytes": 956
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_002_weapon.png",
+      "sha256": "a7f79f7f6483c19df038b750a47352691c279cf2b925886b50968ebfc6d85fb1",
+      "bytes": 6349
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003.png",
+      "sha256": "de793f41f0525917e785aa6fd9cb507e2625d13e4e129131c3009dd96f5bf91b",
+      "bytes": 36875
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003_body.png",
+      "sha256": "67f74e2c81caa8e3f86d89d4c9c1e7588f646a30914c357e2d417aedb6832b79",
+      "bytes": 33212
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003_front_hand.png",
+      "sha256": "54d5f5878b3a0191ec9179642245e9eb930c2e1f9bb9ce569c3c07ecd2e63ca2",
+      "bytes": 949
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_003_weapon.png",
+      "sha256": "162013be5c9172e00d2ce97c3037fbe2f354437e624289025a4f876dc6637a52",
+      "bytes": 6318
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004.png",
+      "sha256": "c81281f0743b6d62b22c1f845ead5df29b6543c7a40d62bded31923e111dd5ba",
+      "bytes": 39111
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004_body.png",
+      "sha256": "dfa38c576fa349b08a46e0ea44638170b1a154fdabe07b38f7d9f6c0e85b2ec6",
+      "bytes": 34109
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004_front_hand.png",
+      "sha256": "696ac2e92728858e238fe217556e849fb3fe1da02ab5679366adce9a52cd263f",
+      "bytes": 956
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_004_weapon.png",
+      "sha256": "724044a8feac53b1ec3b0282e1f234a9faead7db151c983ceeba3a8a53c7a17c",
+      "bytes": 6508
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005.png",
+      "sha256": "a992ff27a7fca7c69a17492c1d755a361799f60c914da9d612bb0ad220099dc9",
+      "bytes": 32743
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005_body.png",
+      "sha256": "94a2e820f56e151ac0209cfa950d275760213e9e84d14ee109d0973e5bf756cc",
+      "bytes": 32252
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005_front_hand.png",
+      "sha256": "d740c5e23c3c647c6402ff58b9dcfe66e7842eb92a3d7572b8316261d3fcacbb",
+      "bytes": 945
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_005_weapon.png",
+      "sha256": "f55a02f0780364aec8dc3615aac7f2a720b151b12f6b6d00b92bce906c032015",
+      "bytes": 4382
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006.png",
+      "sha256": "ddc0668b6b8e48bfc558d8383cbb58864546fe17bf170515ea7a306aab205e09",
+      "bytes": 32794
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006_body.png",
+      "sha256": "4d5df5aefbfb077d87d1e5274dfc8e99f8f08fc97dca416039c5423ce5c91c5e",
+      "bytes": 31599
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006_front_hand.png",
+      "sha256": "39db3cfacfd9e14e08156d00368885a348434ade14bfd72762d30e45f299087c",
+      "bytes": 961
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_006_weapon.png",
+      "sha256": "4a8289d36dae929d86c5a9a0164881e491cb91b610ccf16c26ac1d0975d23086",
+      "bytes": 3812
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007.png",
+      "sha256": "1a0cef6f13e23244372e159ba99bc16c2d0630bfc31d38a51b0bb0e7faaabec9",
+      "bytes": 34780
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007_body.png",
+      "sha256": "132d234aaca5bbd2145001a7e901fb1f0afee48312be3c3b8b0506a3cc526e17",
+      "bytes": 31401
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007_front_hand.png",
+      "sha256": "cbe80c39586dec67d6090fff4a70c5dfab322d5babf7b584ba4bb140c76495a7",
+      "bytes": 973
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_007_weapon.png",
+      "sha256": "94c2e46fe1679cfc4741ba6777f841a1e5903fafef756ed9aa370a2e4d922292",
+      "bytes": 4916
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008.png",
+      "sha256": "efe53b978a4499cc4d1495e0095d2422acbb4bb5c782165d9381f727399949e8",
+      "bytes": 37422
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008_body.png",
+      "sha256": "4ed5b68e4667bd9277391b5d9ed460af45047706d30587e03aa4ea00432269e9",
+      "bytes": 31034
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008_front_hand.png",
+      "sha256": "8156fc34748175c9509e67d24c2d0279b8786abc1d4ec8fa0c0d1ccc1a9d2776",
+      "bytes": 961
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_008_weapon.png",
+      "sha256": "6493c76548b20f831564eb854cc136f7b6eea67d18d63df4b8a84bc5a8687156",
+      "bytes": 7716
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009.png",
+      "sha256": "febea938117d9c61a0f0873dd3f32bc3697ed215725138d6693f506b0351ec8c",
+      "bytes": 33948
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009_body.png",
+      "sha256": "523bd8bc8683d5c6c5d24cbbcf1c43eca48616c757088d513c42d4eb8489db3d",
+      "bytes": 31522
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009_front_hand.png",
+      "sha256": "c9213ba4e35496ed348ca55efe45a30296d8a53f96c0d2fb2705ff0b69535940",
+      "bytes": 963
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_009_weapon.png",
+      "sha256": "7ca9c23e9823e65cd5b2ef3e6cc5ad6286e7be289ab2aea2c76cffd1dfdec8ed",
+      "bytes": 3796
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010.png",
+      "sha256": "fc3e37709279ca1273b89f8f12ded1e18df0817a275444b183cb279cab1a0e96",
+      "bytes": 31980
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010_body.png",
+      "sha256": "b0ee936eb0062767cab2ed4f8009a402d396158e429b7c294fec08d72f6bcc58",
+      "bytes": 31875
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010_front_hand.png",
+      "sha256": "73d928f7c162f36e91d927d0e7133d798068e9d5711ce3e48dafe67d68e0f09f",
+      "bytes": 940
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_010_weapon.png",
+      "sha256": "6140ba576cbae2266712a4faacfa7b65a5057dbf36d7fcf59dda28355091730e",
+      "bytes": 2392
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011.png",
+      "sha256": "81b292c20cd6b0c5de9de281f5c1a8aa60e580a4a451f2fb0d4d83b4386cc006",
+      "bytes": 32437
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011_body.png",
+      "sha256": "1306ff57c6840c7ae5832bb316d8ad431af73ce0710e6fe885245a005c569d56",
+      "bytes": 32334
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011_front_hand.png",
+      "sha256": "aaac334b8028415b1a182e98ab6376f6b8605e3a123e9747036172f469b7cead",
+      "bytes": 969
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_011_weapon.png",
+      "sha256": "08bb76d498ae7c65b17f7891ef8fb874ec8ef14ba659809983afd1ad9086ce5d",
+      "bytes": 3756
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012.png",
+      "sha256": "c836cec315fca1896786684493b2fdf9588f12ad2cb3af74ce194b32d8db92ac",
+      "bytes": 36886
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012_body.png",
+      "sha256": "6a9b69b6e5367d452a232bd6987f1b9f15136384250ed73cd517748efd98edf9",
+      "bytes": 33579
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012_front_hand.png",
+      "sha256": "097dee6675ccffe6dc45f6821970590506bb4fa3647280e5a7c5833d6bb1bf25",
+      "bytes": 959
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/attack_012_weapon.png",
+      "sha256": "dbad4b5e6170b588f5d0269112655c97f9d660d83dbd3dafeb7a371429cef2c3",
+      "bytes": 7483
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/B_hammer_b/sheet.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/B_hammer_b/sheet.png",
+      "sha256": "5815b96a51cf1910efac828fec1c8771e36db2067432a1028b5447cad574330b",
+      "bytes": 222804
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000.png",
+      "sha256": "91f2652c995bfe7da2ed15cca22beed65efee7aff9441bcd13b9c672c015abb8",
+      "bytes": 32721
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000_body.png",
+      "sha256": "203bd2bb4c21131e1a7ea53a5795beb8fcba5418e6269ef05ad7129a867d5584",
+      "bytes": 30457
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000_front_hand.png",
+      "sha256": "98fa6a0f928a15a216acab6ed6ef025c0d89bc20cafcf54d73d27d1fd896050b",
+      "bytes": 938
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_000_weapon.png",
+      "sha256": "84d54cb919def11f37a7b849fb9c59cf1d982c1f1bac35231fcc13af41ab023b",
+      "bytes": 6336
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001.png",
+      "sha256": "f015e3a4d625e144212e2d81b424fb9409cd727e775ad5867d0a79378f421dd4",
+      "bytes": 31816
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001_body.png",
+      "sha256": "543a2ea052b451f061e2999a1c826784145538205819aa06bf9bb25298821bb2",
+      "bytes": 29990
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001_front_hand.png",
+      "sha256": "b762a7ba8a4ab527ee71ae3448a5544b7c5e91119e92caead3d5557ee7f15ffd",
+      "bytes": 958
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_001_weapon.png",
+      "sha256": "b61004097364540e84b08f4cf93f33f18ed2067828714d8a492c69ff97ba27c4",
+      "bytes": 5627
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002.png",
+      "sha256": "d56327829b79b3fe3805a76cff389ea650059ef093922d955936ffaef752f529",
+      "bytes": 31203
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002_body.png",
+      "sha256": "b6a0dd27b5be2b98e1d08c67edfc0f04c183d36ccbef89f7d6b5e0abf4233c54",
+      "bytes": 29683
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002_front_hand.png",
+      "sha256": "c0dd81287bd5a43d26f4beb424868f4eb435c8c4bf192e549a1dd8e5742c482d",
+      "bytes": 957
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_002_weapon.png",
+      "sha256": "93b3e8f31702e79e2bd408658fcc0d79c8f27e2b6f86897efbf76619c0064837",
+      "bytes": 5673
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003.png",
+      "sha256": "d61501774810b6ae8cf1e8bea1130c61c1a142f00b0ec8657a6349195a4393c9",
+      "bytes": 32902
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003_body.png",
+      "sha256": "2e09f8c66cef42c10ac255fc0046e6d150bbd1903e431c179ca22cee7282229f",
+      "bytes": 29782
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003_front_hand.png",
+      "sha256": "07c2ae81fb951c560519f15819179a7834537c6789f09ec0bd0ea88b6241725c",
+      "bytes": 942
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_003_weapon.png",
+      "sha256": "b8a09f89e55a08c82def8de19e7b02c5f232cd9de1dc5d3373f30b6cab46b934",
+      "bytes": 5819
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004.png",
+      "sha256": "ccc4fb879455c7757eb0534966fe03bc2a72eef416bee9481a3efba86e362cbf",
+      "bytes": 34818
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004_body.png",
+      "sha256": "da9d7f6b3733e252536e4ec0d88b039538ac2f08497546df9ef995015eae72d1",
+      "bytes": 30082
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004_front_hand.png",
+      "sha256": "66c1512eb89f2c36a7baafc1f661c420d0faa59312cf9e433778024d775872cb",
+      "bytes": 936
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_004_weapon.png",
+      "sha256": "232ea98e220d60f8e9d10207854f5e750bd2ec1962b730c7c95cf9714e9b47c6",
+      "bytes": 6108
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005.png",
+      "sha256": "52c8cd3f5d2911001e7ba7f71f74b834409289ef0c3252b0ce875f073aad0e6b",
+      "bytes": 31297
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005_body.png",
+      "sha256": "814536dff2a6575efd84baf2021291565c554bccda08879425e4c3628d348a2a",
+      "bytes": 30045
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005_front_hand.png",
+      "sha256": "2be5407af3b2a2607d34c4e3f36da5789a3da103ec89c8425951818078aca997",
+      "bytes": 963
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_005_weapon.png",
+      "sha256": "be7e0404cba66f8258cd42b1809089154c0a9180bc4c50182af3463a64bb2f35",
+      "bytes": 2286
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006.png",
+      "sha256": "c4f44f1428db3f05541b14c4840b39a8ef3fc9b2eddb28c2c5aaa71bb5a1282a",
+      "bytes": 30652
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006_body.png",
+      "sha256": "ae9513011d6800d701467dd7cedac23a8cb9d33d7c7b8b9c8d95b29d34a02fc8",
+      "bytes": 30113
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006_front_hand.png",
+      "sha256": "a3ba5726e1544955fd8cf663ad67934a6935948bd8905f453179c40998f488e2",
+      "bytes": 914
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_006_weapon.png",
+      "sha256": "7acfc9bfa412e02a9b8b9d4986c884bc93ba510417a32e03c2115a08b7cfcd7b",
+      "bytes": 843
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007.png",
+      "sha256": "54e4c11d24d6dbb701af56faca8f726b535d1bf33cb19af8d703f6dc1441214b",
+      "bytes": 32546
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007_body.png",
+      "sha256": "647dfde7f492606c544ff8088703a7c4452672a0fd4c436f106c505dc50b324d",
+      "bytes": 30667
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007_front_hand.png",
+      "sha256": "e14536a1dffe2b5d1591579721993f81b7e8acc366a380f838d5925ff137e3af",
+      "bytes": 958
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_007_weapon.png",
+      "sha256": "bd7940799f1f1f936af7407e4406ff48ce411e9d5ffebeb651131a18d4335646",
+      "bytes": 2483
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008.png",
+      "sha256": "152a29d775449f0254cb356851a88be0a345abc61ab4bbd49b61f67d08873c4b",
+      "bytes": 36850
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008_body.png",
+      "sha256": "b9cf86800f4c0d30bdfe82193c5a250bb6837f082d2937412d1fbe3d5e564bc4",
+      "bytes": 31397
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008_front_hand.png",
+      "sha256": "ffbcad1116efb4b06e835b84b2c7259ee161126b0f13b9be29f8d9cd3780def9",
+      "bytes": 961
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_008_weapon.png",
+      "sha256": "cace60d0683e7034d4ecf6fc3d8b4ce352097cd697a6ff4cacc9cf4960e42aa5",
+      "bytes": 6388
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009.png",
+      "sha256": "adc825317049ec132358c7b6e1ea6dc735c30db7c7f68fc3ba5479797aa6967a",
+      "bytes": 34381
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009_body.png",
+      "sha256": "a0f9055ddf3e6cbcddc482c075e0a84fdee6a1b356d45e34142e14561259a92a",
+      "bytes": 31283
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009_front_hand.png",
+      "sha256": "4da3a84b98fe3bcfb879215f541da9ae258a3afdc3f20cc16a921afddc22a917",
+      "bytes": 962
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_009_weapon.png",
+      "sha256": "f0c5748a1407143c22dd5c224f5edab57a9b8821f8bb46ed7d84fa6252a94438",
+      "bytes": 3664
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010.png",
+      "sha256": "b1112d981f0a6a3593b82b6980d6a830c3cdad0039d76b0cd8651e8dbc8fd3bc",
+      "bytes": 33275
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010_body.png",
+      "sha256": "9edec1a591b6b97c201d4cf2ea85c9e019b180dc31a356b1a2ba00fc03c297a6",
+      "bytes": 31138
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010_front_hand.png",
+      "sha256": "e2f4fa8341e57b39c18aacfb614e3a6a0f55369f3641c29d9044c8d20e8f0441",
+      "bytes": 968
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_010_weapon.png",
+      "sha256": "6308608c364ff9fde0fb5f2792f80eb824b1e4f576d369a719134abfa0a8c502",
+      "bytes": 2724
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011.png",
+      "sha256": "dccfc270bb5d4186ee9ca2653f7c4b45e0bbb8869dfb2db208eedad2d4cfff2c",
+      "bytes": 33574
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011_body.png",
+      "sha256": "8ae58b4454ee5896813ea300973191f64ae2989cfc9a814a3bd1c496843180e6",
+      "bytes": 31002
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011_front_hand.png",
+      "sha256": "b83f17662ac8b8fe04dd05c2d72ef96534d5510e11c1f4e9832347333affe301",
+      "bytes": 923
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_011_weapon.png",
+      "sha256": "cb445f59a4305d8d7bae85cc507db1f2ca4f19170a6521ceefcaff93837baed0",
+      "bytes": 3695
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012.png",
+      "sha256": "06b40f9af3ea1b7727ef692c6e7bc4a83aa012f033fb4965ded73ec0c9d7a78d",
+      "bytes": 35394
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012_body.png",
+      "sha256": "5f0852ff530da2ff98eeeea9b02f8d76fdb72768558298cdc9b6d53089e5cf70",
+      "bytes": 30897
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012_front_hand.png",
+      "sha256": "be07add06d0c8ce9dd24bdd883f175328072cf81aa82e89efd4eee484637f60c",
+      "bytes": 964
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/attack_012_weapon.png",
+      "sha256": "252c06f4e8ee19635a455ce0a6b922eaeeb8a5c754da9f2a954863976a1111b1",
+      "bytes": 6403
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_a/sheet.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_a/sheet.png",
+      "sha256": "06c699cdf4367b51e7365222fcfe9580be188de25178f749d53b93dee16e3c49",
+      "bytes": 144080
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000.png",
+      "sha256": "9b6b08df932036793d8bc9b4f61a1722638d588ec85cb150d406330a68bd4d75",
+      "bytes": 33307
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000_body.png",
+      "sha256": "203bd2bb4c21131e1a7ea53a5795beb8fcba5418e6269ef05ad7129a867d5584",
+      "bytes": 30457
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000_front_hand.png",
+      "sha256": "98fa6a0f928a15a216acab6ed6ef025c0d89bc20cafcf54d73d27d1fd896050b",
+      "bytes": 938
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_000_weapon.png",
+      "sha256": "922231b481b10444dcb48634a4c208cdcff673adf412865c0d0722b0e073a044",
+      "bytes": 6887
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001.png",
+      "sha256": "1015e09e7702e339755f5eb85e66d179d168d212535615a20e9c0465d0550214",
+      "bytes": 32492
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001_body.png",
+      "sha256": "543a2ea052b451f061e2999a1c826784145538205819aa06bf9bb25298821bb2",
+      "bytes": 29990
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001_front_hand.png",
+      "sha256": "b762a7ba8a4ab527ee71ae3448a5544b7c5e91119e92caead3d5557ee7f15ffd",
+      "bytes": 958
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_001_weapon.png",
+      "sha256": "35a29c62b64106072e47cb59b882a08989b4bff9a5fb6d8ed88bcc7418a31e22",
+      "bytes": 6249
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002.png",
+      "sha256": "1b765dcbe94599aac2f3b2c67da68e0394875334d19aa2abceb47208f095d3f7",
+      "bytes": 31784
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002_body.png",
+      "sha256": "b6a0dd27b5be2b98e1d08c67edfc0f04c183d36ccbef89f7d6b5e0abf4233c54",
+      "bytes": 29683
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002_front_hand.png",
+      "sha256": "c0dd81287bd5a43d26f4beb424868f4eb435c8c4bf192e549a1dd8e5742c482d",
+      "bytes": 957
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_002_weapon.png",
+      "sha256": "e4cd2ed586c48b5f5a4465d91370863bbca8b18b3216e4b26fd61daa9d24e773",
+      "bytes": 6196
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003.png",
+      "sha256": "4de96e663a0d896c1270e65e76f2e06d663ce25fd526d58cbd9cc5355417020e",
+      "bytes": 33191
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003_body.png",
+      "sha256": "2e09f8c66cef42c10ac255fc0046e6d150bbd1903e431c179ca22cee7282229f",
+      "bytes": 29782
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003_front_hand.png",
+      "sha256": "07c2ae81fb951c560519f15819179a7834537c6789f09ec0bd0ea88b6241725c",
+      "bytes": 942
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_003_weapon.png",
+      "sha256": "382bb8d09090295ea5e9742fb5f8d0cfb2e1c47645ff729a348f1c01a4d12628",
+      "bytes": 6195
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004.png",
+      "sha256": "5b988a2bd0e44b49ca6dad106c3ebec9405685e60816d9aa63170f00d1a460b0",
+      "bytes": 35161
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004_body.png",
+      "sha256": "da9d7f6b3733e252536e4ec0d88b039538ac2f08497546df9ef995015eae72d1",
+      "bytes": 30082
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004_front_hand.png",
+      "sha256": "66c1512eb89f2c36a7baafc1f661c420d0faa59312cf9e433778024d775872cb",
+      "bytes": 936
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_004_weapon.png",
+      "sha256": "836dc7e266a4eab3e969c54dbfc6dc1cdcf6add6696f3470860e14039fd45087",
+      "bytes": 6424
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005.png",
+      "sha256": "03a8b1b11e2b8ba5b202244ace97f8b69a1b0e1faba763736fcf63e5164eff78",
+      "bytes": 31439
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005_body.png",
+      "sha256": "814536dff2a6575efd84baf2021291565c554bccda08879425e4c3628d348a2a",
+      "bytes": 30045
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005_front_hand.png",
+      "sha256": "2be5407af3b2a2607d34c4e3f36da5789a3da103ec89c8425951818078aca997",
+      "bytes": 963
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_005_weapon.png",
+      "sha256": "a8fb80ce455234205509994da3cc659ec3c020bae8e35d39dd37c75dbd083099",
+      "bytes": 2417
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006.png",
+      "sha256": "96a9fa82a3ff06bd989170994000ad9d3ec16be8a6229523379d62946a8f69e8",
+      "bytes": 30680
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006_body.png",
+      "sha256": "ae9513011d6800d701467dd7cedac23a8cb9d33d7c7b8b9c8d95b29d34a02fc8",
+      "bytes": 30113
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006_front_hand.png",
+      "sha256": "a3ba5726e1544955fd8cf663ad67934a6935948bd8905f453179c40998f488e2",
+      "bytes": 914
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_006_weapon.png",
+      "sha256": "4c452b4a1a9e76f80fdfed37d83dde1af951afe7eb7065007c3662d27e8d4d06",
+      "bytes": 853
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007.png",
+      "sha256": "cfb80042fcb5e5f0257db67d710060539377d7dba4c7025f45b216ece90c4cf5",
+      "bytes": 32631
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007_body.png",
+      "sha256": "647dfde7f492606c544ff8088703a7c4452672a0fd4c436f106c505dc50b324d",
+      "bytes": 30667
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007_front_hand.png",
+      "sha256": "e14536a1dffe2b5d1591579721993f81b7e8acc366a380f838d5925ff137e3af",
+      "bytes": 958
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_007_weapon.png",
+      "sha256": "e434df5dde85ab0b29f016259a8c3168c300c1a1408dcb3b95dec29d2fc5487c",
+      "bytes": 2619
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008.png",
+      "sha256": "97e2d765756e6d074941d6465d8ea973c9332e43cae2aa34ddce8eb9671ea65a",
+      "bytes": 37259
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008_body.png",
+      "sha256": "b9cf86800f4c0d30bdfe82193c5a250bb6837f082d2937412d1fbe3d5e564bc4",
+      "bytes": 31397
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008_front_hand.png",
+      "sha256": "ffbcad1116efb4b06e835b84b2c7259ee161126b0f13b9be29f8d9cd3780def9",
+      "bytes": 961
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_008_weapon.png",
+      "sha256": "f1d84bef724621a8782df90e792efadb6205ea94e47a3cf92d4854ec85bfa580",
+      "bytes": 6753
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009.png",
+      "sha256": "fcc38cf9f43c74e585844a91fb8ed7ce99dc64bc2c81547e213d2eb8681ab95f",
+      "bytes": 34679
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009_body.png",
+      "sha256": "a0f9055ddf3e6cbcddc482c075e0a84fdee6a1b356d45e34142e14561259a92a",
+      "bytes": 31283
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009_front_hand.png",
+      "sha256": "4da3a84b98fe3bcfb879215f541da9ae258a3afdc3f20cc16a921afddc22a917",
+      "bytes": 962
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_009_weapon.png",
+      "sha256": "7bfd3fcf1103b8c7f02f12325fb744435211a672718815bb628a9627c7d9ee61",
+      "bytes": 3928
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010.png",
+      "sha256": "e782a33617beed66bffea4caac83a17adbd09b6b6db5d84f3def6551114d9f7f",
+      "bytes": 33505
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010_body.png",
+      "sha256": "9edec1a591b6b97c201d4cf2ea85c9e019b180dc31a356b1a2ba00fc03c297a6",
+      "bytes": 31138
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010_front_hand.png",
+      "sha256": "e2f4fa8341e57b39c18aacfb614e3a6a0f55369f3641c29d9044c8d20e8f0441",
+      "bytes": 968
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_010_weapon.png",
+      "sha256": "e5dc7d1edaef1f547ddce1057d5a9f20b7ce738f95eb1485e18a2b594f38c8c4",
+      "bytes": 2964
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011.png",
+      "sha256": "aa87317895cbd0836672a5d70cce180d5409b374edce9e4b0a3a406509514a5e",
+      "bytes": 33784
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011_body.png",
+      "sha256": "8ae58b4454ee5896813ea300973191f64ae2989cfc9a814a3bd1c496843180e6",
+      "bytes": 31002
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011_front_hand.png",
+      "sha256": "b83f17662ac8b8fe04dd05c2d72ef96534d5510e11c1f4e9832347333affe301",
+      "bytes": 923
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_011_weapon.png",
+      "sha256": "5fec4cac8b9eb6f7ed0e5b1c2c9e714f8e22794fc1cb6dd40a2fe25b5233318f",
+      "bytes": 3938
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012.png",
+      "sha256": "4accd177bff25c63ea1d07d2e1a0c155dc4074680777e59cb3cd496c6efb6814",
+      "bytes": 35878
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012_body.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012_body.png",
+      "sha256": "5f0852ff530da2ff98eeeea9b02f8d76fdb72768558298cdc9b6d53089e5cf70",
+      "bytes": 30897
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012_front_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012_front_hand.png",
+      "sha256": "be07add06d0c8ce9dd24bdd883f175328072cf81aa82e89efd4eee484637f60c",
+      "bytes": 964
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012_weapon.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/attack_012_weapon.png",
+      "sha256": "bd4ad6e4f0044a844ef5231f59ae652d62acd454c21cd5cb1f4f533b052399c1",
+      "bytes": 6851
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/C_hammer_b/sheet.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/C_hammer_b/sheet.png",
+      "sha256": "a5250244d61b67c79ebad0323e48c0987a2322e7b843fbadd5e42f0ea2502ae2",
+      "bytes": 147498
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/cape.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/cape.png",
+      "sha256": "d6e58fccb40b0f396c3bb002f8907ba732cd29d09df2b1be74c4d5cc054acc42",
+      "bytes": 72337
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/hammer_a.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/hammer_a.png",
+      "sha256": "d012ac4814366683bd34ab2f8f77c7fa55a1f024a3c0a581abee7688e78460d8",
+      "bytes": 81867
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/hammer_b.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/hammer_b.png",
+      "sha256": "f7e50404860f6ffde93caf46bc3a48dbb6bccfcd5b9fc6c4815b50c9c0a5151b",
+      "bytes": 90286
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/head.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/head.png",
+      "sha256": "3d8766a367a5b8811f2a01eb6efaad1df48f25fa0115daf874fa80207d1cfd00",
+      "bytes": 115533
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/left_forearm.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/left_forearm.png",
+      "sha256": "a8bde6c615f0c619e846d05725e4ca68f6dab54c5d1e03c5e3fbcd50ad7aa8e1",
+      "bytes": 68408
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/left_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/left_hand.png",
+      "sha256": "fdad2fe8fd181d5efa0995708545b1257f401a365f66b1956c5d6baaea62a317",
+      "bytes": 55504
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/left_shin_boot.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/left_shin_boot.png",
+      "sha256": "259ef87f0c8b900e5e20384f2fe1c2d145f528982c81c511f37e0d74192269e0",
+      "bytes": 94270
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/left_thigh.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/left_thigh.png",
+      "sha256": "ac410e060fa1f7e2d97e70823a7987f628a4debf7a72079a6a9cccfe19a7d39f",
+      "bytes": 81349
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/left_upper_arm.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/left_upper_arm.png",
+      "sha256": "74cacc55904419cbf4fd8bf6ba9ccd4a10d5e70637602baeec0a12c8e226c246",
+      "bytes": 102650
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/pelvis.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/pelvis.png",
+      "sha256": "34b998fa1a53ad66b5144535d35bcd05cedb86d2ac465f19cda5a325d569b6f6",
+      "bytes": 127842
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/right_forearm.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/right_forearm.png",
+      "sha256": "521018e85231d761d34c10ae422d83049dd80009de376bb533c849f6152474bf",
+      "bytes": 67038
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/right_hand.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/right_hand.png",
+      "sha256": "f75ebb6900f14e8903168909b0b303148036bc2ae3a9637ff186c7ca5eb571be",
+      "bytes": 55999
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/right_shin_boot.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/right_shin_boot.png",
+      "sha256": "b4a188f10ba7e9a176f9dd233b46c773907a3e07c8404c5d5413c651126409c2",
+      "bytes": 94359
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/right_thigh.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/right_thigh.png",
+      "sha256": "476b4dd1a9113b4162a1c8f02432ad6e6611df21fe330582659f95854edebad4",
+      "bytes": 79821
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/right_upper_arm.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/right_upper_arm.png",
+      "sha256": "b1416f0446886a73c1f7e8a4b6e67d5926114527d1decad1e85a9991363739a5",
+      "bytes": 85336
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/parts_experiment/parts/torso.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/parts_experiment/parts/torso.png",
+      "sha256": "62cc42191d620eb48f7ba2551ef94a334d5e5cac3378c5dc1ae8c1e80460e192",
+      "bytes": 174513
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/route_a/key_00.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/route_a/key_00.png",
+      "sha256": "ff580a3cb7268e674c5218fe70d1cae5acef314cecc8ea98144e4e10dd971729",
+      "bytes": 43874
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/route_a/key_01.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/route_a/key_01.png",
+      "sha256": "e030d97b0bdb3b7dee6cd525e1f222387d79823cc054bb377b3b3118d427590d",
+      "bytes": 44478
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/route_a/key_02.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/route_a/key_02.png",
+      "sha256": "55db6e73178b292336fe4851b6d243b7d4a77fcd76125fdfc1dded605795f646",
+      "bytes": 45791
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/route_a/key_03.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/route_a/key_03.png",
+      "sha256": "20f53bd6630afbe4e2f8c1ce019720c5222b509be5faf932eba838613192fe65",
+      "bytes": 41781
+    },
+    {
+      "repository_path": "previews/ai-game-art-factory/exports/route_a/sheet.png",
+      "original_path": "/workspace/my_pic/ai-game-art-factory/exports/route_a/sheet.png",
+      "sha256": "e8adc3917f4eee67fb5f252b5a4662e54fda829c81d71c24b613a54123780ca6",
+      "bytes": 174079
+    }
+  ]
+}
