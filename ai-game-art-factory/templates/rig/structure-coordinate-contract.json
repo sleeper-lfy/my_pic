@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "role": "diagnostic_structure_reference_not_final_character_art",
+  "world_coordinates": {"right": "+X", "forward": "-Y", "up": "+Z", "unit": "arbitrary consistent scene unit"},
+  "image_coordinates": {"origin": "top_left", "x": "right", "y": "down", "canvas": [256, 256]},
+  "anchors": ["CharacterRoot", "FootAnchor", "LeftHandAnchor", "RightHandAnchor", "WeaponSocket", "WeaponGripOffset"],
+  "weapon": {
+    "hand": "RightHandAnchor",
+    "axis": ["WeaponSocket", "WeaponHead"],
+    "grip_distance_from_butt": 0.2,
+    "shaft_length": 0.84,
+    "shared_action": true,
+    "finger_wrap_artwork_required": true
+  },
+  "projection_manifest": "reports/structure/projection.json",
+  "draw_order": "Descending camera-space depth is far-to-near; local finger/shaft overlap needs explicit artwork masks, not one global sort.",
+  "timeline": "Four diagnostic attack key poses at 0, 0.15, 0.31, 0.60 seconds. Not a finished attack animation.",
+  "camera_policy": "Independent orthographic front-left and front-right renders; neither direction is obtained by mirroring."
+}

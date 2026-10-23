@@ -1,0 +1,325 @@
+{
+  "files": [
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_00_depth.png",
+      "sha256": "5a86cfb63a014e485255234797b9edd4b6058890afa569ab8c20556ed505e194"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_00_flat.png",
+      "sha256": "54f9c21134d166c839e3b231e5bf6804b5aaeb2868585bfcdf595786664fa12d"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_00_normal.png",
+      "sha256": "6f335132aa43f22cb583dd23737f9c147491ba90a0d410d467745ea18ab0d499"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_00_pose.png",
+      "sha256": "7aaef5c3eb5c16a548fc472803ade2f44b86fe97775815c24859f166698b9c6b"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_00_silhouette.png",
+      "sha256": "e2486aefbfa92346c1cfed24ba85490d07346f648f77610f8610a31188b90716"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_01_depth.png",
+      "sha256": "d18cd42af865c8deb9cb3b0084cda499c612b2e1569a9b5e07fa7449d96cd441"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_01_flat.png",
+      "sha256": "1b322509723bddbaf91aea8ba66156c27c6f80223a681ed4e6bf140fd6063e2c"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_01_normal.png",
+      "sha256": "047c2758af0dcf1173b723efd2595171743998ca7a3fe1c6117f1d01c231f171"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_01_pose.png",
+      "sha256": "8b2fefbc8c34920b9e861d6e0127d8bf4e6500372bdcd03cbd3be26b164573c9"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_01_silhouette.png",
+      "sha256": "e0dadecb8d0ed85c3a83f4ae6e29632d275763cfb09ad840ac4cbb51eb6c3213"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_02_depth.png",
+      "sha256": "18030d3bb75c06cb13cef464fdba72ea583d35c7c4f8e8cd184b8497155f1c90"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_02_flat.png",
+      "sha256": "8088e8b7e07a562afb301be57868e75fc0f633888bd2cab975462f637be6a3e9"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_02_normal.png",
+      "sha256": "4c7f01163e9e3a69c9aed3c8868698410a7b1e8e4dc3cfa6c5a56c0ffa5329c1"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_02_pose.png",
+      "sha256": "8f1de3897e16a06b30846cd4ff97ef88ad15949a90cfef550bc979c6f5b62f28"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_02_silhouette.png",
+      "sha256": "53f8440a22de58e241f96f78a9c1f7367213f7052deab63df1e81a40aa40155e"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_03_depth.png",
+      "sha256": "825a96e602ea285a1d1a0954481eab89fda9de457fb652ef616f3c9c9c7b3e0b"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_03_flat.png",
+      "sha256": "0edca3cc1c220693d2f4ea519ae2f602db7a744ff2764d77962c7dd2be322080"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_03_normal.png",
+      "sha256": "49e89fb587018b78dbaa878acea945adc5be6f8036b80250023658f3a1ce3588"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_03_pose.png",
+      "sha256": "bfd202375c84b470a0453fcbc0019f6484073703ddb06871b5352e832dbca2ae"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_block/attack_03_silhouette.png",
+      "sha256": "ae251b0e3fcc344bb272e0ae9a57c71c5d8d7324220d99a923bc2572916085ec"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_00_depth.png",
+      "sha256": "f1fb47ec5d611d6899e929d3e85d14f773d0bcf6e93c5f2d192d99d72faa7f93"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_00_flat.png",
+      "sha256": "5af4201cf2e860640092bce599c28f200cb07a5bbd81241520fa4ab61da1324c"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_00_normal.png",
+      "sha256": "1c133c664b122dc1555bd2a70db25d50317443402f6ed499a6c3f7963a2ceae3"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_00_pose.png",
+      "sha256": "7aaef5c3eb5c16a548fc472803ade2f44b86fe97775815c24859f166698b9c6b"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_00_silhouette.png",
+      "sha256": "1353467dc1dda507d93569208a37f7fc6e1238334f905c8c343f71a5b563b88b"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_01_depth.png",
+      "sha256": "2223ca041877d7ab3b7a31cb59b9159e73904a38ee1a8d9c45a76aac50fc62ac"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_01_flat.png",
+      "sha256": "c520699573f00379195477a020f25ec4fa10ca180fbefa0037187420f4e65346"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_01_normal.png",
+      "sha256": "1b79afc412a98c6e099134ea691310e172e8b6c21a2465d3a6d5dd9644a8019a"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_01_pose.png",
+      "sha256": "8b2fefbc8c34920b9e861d6e0127d8bf4e6500372bdcd03cbd3be26b164573c9"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_01_silhouette.png",
+      "sha256": "5342877ca3ea0d2d5d21744cf00467afc8ec70a9cbd6b7714afa995d3c66846e"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_02_depth.png",
+      "sha256": "44846bb0830430bd3c6e6aabb878253ecf3a70292cde5e6aa82b048e77ea94fa"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_02_flat.png",
+      "sha256": "eb47d4c48c57fb55c5b46f567ddc253e80f908ca6c30a1ecd33396bb2bd9efb1"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_02_normal.png",
+      "sha256": "17be9f7917bd7bff12bef1131b3876f5f655bf37341567722ff57e719d228acc"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_02_pose.png",
+      "sha256": "8f1de3897e16a06b30846cd4ff97ef88ad15949a90cfef550bc979c6f5b62f28"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_02_silhouette.png",
+      "sha256": "b8186f8a8699c8db8085aeea434d57bacba7b240305aa0a78efef6772376e3e2"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_03_depth.png",
+      "sha256": "121e55638c5d27f66c3f7231a3ff81e15a6b45478098df108ab81a01280bdd2e"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_03_flat.png",
+      "sha256": "98163e68ff71cb3ac02e3f01565b51b7976f7669d131c49c1700bf35acc4a897"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_03_normal.png",
+      "sha256": "77cd1f9a72ad26c4e342d930e372432e1bdfd904de801791deb54ae48a2b3679"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_03_pose.png",
+      "sha256": "bfd202375c84b470a0453fcbc0019f6484073703ddb06871b5352e832dbca2ae"
+    },
+    {
+      "path": "previews/structure/front_left/hammer_crescent/attack_03_silhouette.png",
+      "sha256": "1107c9d28886c5fc6595bda7d969c3c6fd4c5ec7d621886d40547c1b4d114785"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_00_depth.png",
+      "sha256": "bdd04f5c82706b40f35ac56d569ed66f2b41ca51643970bfddfe8f0dcd31d1ea"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_00_flat.png",
+      "sha256": "7184d2afe73c851e70f2519c9c5a63a448cc8e6ff6efabea9391bec422d98cd7"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_00_normal.png",
+      "sha256": "18eb057c6c26d8babcc4f236086e6793ad1f4fd53763be163699baf3d19fdf2b"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_00_pose.png",
+      "sha256": "ab32313f911ca98ac4e8892342d9f5687871031278ef949ac4a2697157aedb0c"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_00_silhouette.png",
+      "sha256": "5390ff8afad8c29ac9b7273cbb8442d136d0e59184d0081f3e48054f7607f2fb"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_01_depth.png",
+      "sha256": "06206794d3e8745fd370335a633fc375e1e402e47fb7418a06857bbb411d0ceb"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_01_flat.png",
+      "sha256": "595f53a20b12c158e87ef5515aa747002e3408055970a0aa4d8a90352e835958"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_01_normal.png",
+      "sha256": "bc34b144ab72ffd3d15c26c77a59cdbcb893cc5daf7c591805963d6ed0b5659f"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_01_pose.png",
+      "sha256": "cde4d3f59e2d45cb77b442f65a495a8802f39dffb244a044c7d778119468fea5"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_01_silhouette.png",
+      "sha256": "f06c0cf44e56c1e9a66f7231db70c672567123c6b6c3bc7c0b4663cb1d244ef7"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_02_depth.png",
+      "sha256": "94e1b49d81e4fbc4f97a5b7ddc98fd9bd38b89f68c4182fb9645a538ff40c578"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_02_flat.png",
+      "sha256": "4d74afd387cd321f0afc2bb75a62dae248c1fef84665d292cf4b9d3ec742c299"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_02_normal.png",
+      "sha256": "a7ae3ab295866c6da48d42cbe257ad2c5b035d229fe31e5299aa4cd179c8b985"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_02_pose.png",
+      "sha256": "038ebbd4540826c3e5fd7372cd548cc4efeae9479cdef6ebf0afd1a6e10a59e5"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_02_silhouette.png",
+      "sha256": "3f53120e42ab3ec5e2740b67f3b544c56671bf9a9f15716489d499eb74f8a796"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_03_depth.png",
+      "sha256": "c52c41b680915ccc337866e79362eed086ed25bb0f8511a53d976617b4b3abb4"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_03_flat.png",
+      "sha256": "63cf8a2d12627a17ba773583c051722d03da8d2e51f53f493c6e9bbc56472e76"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_03_normal.png",
+      "sha256": "381abb49482157f5d01796d6743769bfb929c0b5e5dbfeac7900aaa1a1185a5b"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_03_pose.png",
+      "sha256": "2289e0557d0c7385a62fd22846f69ec76898bd9f2b2eef18330992fc6dbfa80c"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_block/attack_03_silhouette.png",
+      "sha256": "9528d8014c874f4ce3683cb4b3354e1a6fe5ed4e9ad2657e81cb38c9ce82ce27"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_00_depth.png",
+      "sha256": "a1ef85b19fcb3fe91ee5f712d7e16e3828c17916cb417a993966bbdb29df7de4"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_00_flat.png",
+      "sha256": "15c517a492bba8cc1e6137c730e2217f2d31e1d4fbdf4089972473ca0497d147"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_00_normal.png",
+      "sha256": "d3e931abd823f9d581b5c1fb91fde0d9a126a0b636607005c10cd2a71db78997"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_00_pose.png",
+      "sha256": "ab32313f911ca98ac4e8892342d9f5687871031278ef949ac4a2697157aedb0c"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_00_silhouette.png",
+      "sha256": "27559b92fdd11a8265110f8ce6c5e1d2b97a014434e722a071d3f15818d57fef"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_01_depth.png",
+      "sha256": "0edecf943d0d081584c238d1a0a38ca6ddab68d4b9d483a8586e1324cdcbdf26"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_01_flat.png",
+      "sha256": "256085c50fa130e8f65dd07ceba233cb757f73671f531e729eac22842b90e2b1"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_01_normal.png",
+      "sha256": "4f92583cb33a6bbf958bebf5fe2cbc199a643793d07ef6ad353f24b9a001248f"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_01_pose.png",
+      "sha256": "cde4d3f59e2d45cb77b442f65a495a8802f39dffb244a044c7d778119468fea5"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_01_silhouette.png",
+      "sha256": "76052d7a2d5e7da6e01cb98db0ea27a60af32fd7da9967255d217a4291eedee8"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_02_depth.png",
+      "sha256": "95b4949dbb108e05f8c810536d83e245424b5992f84854b2370c758451d43de4"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_02_flat.png",
+      "sha256": "83e23e9e6b52dd9583a9eef37e611a2ada03db30204245318221822537814e45"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_02_normal.png",
+      "sha256": "d7020d32cbcb5e862843e422e46e9325bd3695b661ad2a491643627ccd41b56b"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_02_pose.png",
+      "sha256": "038ebbd4540826c3e5fd7372cd548cc4efeae9479cdef6ebf0afd1a6e10a59e5"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_02_silhouette.png",
+      "sha256": "5a20144c43451bde51633d98c15be5ebe809165541d5e41985f5a1b168a431a8"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_03_depth.png",
+      "sha256": "6f3df56886ea0fa33e08b64bc1f953f33d90d3dbe2ef9f39399e2367120293f1"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_03_flat.png",
+      "sha256": "879e16f0816c2c252c13da373e72405f936304b36f019f09e66f6d6c433b28f9"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_03_normal.png",
+      "sha256": "9eb6062948ae78f306cc773ba764e5757b1971dbb10caf7f2793031b6298104a"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_03_pose.png",
+      "sha256": "2289e0557d0c7385a62fd22846f69ec76898bd9f2b2eef18330992fc6dbfa80c"
+    },
+    {
+      "path": "previews/structure/front_right/hammer_crescent/attack_03_silhouette.png",
+      "sha256": "283503b1b7f9dc74808fe3575f91ae98e0ecfa09aaa7f2ae92a948b0f206edac"
+    }
+  ],
+  "script_sha256": "24cbfa9e1bc30cdd28422fe7fb82d742644e0b972f2067964786f2f5a8c799e2"
+}

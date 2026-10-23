@@ -1,0 +1,27 @@
+{
+  "upstream_commit": "15cd02d304e54cb42a4db4eefe719f76190f4b68",
+  "license": "CC-BY-4.0",
+  "creator": "Cesium",
+  "copyright": "2017 Cesium",
+  "purpose": "Native rig animation transport baseline; not final humanoid art",
+  "files": [
+    {
+      "file": "RiggedFigure.glb",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/RiggedFigure/glTF-Binary/RiggedFigure.glb",
+      "bytes": 50116,
+      "sha256": "d6be85417d3e256861ee733eea6916093a7af7c79c16366181fd8abcaeb38cf5"
+    },
+    {
+      "file": "README.upstream.md",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/15cd02d304e54cb42a4db4eefe719f76190f4b68/Models/RiggedFigure/README.md",
+      "bytes": 883,
+      "sha256": "fdac90fe042c2cbd4f4e988a473990f249da8466bae57746f871dbd5eeac8de7"
+    },
+    {
+      "file": "LICENSE-CC-BY-4.0.txt",
+      "url": "https://raw.githubusercontent.com/KhronosGroup/glTF-Sample-Assets/15cd02d304e54cb42a4db4eefe719f76190f4b68/LICENSES/CC-BY-4.0.txt",
+      "bytes": 13034,
+      "sha256": "c8041334a99cb48852b2139253cbde5f8ac87e27f124aed51223e0d5bf0080eb"
+    }
+  ]
+}

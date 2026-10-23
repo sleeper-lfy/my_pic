@@ -1,0 +1,577 @@
+{
+  "status": "technical_validation_passed",
+  "human_art_approval": "not_granted",
+  "sources_verified": [
+    {
+      "file": "assets/public_references/makehuman/LICENSE.md",
+      "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1",
+      "bytes": 3598
+    },
+    {
+      "file": "assets/public_references/makehuman/LICENSE.ASSETS.md",
+      "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c",
+      "bytes": 6962
+    },
+    {
+      "file": "assets/public_references/makehuman/base.obj",
+      "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c",
+      "bytes": 1749303
+    },
+    {
+      "file": "assets/public_references/makehuman/default.mhskel",
+      "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24",
+      "bytes": 117790
+    },
+    {
+      "file": "assets/public_references/makehuman/default_weights.mhw",
+      "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625",
+      "bytes": 897521
+    },
+    {
+      "file": "assets/public_references/makehuman/tpose.bvh",
+      "sha256": "9fd962b94a623f4c6ff1a81161f3755d7859188fdf3a6bc62cef6784827ca1b2",
+      "bytes": 44727
+    },
+    {
+      "file": "assets/public_references/makehuman/tpose.meta",
+      "sha256": "eb870755aba16595439b8c59515dc7710e19614aa981f51d9ec1bd9933c487f5",
+      "bytes": 200
+    },
+    {
+      "file": "assets/public_references/makehuman/benchmark.bvh",
+      "sha256": "127f2091658ec2f6da51d8b92c07be661258a9ccd2942a461d2b6c1979ee34c5",
+      "bytes": 42269
+    },
+    {
+      "file": "assets/public_references/makehuman/benchmark.meta",
+      "sha256": "582d185d874f3eae7318724bc18a144878911403687f9db36a7749867008aa1a",
+      "bytes": 190
+    },
+    {
+      "file": "assets/public_references/makehuman/walk1.bvh",
+      "sha256": "e6b30b03133b5f54799e62962d3d6c2393771c15fd5a5a2be434358fc332b6bc",
+      "bytes": 42516
+    },
+    {
+      "file": "assets/public_references/riggedfigure/RiggedFigure.glb",
+      "sha256": "d6be85417d3e256861ee733eea6916093a7af7c79c16366181fd8abcaeb38cf5",
+      "bytes": 50116
+    },
+    {
+      "file": "assets/public_references/riggedfigure/README.upstream.md",
+      "sha256": "fdac90fe042c2cbd4f4e988a473990f249da8466bae57746f871dbd5eeac8de7",
+      "bytes": 883
+    },
+    {
+      "file": "assets/public_references/riggedfigure/LICENSE-CC-BY-4.0.txt",
+      "sha256": "c8041334a99cb48852b2139253cbde5f8ac87e27f124aed51223e0d5bf0080eb",
+      "bytes": 13034
+    }
+  ],
+  "images_decoded_and_copied": [
+    {
+      "source": "previews/public_human/authored-elbow-skin-test.webp",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/authored-elbow-skin-test.webp",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 5,
+      "bytes": 590946,
+      "sha256": "b41ce637862db36df41d01f942ec50d33f193bc552ba4101e88875362a66bc22"
+    },
+    {
+      "source": "previews/public_human/contact-sheet.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/contact-sheet.png",
+      "size": [
+        1320,
+        1020
+      ],
+      "frames": 1,
+      "bytes": 237532,
+      "sha256": "6749361fcd13793ecf21255480132f7c19c6510a519b57cfd4abde3d8686dc98"
+    },
+    {
+      "source": "previews/public_human/native-rig-overlay.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/native-rig-overlay.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 155689,
+      "sha256": "1ba5749c29aaa4a1634690727fbfa0798bf63c13a721fe02f72123d8f9a281b4"
+    },
+    {
+      "source": "previews/public_human/rest_back.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/rest_back.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 435518,
+      "sha256": "666dda888638f269e4da7a71df46fb364f84aee593ecf4b19520926702b19dd9"
+    },
+    {
+      "source": "previews/public_human/rest_front.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/rest_front.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 438593,
+      "sha256": "de1d94b9696452cb3b87a1916970d6dc0f9e3d91c9b1a75a89f044b6a1c6cff0"
+    },
+    {
+      "source": "previews/public_human/rest_front_left.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/rest_front_left.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 441859,
+      "sha256": "2428c6c4788f7b5a941f1bb72f35c7be13a70bc2a0ef315f993e320f2596b363"
+    },
+    {
+      "source": "previews/public_human/rest_front_right.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/rest_front_right.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 443746,
+      "sha256": "f8f458449c2c1b0bca047cbe884f70a5bab7ea71786498a5b2afc10f4bb3f955"
+    },
+    {
+      "source": "previews/public_human/rest_side.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/rest_side.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 393412,
+      "sha256": "43f4628b04a1d807bf7b33f9aaaa6bd6c5a1f1e48a499095d4ad8eccdccaec25"
+    },
+    {
+      "source": "previews/public_human/right-hand-readable.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/right-hand-readable.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 142680,
+      "sha256": "0de081492bbf3c7852d3d960d97aa799f158046ac26b3e0abdaa5d083428b979"
+    },
+    {
+      "source": "previews/public_human/right_hand_detail.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/right_hand_detail.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 434143,
+      "sha256": "db67f583bd53b1568f534877d65881dda3b32b532317c461d17d6e9f81c80fb4"
+    },
+    {
+      "source": "previews/public_human/skin-test-contact.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/skin-test-contact.png",
+      "size": [
+        1600,
+        520
+      ],
+      "frames": 1,
+      "bytes": 90524,
+      "sha256": "dda92d54171d90e7ea878e0258b66d307d3e850fc4a6ed9da2d5c6405dd1847f"
+    },
+    {
+      "source": "previews/public_human/skin_bend_001.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/skin_bend_001.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 442849,
+      "sha256": "218ef7c0214cdde21d9ff7386c2b3f886ccec5415ddd2677072a061e50517c5f"
+    },
+    {
+      "source": "previews/public_human/skin_bend_009.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/skin_bend_009.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 443658,
+      "sha256": "5e31127491744e3b82dd4a4c97419b2e17f5e0f7f9ecf13f64e93a7fcbe3baf5"
+    },
+    {
+      "source": "previews/public_human/skin_bend_017.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/skin_bend_017.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 444227,
+      "sha256": "de9a5f2da87113b028577fcaaab7cccc077f155f6def805498ba47addd80738f"
+    },
+    {
+      "source": "previews/public_human/skin_bend_025.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/skin_bend_025.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 443658,
+      "sha256": "d5c6c59533bdbc176c7ed4003066d337751d95acf6de533ac019b473ee5e5b64"
+    },
+    {
+      "source": "previews/public_human/skin_bend_033.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/anatomy/skin_bend_033.png",
+      "size": [
+        640,
+        896
+      ],
+      "frames": 1,
+      "bytes": 442849,
+      "sha256": "71972429addd8a9df5f6216212f9a0360c847ea387594a19e4fe4f93ab32b232"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_000.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_000.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 214593,
+      "sha256": "e7db3fef9c1b5050158047930b286d839c2d9fe5e2991399e0538984b18532e1"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_001.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_001.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 215449,
+      "sha256": "d951a9b52b329cbc57e8e9525bb25af478550d1c13c12118038834f07d1e3835"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_002.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_002.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 215870,
+      "sha256": "71c09a207c2ea1684013eab79f1e5a195a4506b7980a00e1cc697077e67cc4ce"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_003.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_003.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 216623,
+      "sha256": "e8da1d4966f3801cf5f21a12f221e86a46df78dd9bd5a7bc80ca9ed070a58c5a"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_004.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_004.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 217253,
+      "sha256": "ed21ca2c7fba8b39c947bec6a065fdb106b002e4eb4d276263505aaf36f9c406"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_005.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_005.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 217664,
+      "sha256": "096f5548c535bfb446ea397afac8709cf1df09debfd9c59801a85d0aa2d2756a"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_006.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_006.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218145,
+      "sha256": "6c5fd7cb6e675a3f1671bc55efd8deb95bae0e9c9be18fa801f8be024b9325bc"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_007.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_007.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218838,
+      "sha256": "ac8ede67aff7b00da4f951473b71fa7ed44a715536c77babf1a05a47aab77ff0"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_008.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_008.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 219597,
+      "sha256": "f3798c10af590fe86c2265b8cf9fc14185014a8ce58354e0cecdb472e5a0e2b7"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_009.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_009.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 219463,
+      "sha256": "d7df119023e2ad8be08c48f13d256c35977e1879a6f49e4b239172108552b4be"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_010.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_010.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218995,
+      "sha256": "1029e1e9476abd69877e64517ed3d929977d079da49e1f273b9ac4d998660e66"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_011.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_011.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 219346,
+      "sha256": "c4217071e5d693fac49f8ab9ff86279537472ecde9ec2bd4adc82a8940f99319"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_012.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_012.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218906,
+      "sha256": "fa9d639e45a1f3f28b19c4a51feb37e4043ac4b4aa7115fd6b6e58f992e1ea15"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_013.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_013.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218561,
+      "sha256": "654c24928833c50d57a796770ad1b19f58f94125c8f130d886415fbf943628f0"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_014.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_014.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218521,
+      "sha256": "d17bacc1b24b57ac353f5ef893d670f1e9053597da37f22b006c06d0b673ca7d"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_015.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_015.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218745,
+      "sha256": "a805c1b46beb34bdec2bd9431022d75993c739285b012fc56d37c642694c762a"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_016.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_016.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 218144,
+      "sha256": "6cebe0cb7d982f6c957b116ad57296b86739e5556bb4d93dd156cbb90f60bd02"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_017.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_017.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 217878,
+      "sha256": "9466884a82c4b4ca202ab444e74f7a4815a655c4b1b8a2adac9ce686c90dfbed"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_018.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_018.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 217393,
+      "sha256": "07cd4ad44d11cf8a4bc8020d3a2c931a7738c8b1ac42c7dbb2bc8a2584e46a9b"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_019.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_019.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 217490,
+      "sha256": "64d1ce36d5a8e0cd4f8ea7779c3bda28927d7e8cfcb5699fe6acfb0933749ccd"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_020.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_020.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 217093,
+      "sha256": "50f0f931b55d2162bc55302e554f3e527de917b62135b951103ca5ce76483b11"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_021.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_021.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 216885,
+      "sha256": "17ba9a19dfd651dbb08e4e11b5e51fbd7f1141b6a37d8694e3266cc19491fc51"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_022.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_022.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 216584,
+      "sha256": "2ece4170e25e673a837874babf0a4f608c3f6b5bf85c151438e937916c09a6ae"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure/native_023.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure/native_023.png",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "bytes": 216013,
+      "sha256": "0097bcb248c2413076aae3f679db9db0f744744fa7c73fe22448b1792fdae7c5"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure-native.webp",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure-native.webp",
+      "size": [
+        512,
+        512
+      ],
+      "frames": 24,
+      "bytes": 1579900,
+      "sha256": "6df231e80959cfe039f114243601d3e17e23d5b583844f99a818d306b7bea0b3"
+    },
+    {
+      "source": "previews/public_motion/riggedfigure-transfer-only-contact.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/riggedfigure-transfer-only-contact.png",
+      "size": [
+        1120,
+        430
+      ],
+      "frames": 1,
+      "bytes": 88019,
+      "sha256": "fcc6500b1afe8874d206a930a38a91407ed408b2e3783bb14c523d7431333acf"
+    },
+    {
+      "source": "previews/public_motion/walk1-native-skeleton-contact.png",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/walk1-native-skeleton-contact.png",
+      "size": [
+        1720,
+        1050
+      ],
+      "frames": 1,
+      "bytes": 50739,
+      "sha256": "7fe93a419d674c0f3305782b261001edbd4a481368c320fe3609d17205f6819c"
+    },
+    {
+      "source": "previews/public_motion/walk1-native-skeleton.webp",
+      "github_repository_path": "previews/ai-game-art-factory/public-reference-baseline/motion/walk1-native-skeleton.webp",
+      "size": [
+        860,
+        510
+      ],
+      "frames": 14,
+      "bytes": 136458,
+      "sha256": "feabf5a1125201ea17551bf624321992ae197c1f2866213eb24938b8ed010932"
+    }
+  ],
+  "unit_tests": {
+    "passed": 9,
+    "failed": 0,
+    "log": "reports/public-reference-unit-tests.log"
+  },
+  "baseline": {
+    "native_human_vertices": 13380,
+    "native_bones": 163,
+    "parent_links": 162,
+    "unweighted_vertices": 0,
+    "measured_frames": 33,
+    "max_bone_length_error_m": 4.3213367462158203e-07
+  },
+  "scope_limits": [
+    "MakeHuman natural-proportion anatomy, not final warrior art",
+    "Local bone bend is authored skin diagnostic",
+    "Official walk1 is not yet retargeted to default MakeHuman rig",
+    "RiggedFigure is only a skin compatibility fixture",
+    "Hammer attack and 2D reconstruction are not implemented in this reference step"
+  ]
+}

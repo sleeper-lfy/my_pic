@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "frames_checked": 4,
+  "errors": [],
+  "warnings": [],
+  "bounds": [
+    [
+      53,
+      57,
+      193,
+      232
+    ],
+    [
+      59,
+      16,
+      196,
+      231
+    ],
+    [
+      28,
+      72,
+      220,
+      232
+    ],
+    [
+      63,
+      45,
+      192,
+      232
+    ]
+  ],
+  "scope": "file format, alpha, bounds, timing, optional supplied anchors; no visual approval",
+  "source_failures": [
+    "key_1:source_edge_clipping_risk",
+    "key_3:source_edge_clipping_risk"
+  ],
+  "raw_bottom_range_px": 20,
+  "registration": "Common resize scale; each alpha bbox centered and bottom registered for presentation only. Not anatomical foot tracking.",
+  "visual_review": {
+    "status": "failed_preliminary_ai_review",
+    "issues": [
+      "strike changes face direction and grip side",
+      "armor/hem silhouette varies",
+      "last source pose touches right canvas edge"
+    ],
+    "human": "pending"
+  },
+  "overall_status": "rejected_experiment"
+}

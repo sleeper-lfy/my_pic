@@ -1,0 +1,46 @@
+schema_version: 1
+profile_id: tower_defense
+version: 0.1.1
+status: legacy_human_form_rejected
+priority: [art_quality, identity_consistency, animation_stability, reuse, automation]
+character:
+  id: fortress_hammer_warrior
+  version: 0.1.0
+  heads_tall: 3.5
+  identity: [adult_square_face, dark_hair_silver_forelock, short_beard, burgundy_scarf]
+style:
+  outlines: dark_colored_designed_tapered
+  shading_levels: 3
+  texture: restrained_hand_painted
+  palette: ['#405469', '#8f9ba5', '#b27a4d', '#682639', '#4b342b', '#e7dcc5']
+camera:
+  projection: orthographic
+  directions: [front_left, front_right]
+  azimuth_degrees: [-45, 45]
+  elevation_degrees: 12
+export:
+  width: 256
+  height: 256
+  mode: RGBA
+  display_sizes: [64, 96, 128]
+  foot_anchor_px: [128, 232]
+  padding_px: 8
+animation:
+  production_actions: [idle, attack, defend]
+  experiment_action: attack
+  experiment_only: true
+  timing_policy: authored_per_action
+routes:
+  A: structure_guided_redraw
+  B: authored_2d_parts
+  C: projected_3d_drives_2d_parts
+approval:
+  static_art: rejected
+  production_animation_enabled: false
+  reviewer: user_feedback
+reference_baseline:
+  status: technical_reference_verified_art_pending
+  anatomy: makehuman_cc0_native_mesh_rig_weights
+  motion: public_native_skin_animation
+  retain_source_proportions: true
+  allow_legacy_xy_joint_interpolation: false

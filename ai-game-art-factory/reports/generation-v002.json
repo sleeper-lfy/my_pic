@@ -1,0 +1,12 @@
+{
+  "prompt": "Edit the supplied original warrior concept sheet into a corrected v002 character review sheet. Preserve the same original identity, blue gray copper armor, burgundy scarf, square bearded face with silver hair forelock, and the two hammer designs. IMPORTANT CORRECTIONS: Left panel warrior must physically FACE TOWARD IMAGE LEFT, nose points left, chest and boots front-left 45 degrees. Right panel warrior must FACE TOWARD IMAGE RIGHT, nose points right, chest and boots front-right 45 degrees. Do not repeat two faces pointing right. Keep the same character but produce a genuinely opposite view. Enlarge head and simplify overlong torso so warrior is compact ~3.5 heads tall, adult stylized game character rather than tall realistic figure. Do not merely horizontally flip all asymmetric costume details; the distinctive larger shoulder armor belongs on the warrior's anatomical LEFT shoulder in both views. Keep both complete hands, one hand wrapped visibly around hammer handle. Omit held hammer from RIGHT panel instead show right hand in a relaxed fist at same grip pose for comparison; LEFT panel holds hammer A. Both designs must have identical face and outfit, zero extra props. Maintain the isolated HAMMER A and HAMMER B at bottom each with same narrow handle and grip location. Ivory background, clean six color palette, crisp designed 2D lineart and three-tone shadows. Wider blank gutters, no shadows on ground. Actual layout 1536x1024 or similar wide 3:2. All characters and weapons fully inside canvas. Small labels FRONT LEFT and FRONT RIGHT, HAMMER A/B. This is polished static art, not 3D or a diagram.",
+  "provider": "image_gen",
+  "model": "not_exposed",
+  "seed": null,
+  "reference_images": [
+    "assets/references/warrior-concept-v001.png"
+  ],
+  "output": "assets/references/warrior-concept-v002.png",
+  "status": "candidate_pending_visual_review",
+  "human_approval": "pending"
+}

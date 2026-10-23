@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "files": {
+    "assets/characters/route_a/joint-keyposes-v001.png": {
+      "sha256": "f903aa65d9f7811b827b14156b3dcbdd7bfedb1e07535e71410e798d6ed04eb0",
+      "bytes": 1469829
+    },
+    "assets/characters/warrior-parts-v001.png": {
+      "sha256": "4281a02b2219b80375a06ffbf1cfecffe63bad68b5dbe452c782516fbc9c13e4",
+      "bytes": 1505754
+    },
+    "assets/references/warrior-concept-v001.png": {
+      "sha256": "9f29b3bba40de950b1744b13e2db660beb41849f65cac382ed99132ac98ac379",
+      "bytes": 1752163
+    },
+    "assets/references/warrior-concept-v002.png": {
+      "sha256": "52e5092db711f0fac69736b8a5fec65d34f5913237a5ef5304e1af89760b3633",
+      "bytes": 1757660
+    },
+    "assets/weapons/hammer_a.png": {
+      "sha256": "d012ac4814366683bd34ab2f8f77c7fa55a1f024a3c0a581abee7688e78460d8",
+      "bytes": 81867
+    },
+    "assets/weapons/hammer_b.png": {
+      "sha256": "f7e50404860f6ffde93caf46bc3a48dbb6bccfcd5b9fc6c4815b50c9c0a5151b",
+      "bytes": 90286
+    }
+  },
+  "generation_records": "reports/generation-*.json",
+  "art_approval": "pending",
+  "model_and_seed": "not exposed by image_gen; exact regeneration not guaranteed"
+}

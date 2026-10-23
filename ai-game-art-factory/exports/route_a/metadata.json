@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "route": "A",
+  "status": "diagnostic_unapproved",
+  "source_sha256": "f903aa65d9f7811b827b14156b3dcbdd7bfedb1e07535e71410e798d6ed04eb0",
+  "scale": 0.30813124108416545,
+  "frame_size": [
+    256,
+    256
+  ],
+  "sheet_size": [
+    1024,
+    256
+  ],
+  "frames": [
+    {
+      "index": 0,
+      "duration_ms": 260,
+      "source_cell": [
+        0,
+        0,
+        535,
+        725
+      ],
+      "raw_bbox": [
+        51,
+        23,
+        534,
+        681
+      ],
+      "presentation_offset": [
+        53,
+        29
+      ],
+      "source_edge_touch": false
+    },
+    {
+      "index": 1,
+      "duration_ms": 220,
+      "source_cell": [
+        535,
+        0,
+        1030,
+        725
+      ],
+      "raw_bbox": [
+        36,
+        0,
+        479,
+        701
+      ],
+      "presentation_offset": [
+        59,
+        16
+      ],
+      "source_edge_touch": true
+    },
+    {
+      "index": 2,
+      "duration_ms": 180,
+      "source_cell": [
+        1030,
+        0,
+        1720,
+        725
+      ],
+      "raw_bbox": [
+        9,
+        27,
+        687,
+        683
+      ],
+      "presentation_offset": [
+        23,
+        30
+      ],
+      "source_edge_touch": false
+    },
+    {
+      "index": 3,
+      "duration_ms": 340,
+      "source_cell": [
+        1720,
+        0,
+        2169,
+        725
+      ],
+      "raw_bbox": [
+        29,
+        75,
+        449,
+        681
+      ],
+      "presentation_offset": [
+        63,
+        45
+      ],
+      "source_edge_touch": true
+    }
+  ],
+  "generation": "reports/generation-route-a.json",
+  "not_a_continuous_animation": true
+}

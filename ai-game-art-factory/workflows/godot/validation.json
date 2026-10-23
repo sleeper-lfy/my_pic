@@ -1,0 +1,15 @@
+{
+  "status": "verified_graphical_capture",
+  "godot_version": "4.6.3",
+  "renderer": "OpenGL 4.5 Compatibility, Mesa llvmpipe software",
+  "viewport_size": [
+    1024,
+    720
+  ],
+  "screenshot": "previews/parts_experiment/godot-actual-size.png",
+  "sha256": "708c1c45f4d55ff8718c109dcb0a3ddac60a82e3681592452292f38122cb24ef",
+  "functional_marker": "ART_FACTORY_SCENE_READY clips=4 frames=52 dimensions=256x256; art=UNAPPROVED",
+  "capture_exit_code": 0,
+  "art_approval": "pending",
+  "scope": "Real Godot viewport capture plus 52 exported frame loads. Not a Skeleton2D runtime rig."
+}

@@ -1,0 +1,14 @@
+test_missing_or_corrupted_output_is_not_a_cache_hit (test_build_cache.CacheTests.test_missing_or_corrupted_output_is_not_a_cache_hit) ... ok
+test_weapon_change_invalidates_only_dependent_input (test_build_cache.CacheTests.test_weapon_change_invalidates_only_dependent_input) ... ok
+test_blank_and_missing_file_rejected (test_quality.QualityTests.test_blank_and_missing_file_rejected) ... ok
+test_clipping_timing_and_anchor_drift (test_quality.QualityTests.test_clipping_timing_and_anchor_drift) ... ok
+test_missing_alpha_rejected (test_quality.QualityTests.test_missing_alpha_rejected) ... ok
+test_valid_rgba (test_quality.QualityTests.test_valid_rgba) ... ok
+test_zero_frames_and_count_mismatch (test_quality.QualityTests.test_zero_frames_and_count_mismatch) ... ok
+test_old_defaults_are_blocked_before_asset_generation (test_reference_gate.ReferenceGateTests.test_old_defaults_are_blocked_before_asset_generation) ... ok
+test_reference_help_names_supported_scopes (test_reference_gate.ReferenceGateTests.test_reference_help_names_supported_scopes) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.211s
+
+OK

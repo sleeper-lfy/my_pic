@@ -1,0 +1,5 @@
+# Observed in the cloud experiment, Python 3.12.14.
+# Inspect your Windows environment before installing. Use a separate venv if needed.
+Pillow==12.3.0
+numpy==2.3.5
+PyYAML==6.0.3

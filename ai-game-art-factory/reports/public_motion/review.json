@@ -1,0 +1,302 @@
+{
+  "status": "native_data_verified_not_art_approved",
+  "riggedfigure": {
+    "frames": 24,
+    "native_source_duration_ms": 1250,
+    "preview_final_hold_ms": 80,
+    "preview_file": "previews/public_motion/riggedfigure-native.webp"
+  },
+  "walk1": {
+    "source_frames": 14,
+    "source_bones": 75,
+    "displayed_locomotion_bones": 27,
+    "max_native_bone_length_variation": 3.2165707595233073e-06,
+    "finite_pose_coordinates": true,
+    "retargeted_to_default_rig": false,
+    "preview_duration_ms": 583,
+    "preview_file": "previews/public_motion/walk1-native-skeleton.webp"
+  },
+  "files": [
+    {
+      "path": "previews/public_motion/riggedfigure-native.webp",
+      "bytes": 1579900,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 24,
+      "sha256": "6df231e80959cfe039f114243601d3e17e23d5b583844f99a818d306b7bea0b3"
+    },
+    {
+      "path": "previews/public_motion/walk1-native-skeleton-contact.png",
+      "bytes": 50739,
+      "dimensions": [
+        1720,
+        1050
+      ],
+      "frames": 1,
+      "sha256": "7fe93a419d674c0f3305782b261001edbd4a481368c320fe3609d17205f6819c"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure-transfer-only-contact.png",
+      "bytes": 88019,
+      "dimensions": [
+        1120,
+        430
+      ],
+      "frames": 1,
+      "sha256": "fcc6500b1afe8874d206a930a38a91407ed408b2e3783bb14c523d7431333acf"
+    },
+    {
+      "path": "previews/public_motion/walk1-native-skeleton.webp",
+      "bytes": 136458,
+      "dimensions": [
+        860,
+        510
+      ],
+      "frames": 14,
+      "sha256": "feabf5a1125201ea17551bf624321992ae197c1f2866213eb24938b8ed010932"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_018.png",
+      "bytes": 217393,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "07cd4ad44d11cf8a4bc8020d3a2c931a7738c8b1ac42c7dbb2bc8a2584e46a9b"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_003.png",
+      "bytes": 216623,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "e8da1d4966f3801cf5f21a12f221e86a46df78dd9bd5a7bc80ca9ed070a58c5a"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_006.png",
+      "bytes": 218145,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "6c5fd7cb6e675a3f1671bc55efd8deb95bae0e9c9be18fa801f8be024b9325bc"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_017.png",
+      "bytes": 217878,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "9466884a82c4b4ca202ab444e74f7a4815a655c4b1b8a2adac9ce686c90dfbed"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_020.png",
+      "bytes": 217093,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "50f0f931b55d2162bc55302e554f3e527de917b62135b951103ca5ce76483b11"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_014.png",
+      "bytes": 218521,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "d17bacc1b24b57ac353f5ef893d670f1e9053597da37f22b006c06d0b673ca7d"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_005.png",
+      "bytes": 217664,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "096f5548c535bfb446ea397afac8709cf1df09debfd9c59801a85d0aa2d2756a"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_004.png",
+      "bytes": 217253,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "ed21ca2c7fba8b39c947bec6a065fdb106b002e4eb4d276263505aaf36f9c406"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_012.png",
+      "bytes": 218906,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "fa9d639e45a1f3f28b19c4a51feb37e4043ac4b4aa7115fd6b6e58f992e1ea15"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_007.png",
+      "bytes": 218838,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "ac8ede67aff7b00da4f951473b71fa7ed44a715536c77babf1a05a47aab77ff0"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_019.png",
+      "bytes": 217490,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "64d1ce36d5a8e0cd4f8ea7779c3bda28927d7e8cfcb5699fe6acfb0933749ccd"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_023.png",
+      "bytes": 216013,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "0097bcb248c2413076aae3f679db9db0f744744fa7c73fe22448b1792fdae7c5"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_002.png",
+      "bytes": 215870,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "71c09a207c2ea1684013eab79f1e5a195a4506b7980a00e1cc697077e67cc4ce"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_013.png",
+      "bytes": 218561,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "654c24928833c50d57a796770ad1b19f58f94125c8f130d886415fbf943628f0"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_022.png",
+      "bytes": 216584,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "2ece4170e25e673a837874babf0a4f608c3f6b5bf85c151438e937916c09a6ae"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_011.png",
+      "bytes": 219346,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "c4217071e5d693fac49f8ab9ff86279537472ecde9ec2bd4adc82a8940f99319"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_010.png",
+      "bytes": 218995,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "1029e1e9476abd69877e64517ed3d929977d079da49e1f273b9ac4d998660e66"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_008.png",
+      "bytes": 219597,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "f3798c10af590fe86c2265b8cf9fc14185014a8ce58354e0cecdb472e5a0e2b7"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_009.png",
+      "bytes": 219463,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "d7df119023e2ad8be08c48f13d256c35977e1879a6f49e4b239172108552b4be"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_015.png",
+      "bytes": 218745,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "a805c1b46beb34bdec2bd9431022d75993c739285b012fc56d37c642694c762a"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_000.png",
+      "bytes": 214593,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "e7db3fef9c1b5050158047930b286d839c2d9fe5e2991399e0538984b18532e1"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_021.png",
+      "bytes": 216885,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "17ba9a19dfd651dbb08e4e11b5e51fbd7f1141b6a37d8694e3266cc19491fc51"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_001.png",
+      "bytes": 215449,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "d951a9b52b329cbc57e8e9525bb25af478550d1c13c12118038834f07d1e3835"
+    },
+    {
+      "path": "previews/public_motion/riggedfigure/native_016.png",
+      "bytes": 218144,
+      "dimensions": [
+        512,
+        512
+      ],
+      "frames": 1,
+      "sha256": "6cebe0cb7d982f6c957b116ad57296b86739e5556bb4d93dd156cbb90f60bd02"
+    }
+  ],
+  "visual_review": "RiggedFigure is a box-head low-poly test mesh; excluded as anatomy art reference. Walk1 is an actual imported old-rig BVH skeleton, no retargeting."
+}

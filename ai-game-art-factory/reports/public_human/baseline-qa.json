@@ -1,0 +1,785 @@
+{
+  "status": "technical_pass",
+  "scope": "native body mesh, parented native rig, normalized official weights, authored elbow skin stress test",
+  "not_final_game_art": true,
+  "human_art_approval": "pending",
+  "source": {
+    "repository": "https://github.com/makehumancommunity/makehuman",
+    "commit": "a8bc2d54ff0ac92e78ff71431b1023eda42bf482",
+    "license": "CC0-1.0 (bundled data only; source code AGPL not imported)",
+    "files": [
+      {
+        "upstream_path": "LICENSE.md",
+        "local_file": "LICENSE.md",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.md",
+        "bytes": 3598,
+        "sha256": "edd99571ca62698f78c943fd4fffb159a413c315fa0d4819d3cec5cadaf8b4f1"
+      },
+      {
+        "upstream_path": "LICENSE.ASSETS.md",
+        "local_file": "LICENSE.ASSETS.md",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/LICENSE.ASSETS.md",
+        "bytes": 6962,
+        "sha256": "f6089cba01cb570a24712b41ab8a586ccd3cc5ef53dc266ca50b95c288956d2c"
+      },
+      {
+        "upstream_path": "makehuman/data/3dobjs/base.obj",
+        "local_file": "base.obj",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/3dobjs/base.obj",
+        "bytes": 1749303,
+        "sha256": "8e761e6624b8f54536409135d1636da63b32486a90d4897f84e121d144f6fb4c"
+      },
+      {
+        "upstream_path": "makehuman/data/rigs/default.mhskel",
+        "local_file": "default.mhskel",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default.mhskel",
+        "bytes": 117790,
+        "sha256": "99f179bce0aa850b45d4191a1d0d234c5851f881c057439470ded3bddf729a24"
+      },
+      {
+        "upstream_path": "makehuman/data/rigs/default_weights.mhw",
+        "local_file": "default_weights.mhw",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/rigs/default_weights.mhw",
+        "bytes": 897521,
+        "sha256": "0f3641d651ae3d00ad6b4ccee43142edb109d3bd909d27d9e4139ef1beed8625"
+      },
+      {
+        "upstream_path": "makehuman/data/poses/tpose.bvh",
+        "local_file": "tpose.bvh",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/poses/tpose.bvh",
+        "bytes": 44727,
+        "sha256": "9fd962b94a623f4c6ff1a81161f3755d7859188fdf3a6bc62cef6784827ca1b2"
+      },
+      {
+        "upstream_path": "makehuman/data/poses/tpose.meta",
+        "local_file": "tpose.meta",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/poses/tpose.meta",
+        "bytes": 200,
+        "sha256": "eb870755aba16595439b8c59515dc7710e19614aa981f51d9ec1bd9933c487f5"
+      },
+      {
+        "upstream_path": "makehuman/data/poses/benchmark.bvh",
+        "local_file": "benchmark.bvh",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/poses/benchmark.bvh",
+        "bytes": 42269,
+        "sha256": "127f2091658ec2f6da51d8b92c07be661258a9ccd2942a461d2b6c1979ee34c5"
+      },
+      {
+        "upstream_path": "makehuman/data/poses/benchmark.meta",
+        "local_file": "benchmark.meta",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/poses/benchmark.meta",
+        "bytes": 190,
+        "sha256": "582d185d874f3eae7318724bc18a144878911403687f9db36a7749867008aa1a"
+      },
+      {
+        "upstream_path": "makehuman/data/animations/walks/walk1.bvh",
+        "local_file": "walk1.bvh",
+        "url": "https://raw.githubusercontent.com/makehumancommunity/makehuman/a8bc2d54ff0ac92e78ff71431b1023eda42bf482/makehuman/data/animations/walks/walk1.bvh",
+        "bytes": 42516,
+        "sha256": "e6b30b03133b5f54799e62962d3d6c2393771c15fd5a5a2be434358fc332b6bc",
+        "scope": "14-frame public walking reference, legacy skeleton names, not yet retargeted to default rig"
+      }
+    ]
+  },
+  "tool_version": "4.3.2",
+  "mesh_rig": {
+    "body_vertices": 13380,
+    "body_faces": 13378,
+    "original_vertices": 19158,
+    "bones": 163,
+    "native_parent_links": 162,
+    "connected_links": 133,
+    "unweighted_visible_vertices": 0,
+    "raw_weight_sum_range": [
+      0.954,
+      1.0630000000000002
+    ],
+    "weight_adjustment": "Native weights normalized per visible vertex; ratios preserved, no automatic reweighting",
+    "excluded_face_groups": {
+      "helper-tights": 2650,
+      "joint-l-eye": 6,
+      "joint-r-eye": 6,
+      "joint-pelvis": 6,
+      "joint-spine-4": 6,
+      "joint-spine-3": 6,
+      "joint-spine-2": 6,
+      "joint-spine-1": 6,
+      "joint-l-foot-2": 6,
+      "joint-l-foot-1": 6,
+      "joint-l-toe-5-3": 6,
+      "joint-l-toe-5-4": 6,
+      "joint-l-toe-4-3": 6,
+      "joint-l-toe-4-4": 6,
+      "joint-l-toe-3-3": 6,
+      "joint-l-toe-3-4": 6,
+      "joint-l-toe-2-4": 6,
+      "joint-l-toe-2-3": 6,
+      "joint-l-toe-2-2": 6,
+      "joint-l-toe-3-2": 6,
+      "joint-l-toe-4-2": 6,
+      "joint-l-toe-5-2": 6,
+      "joint-l-toe-5-1": 6,
+      "joint-l-toe-4-1": 6,
+      "joint-l-toe-3-1": 6,
+      "joint-l-toe-2-1": 6,
+      "joint-l-toe-1-3": 6,
+      "joint-l-toe-1-2": 6,
+      "joint-l-toe-1-1": 6,
+      "joint-l-ankle": 6,
+      "joint-l-knee": 6,
+      "joint-l-upper-leg": 6,
+      "joint-l-finger-2-4": 6,
+      "joint-l-finger-3-4": 6,
+      "joint-l-finger-4-4": 6,
+      "joint-l-finger-5-4": 6,
+      "joint-l-finger-5-3": 6,
+      "joint-l-finger-4-3": 6,
+      "joint-l-finger-3-3": 6,
+      "joint-l-finger-2-3": 6,
+      "joint-l-finger-2-2": 6,
+      "joint-l-finger-3-2": 6,
+      "joint-l-finger-4-2": 6,
+      "joint-l-finger-5-2": 6,
+      "joint-l-finger-5-1": 6,
+      "joint-l-finger-4-1": 6,
+      "joint-l-finger-3-1": 6,
+      "joint-l-finger-2-1": 6,
+      "joint-l-finger-1-4": 6,
+      "joint-l-finger-1-3": 6,
+      "joint-l-finger-1-2": 6,
+      "joint-l-finger-1-1": 6,
+      "joint-l-hand-3": 6,
+      "joint-l-hand-2": 6,
+      "joint-l-hand": 6,
+      "joint-l-elbow": 6,
+      "joint-l-shoulder": 6,
+      "joint-l-clavicle": 6,
+      "joint-l-scapula": 6,
+      "joint-head": 6,
+      "joint-l-lowerlid": 6,
+      "joint-l-eye-target": 6,
+      "joint-l-upperlid": 6,
+      "joint-r-foot-2": 6,
+      "joint-r-foot-1": 6,
+      "joint-r-toe-5-3": 6,
+      "joint-r-toe-5-4": 6,
+      "joint-r-toe-4-3": 6,
+      "joint-r-toe-4-4": 6,
+      "joint-r-toe-3-3": 6,
+      "joint-r-toe-3-4": 6,
+      "joint-r-toe-2-4": 6,
+      "joint-r-toe-2-3": 6,
+      "joint-r-toe-2-2": 6,
+      "joint-r-toe-3-2": 6,
+      "joint-r-toe-4-2": 6,
+      "joint-r-toe-5-2": 6,
+      "joint-r-toe-5-1": 6,
+      "joint-r-toe-4-1": 6,
+      "joint-r-toe-3-1": 6,
+      "joint-r-toe-2-1": 6,
+      "joint-r-toe-1-3": 6,
+      "joint-r-toe-1-2": 6,
+      "joint-r-toe-1-1": 6,
+      "joint-r-ankle": 6,
+      "joint-r-knee": 6,
+      "joint-r-upper-leg": 6,
+      "joint-r-finger-2-4": 6,
+      "joint-r-finger-3-4": 6,
+      "joint-r-finger-4-4": 6,
+      "joint-r-finger-5-4": 6,
+      "joint-r-finger-5-3": 6,
+      "joint-r-finger-4-3": 6,
+      "joint-r-finger-3-3": 6,
+      "joint-r-finger-2-3": 6,
+      "joint-r-finger-2-2": 6,
+      "joint-r-finger-3-2": 6,
+      "joint-r-finger-4-2": 6,
+      "joint-r-finger-5-2": 6,
+      "joint-r-finger-5-1": 6,
+      "joint-r-finger-4-1": 6,
+      "joint-r-finger-3-1": 6,
+      "joint-r-finger-2-1": 6,
+      "joint-r-finger-1-4": 6,
+      "joint-r-finger-1-3": 6,
+      "joint-r-finger-1-2": 6,
+      "joint-r-finger-1-1": 6,
+      "joint-r-hand-3": 6,
+      "joint-r-hand-2": 6,
+      "joint-r-hand": 6,
+      "joint-r-elbow": 6,
+      "joint-r-shoulder": 6,
+      "joint-r-clavicle": 6,
+      "joint-r-scapula": 6,
+      "joint-r-lowerlid": 6,
+      "joint-r-eye-target": 6,
+      "joint-r-upperlid": 6,
+      "joint-neck": 6,
+      "joint-jaw": 6,
+      "joint-tongue-4": 6,
+      "joint-tongue-3": 6,
+      "joint-head-2": 6,
+      "joint-tongue-2": 6,
+      "joint-tongue-1": 6,
+      "joint-mouth": 6,
+      "helper-skirt": 684,
+      "helper-hair": 198,
+      "helper-l-eye": 70,
+      "helper-r-eye": 70,
+      "helper-genital": 182,
+      "helper-upper-teeth": 48,
+      "helper-lower-teeth": 48,
+      "helper-l-eyelashes-2": 48,
+      "helper-l-eyelashes-1": 44,
+      "helper-r-eyelashes-2": 48,
+      "helper-r-eyelashes-1": 44,
+      "helper-tongue": 224,
+      "joint-ground": 6
+    },
+    "roll_degenerate_planes": [],
+    "bone_roll_method": "Local Z aligned with normal of native rotation_plane; BVH rest-axis equivalence not asserted",
+    "normalized_weight_sum_range": [
+      0.9999999552965164,
+      1.0000000447034836
+    ]
+  },
+  "max_bone_length_error_m": 4.3213367462158203e-07,
+  "max_skin_displacement_m": 0.333895917835744,
+  "render_dimensions": [
+    640,
+    896
+  ],
+  "frames_measured": 33,
+  "errors": [],
+  "measurements": [
+    {
+      "frame": 1,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.0,
+      "right_wrist_head": [
+        -0.4311850070953369,
+        -0.17565500736236572,
+        1.061941146850586
+      ]
+    },
+    {
+      "frame": 2,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.021430926799901905,
+      "right_wrist_head": [
+        -0.43581199645996094,
+        -0.16705381870269775,
+        1.0545010566711426
+      ]
+    },
+    {
+      "frame": 3,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.042941695367165925,
+      "right_wrist_head": [
+        -0.44009560346603394,
+        -0.15795829892158508,
+        1.047358512878418
+      ]
+    },
+    {
+      "frame": 4,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.06448486252951792,
+      "right_wrist_head": [
+        -0.44401273131370544,
+        -0.1484038084745407,
+        1.04054856300354
+      ]
+    },
+    {
+      "frame": 5,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.08601188928249046,
+      "right_wrist_head": [
+        -0.44754326343536377,
+        -0.13843019306659698,
+        1.034104347229004
+      ]
+    },
+    {
+      "frame": 6,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.10747467390712179,
+      "right_wrist_head": [
+        -0.4506704807281494,
+        -0.12808136641979218,
+        1.0280554294586182
+      ]
+    },
+    {
+      "frame": 7,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.12882490689238357,
+      "right_wrist_head": [
+        -0.4533812403678894,
+        -0.11740458011627197,
+        1.022428274154663
+      ]
+    },
+    {
+      "frame": 8,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.15001573374555263,
+      "right_wrist_head": [
+        -0.45566627383232117,
+        -0.10644970834255219,
+        1.0172450542449951
+      ]
+    },
+    {
+      "frame": 9,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.1710015169990587,
+      "right_wrist_head": [
+        -0.457520067691803,
+        -0.09526853263378143,
+        1.012523889541626
+      ]
+    },
+    {
+      "frame": 10,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.19186137546323082,
+      "right_wrist_head": [
+        -0.45894837379455566,
+        -0.08384580910205841,
+        1.0082547664642334
+      ]
+    },
+    {
+      "frame": 11,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.21267245645382626,
+      "right_wrist_head": [
+        -0.45995044708251953,
+        -0.07216271758079529,
+        1.00443434715271
+      ]
+    },
+    {
+      "frame": 12,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.23338714127358126,
+      "right_wrist_head": [
+        -0.4605169892311096,
+        -0.0602688193321228,
+        1.001084327697754
+      ]
+    },
+    {
+      "frame": 13,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.25395810533071433,
+      "right_wrist_head": [
+        -0.4606424868106842,
+        -0.04821621626615524,
+        0.9982235431671143
+      ]
+    },
+    {
+      "frame": 14,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.2743387976023008,
+      "right_wrist_head": [
+        -0.4603254199028015,
+        -0.03605866804718971,
+        0.9958655834197998
+      ]
+    },
+    {
+      "frame": 15,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.2944839669308669,
+      "right_wrist_head": [
+        -0.45956820249557495,
+        -0.023850958794355392,
+        0.9940199851989746
+      ]
+    },
+    {
+      "frame": 16,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.31435007722941116,
+      "right_wrist_head": [
+        -0.4583771824836731,
+        -0.011647948063910007,
+        0.9926915764808655
+      ]
+    },
+    {
+      "frame": 17,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.333895917835744,
+      "right_wrist_head": [
+        -0.4567624032497406,
+        0.0004961667582392693,
+        0.9918806552886963
+      ]
+    },
+    {
+      "frame": 18,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.31435007722941116,
+      "right_wrist_head": [
+        -0.4583771824836731,
+        -0.011647948063910007,
+        0.9926915764808655
+      ]
+    },
+    {
+      "frame": 19,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.2944839669308669,
+      "right_wrist_head": [
+        -0.45956820249557495,
+        -0.023850958794355392,
+        0.9940199851989746
+      ]
+    },
+    {
+      "frame": 20,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.2743387976023008,
+      "right_wrist_head": [
+        -0.4603254199028015,
+        -0.03605866804718971,
+        0.9958655834197998
+      ]
+    },
+    {
+      "frame": 21,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.25395810533071433,
+      "right_wrist_head": [
+        -0.4606424868106842,
+        -0.04821621626615524,
+        0.9982235431671143
+      ]
+    },
+    {
+      "frame": 22,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.23338714127358126,
+      "right_wrist_head": [
+        -0.4605169892311096,
+        -0.0602688193321228,
+        1.001084327697754
+      ]
+    },
+    {
+      "frame": 23,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.21267245645382626,
+      "right_wrist_head": [
+        -0.45995044708251953,
+        -0.07216271758079529,
+        1.00443434715271
+      ]
+    },
+    {
+      "frame": 24,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.19186137546323082,
+      "right_wrist_head": [
+        -0.45894837379455566,
+        -0.08384580910205841,
+        1.0082547664642334
+      ]
+    },
+    {
+      "frame": 25,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.1710015169990587,
+      "right_wrist_head": [
+        -0.457520067691803,
+        -0.09526853263378143,
+        1.012523889541626
+      ]
+    },
+    {
+      "frame": 26,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.15001573374555263,
+      "right_wrist_head": [
+        -0.45566627383232117,
+        -0.10644970834255219,
+        1.0172450542449951
+      ]
+    },
+    {
+      "frame": 27,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.12882490689238357,
+      "right_wrist_head": [
+        -0.4533812403678894,
+        -0.11740458011627197,
+        1.022428274154663
+      ]
+    },
+    {
+      "frame": 28,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.10747467390712179,
+      "right_wrist_head": [
+        -0.4506704807281494,
+        -0.12808136641979218,
+        1.0280554294586182
+      ]
+    },
+    {
+      "frame": 29,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.08601188928249046,
+      "right_wrist_head": [
+        -0.44754326343536377,
+        -0.13843019306659698,
+        1.034104347229004
+      ]
+    },
+    {
+      "frame": 30,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.06448486252951792,
+      "right_wrist_head": [
+        -0.44401273131370544,
+        -0.1484038084745407,
+        1.04054856300354
+      ]
+    },
+    {
+      "frame": 31,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.04294171637748039,
+      "right_wrist_head": [
+        -0.44009560346603394,
+        -0.15795829892158508,
+        1.047358512878418
+      ]
+    },
+    {
+      "frame": 32,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.021430902355357256,
+      "right_wrist_head": [
+        -0.43581199645996094,
+        -0.16705381870269775,
+        1.0545010566711426
+      ]
+    },
+    {
+      "frame": 33,
+      "max_bone_length_error_m": 4.3213367462158203e-07,
+      "max_skin_displacement_m": 0.0,
+      "right_wrist_head": [
+        -0.4311850070953369,
+        -0.17565500736236572,
+        1.061941146850586
+      ]
+    }
+  ],
+  "limitations": [
+    "Native tpose/benchmark BVH are single poses and are not applied by this script.",
+    "Authored elbow bend is a deformation diagnostic, not a licensed downloaded action or combat animation.",
+    "Clay reference uses original neutral MakeHuman proportions; no stylization or warrior design approval.",
+    "Only body faces retained; eye/teeth helper meshes excluded.",
+    "Roll aligned to native plane normals; full MakeHuman BVH rotation convention compatibility not proven."
+  ],
+  "image_checks": {
+    "status": "passed",
+    "render_count": 11,
+    "errors": [],
+    "images": [
+      {
+        "file": "previews/public_human/rest_front.png",
+        "bytes": 438593,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          92,
+          69,
+          548,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "de1d94b9696452cb3b87a1916970d6dc0f9e3d91c9b1a75a89f044b6a1c6cff0"
+      },
+      {
+        "file": "previews/public_human/rest_front_left.png",
+        "bytes": 441859,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          197,
+          70,
+          560,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "2428c6c4788f7b5a941f1bb72f35c7be13a70bc2a0ef315f993e320f2596b363"
+      },
+      {
+        "file": "previews/public_human/rest_front_right.png",
+        "bytes": 443746,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          80,
+          69,
+          443,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "f8f458449c2c1b0bca047cbe884f70a5bab7ea71786498a5b2afc10f4bb3f955"
+      },
+      {
+        "file": "previews/public_human/rest_side.png",
+        "bytes": 393412,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          193,
+          69,
+          388,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "43f4628b04a1d807bf7b33f9aaaa6bd6c5a1f1e48a499095d4ad8eccdccaec25"
+      },
+      {
+        "file": "previews/public_human/rest_back.png",
+        "bytes": 435518,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          92,
+          69,
+          548,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "666dda888638f269e4da7a71df46fb364f84aee593ecf4b19520926702b19dd9"
+      },
+      {
+        "file": "previews/public_human/skin_bend_001.png",
+        "bytes": 442849,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          179,
+          70,
+          569,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "218ef7c0214cdde21d9ff7386c2b3f886ccec5415ddd2677072a061e50517c5f"
+      },
+      {
+        "file": "previews/public_human/skin_bend_009.png",
+        "bytes": 443658,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          139,
+          70,
+          569,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "5e31127491744e3b82dd4a4c97419b2e17f5e0f7f9ecf13f64e93a7fcbe3baf5"
+      },
+      {
+        "file": "previews/public_human/skin_bend_017.png",
+        "bytes": 444227,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          102,
+          70,
+          569,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "de9a5f2da87113b028577fcaaab7cccc077f155f6def805498ba47addd80738f"
+      },
+      {
+        "file": "previews/public_human/skin_bend_025.png",
+        "bytes": 443658,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          139,
+          70,
+          569,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "d5c6c59533bdbc176c7ed4003066d337751d95acf6de533ac019b473ee5e5b64"
+      },
+      {
+        "file": "previews/public_human/skin_bend_033.png",
+        "bytes": 442849,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          179,
+          70,
+          569,
+          833
+        ],
+        "intentional_detail_crop": false,
+        "sha256": "71972429addd8a9df5f6216212f9a0360c847ea387594a19e4fe4f93ab32b232"
+      },
+      {
+        "file": "previews/public_human/right_hand_detail.png",
+        "bytes": 434143,
+        "size": [
+          640,
+          896
+        ],
+        "bbox": [
+          160,
+          0,
+          640,
+          805
+        ],
+        "intentional_detail_crop": true,
+        "sha256": "db67f583bd53b1568f534877d65881dda3b32b532317c461d17d6e9f81c80fb4"
+      }
+    ],
+    "detail_crop_exemptions": [
+      "right_hand_detail.png"
+    ],
+    "main_chain_bones_drawn": 102
+  },
+  "visual_inspection": "Continuous human body, articulated fingers and readable native proportions visually checked; art approval remains pending.",
+  "consumed_asset_files": [
+    "base.obj",
+    "default.mhskel",
+    "default_weights.mhw"
+  ]
+}

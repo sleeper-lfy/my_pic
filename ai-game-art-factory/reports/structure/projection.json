@@ -1,0 +1,4894 @@
+{
+  "schema_version": 1,
+  "status": "structure_probe_only_not_final_art",
+  "blender_version": "4.3.2",
+  "canvas": [
+    256,
+    256
+  ],
+  "coordinates": {
+    "world": "+X character-right, -Y forward, +Z up",
+    "image": "top-left origin, +X right, +Y down"
+  },
+  "camera": {
+    "projection": "orthographic",
+    "azimuth_degrees": [
+      -45,
+      45
+    ],
+    "ortho_scale": 3.65,
+    "target": [
+      0,
+      -0.08,
+      1.38
+    ]
+  },
+  "depth_encoding": {
+    "near": 7,
+    "far": 11,
+    "near_white": true,
+    "view_transform": "Raw"
+  },
+  "normal_encoding": "world-space signed xyz mapped to [0,1]; Raw view transform; 8-bit PNG",
+  "key_pose_count": 4,
+  "frame_count": 16,
+  "max_weapon_grip_error_world": 5.960464477539063e-08,
+  "limitations": [
+    "Four diagnostic key poses are not a finished animation.",
+    "Hand volumes do not model fingers wrapping a handle.",
+    "Flat geometric structures are guides only, never final game assets.",
+    "C projection supplies positions/depth only; texture deformation and hidden surfaces require approved 2D art.",
+    "Crescent variant is an ellipsoid proxy, not a finished crescent design.",
+    "No ComfyUI redraw or temporal AI consistency has been validated."
+  ],
+  "records": [
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "index": 0,
+      "pose": "idle",
+      "time_seconds": 0.0,
+      "frame_number": 1,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            157.58949,
+            145.71067
+          ],
+          "depth": 9.181506,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            107.82985,
+            156.12416
+          ],
+          "depth": 8.491348,
+          "world": [
+            -0.45,
+            -0.12,
+            1.06
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            157.58949,
+            145.71067
+          ],
+          "depth": 9.181506,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            157.58949,
+            145.71067
+          ],
+          "depth": 9.181506,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            159.27676,
+            117.78705
+          ],
+          "depth": 9.211738,
+          "world": [
+            0.662853,
+            -0.052447,
+            1.395832
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            94.06129,
+            135.50695
+          ],
+          "depth": 8.304127,
+          "world": [
+            -0.660841,
+            -0.052251,
+            1.393101
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            162.95183,
+            102.99258
+          ],
+          "depth": 9.000419,
+          "world": [
+            0.59447,
+            -0.193528,
+            1.655285
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            155.91376,
+            159.06007
+          ],
+          "depth": 9.238095,
+          "world": [
+            0.536103,
+            -0.110147,
+            0.821474
+          ]
+        }
+      },
+      "weapon_grip_error_world": 0.0,
+      "measured_grip_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "measured_hand_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "WeaponButt",
+        "RightElbow",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightHip",
+        "WeaponHead",
+        "RightShoulder",
+        "LeftFoot",
+        "Pelvis",
+        "LeftKnee",
+        "LeftHip",
+        "Neck",
+        "Head",
+        "LeftShoulder",
+        "LeftHandAnchor",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_block/attack_00_flat.png",
+        "normal": "previews/structure/front_left/hammer_block/attack_00_normal.png",
+        "depth": "previews/structure/front_left/hammer_block/attack_00_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_block/attack_00_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_block/attack_00_pose.png"
+      }
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "index": 1,
+      "pose": "anticipation",
+      "time_seconds": 0.15,
+      "frame_number": 16,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            144.65532,
+            57.59789
+          ],
+          "depth": 8.922445,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            115.34538,
+            139.52744
+          ],
+          "depth": 8.258276,
+          "world": [
+            -0.49,
+            -0.31,
+            1.35
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            144.65532,
+            57.59789
+          ],
+          "depth": 8.922445,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            144.65532,
+            57.59789
+          ],
+          "depth": 8.922445,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            154.25191,
+            80.57451
+          ],
+          "depth": 9.106725,
+          "world": [
+            0.640689,
+            0.02633,
+            1.935246
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            91.94547,
+            124.90045
+          ],
+          "depth": 8.186184,
+          "world": [
+            -0.734407,
+            -0.082457,
+            1.570203
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            126.86414,
+            20.84918
+          ],
+          "depth": 8.656504,
+          "world": [
+            0.218298,
+            0.158138,
+            2.875744
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            150.21506,
+            69.08183
+          ],
+          "depth": 9.005552,
+          "world": [
+            0.561782,
+            0.029332,
+            2.12008
+          ]
+        }
+      },
+      "weapon_grip_error_world": 3.003425057343598e-08,
+      "measured_grip_world": [
+        0.48000001907348633,
+        0.059999994933605194,
+        2.299999952316284
+      ],
+      "measured_hand_world": [
+        0.47999998927116394,
+        0.05999999865889549,
+        2.299999952316284
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightElbow",
+        "RightHip",
+        "WeaponButt",
+        "RightShoulder",
+        "LeftFoot",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "Pelvis",
+        "LeftKnee",
+        "LeftHip",
+        "Neck",
+        "WeaponHead",
+        "Head",
+        "LeftShoulder",
+        "LeftHandAnchor",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_block/attack_01_flat.png",
+        "normal": "previews/structure/front_left/hammer_block/attack_01_normal.png",
+        "depth": "previews/structure/front_left/hammer_block/attack_01_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_block/attack_01_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_block/attack_01_pose.png"
+      }
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "index": 2,
+      "pose": "strike",
+      "time_seconds": 0.31,
+      "frame_number": 32,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            181.08803,
+            130.85546
+          ],
+          "depth": 8.707492,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            98.81653,
+            143.25114
+          ],
+          "depth": 8.630625,
+          "world": [
+            -0.41,
+            0.1,
+            1.2
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            181.08803,
+            130.85546
+          ],
+          "depth": 8.707492,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            181.08803,
+            130.85546
+          ],
+          "depth": 8.707492,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            168.334,
+            113.96454
+          ],
+          "depth": 8.970046,
+          "world": [
+            0.59797,
+            -0.297878,
+            1.512518
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            87.1973,
+            130.11102
+          ],
+          "depth": 8.318446,
+          "world": [
+            -0.705215,
+            0.04145,
+            1.463476
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            214.99318,
+            156.19311
+          ],
+          "depth": 8.494411,
+          "world": [
+            0.62504,
+            -1.205734,
+            1.058239
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            170.49266,
+            122.93745
+          ],
+          "depth": 8.774079,
+          "world": [
+            0.460925,
+            -0.476333,
+            1.441175
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.5,
+        -0.6499999165534973,
+        1.350000023841858
+      ],
+      "measured_hand_world": [
+        0.5,
+        -0.6499999761581421,
+        1.350000023841858
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightHip",
+        "RightElbow",
+        "RightShoulder",
+        "LeftFoot",
+        "Pelvis",
+        "LeftKnee",
+        "WeaponButt",
+        "LeftHip",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "Neck",
+        "LeftHandAnchor",
+        "Head",
+        "LeftShoulder",
+        "WeaponHead",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_block/attack_02_flat.png",
+        "normal": "previews/structure/front_left/hammer_block/attack_02_normal.png",
+        "depth": "previews/structure/front_left/hammer_block/attack_02_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_block/attack_02_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_block/attack_02_pose.png"
+      }
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "index": 3,
+      "pose": "recovery",
+      "time_seconds": 0.6,
+      "frame_number": 61,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            168.02737,
+            137.82249
+          ],
+          "depth": 9.100246,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            112.31654,
+            152.30391
+          ],
+          "depth": 8.425463,
+          "world": [
+            -0.44,
+            -0.2,
+            1.13
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            168.02737,
+            137.82249
+          ],
+          "depth": 9.100246,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            168.02737,
+            137.82249
+          ],
+          "depth": 9.100246,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            163.27464,
+            111.02122
+          ],
+          "depth": 9.197131,
+          "world": [
+            0.711085,
+            -0.084934,
+            1.492715
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            94.79005,
+            133.72962
+          ],
+          "depth": 8.25987,
+          "world": [
+            -0.67913,
+            -0.084893,
+            1.429278
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            181.67993,
+            97.84674
+          ],
+          "depth": 8.883804,
+          "world": [
+            0.715837,
+            -0.448896,
+            1.756969
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            163.76094,
+            150.31491
+          ],
+          "depth": 9.167884,
+          "world": [
+            0.590051,
+            -0.214095,
+            0.960322
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.6200000643730164,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "measured_hand_world": [
+        0.6200000047683716,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "RightElbow",
+        "WeaponButt",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "RightHip",
+        "RightShoulder",
+        "LeftFoot",
+        "Pelvis",
+        "WeaponHead",
+        "LeftKnee",
+        "LeftHip",
+        "Neck",
+        "Head",
+        "LeftShoulder",
+        "LeftHandAnchor",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_block/attack_03_flat.png",
+        "normal": "previews/structure/front_left/hammer_block/attack_03_normal.png",
+        "depth": "previews/structure/front_left/hammer_block/attack_03_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_block/attack_03_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_block/attack_03_pose.png"
+      }
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "index": 0,
+      "pose": "idle",
+      "time_seconds": 0.0,
+      "frame_number": 1,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            157.58949,
+            145.71067
+          ],
+          "depth": 9.181506,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            107.82985,
+            156.12416
+          ],
+          "depth": 8.491348,
+          "world": [
+            -0.45,
+            -0.12,
+            1.06
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            157.58949,
+            145.71067
+          ],
+          "depth": 9.181506,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            157.58949,
+            145.71067
+          ],
+          "depth": 9.181506,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            159.27676,
+            117.78705
+          ],
+          "depth": 9.211738,
+          "world": [
+            0.662853,
+            -0.052447,
+            1.395832
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            94.06129,
+            135.50695
+          ],
+          "depth": 8.304127,
+          "world": [
+            -0.660841,
+            -0.052251,
+            1.393101
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            162.95183,
+            102.99258
+          ],
+          "depth": 9.000419,
+          "world": [
+            0.59447,
+            -0.193528,
+            1.655285
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            155.91376,
+            159.06007
+          ],
+          "depth": 9.238095,
+          "world": [
+            0.536103,
+            -0.110147,
+            0.821474
+          ]
+        }
+      },
+      "weapon_grip_error_world": 0.0,
+      "measured_grip_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "measured_hand_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "WeaponButt",
+        "RightElbow",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightHip",
+        "WeaponHead",
+        "RightShoulder",
+        "LeftFoot",
+        "Pelvis",
+        "LeftKnee",
+        "LeftHip",
+        "Neck",
+        "Head",
+        "LeftShoulder",
+        "LeftHandAnchor",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_crescent/attack_00_flat.png",
+        "normal": "previews/structure/front_left/hammer_crescent/attack_00_normal.png",
+        "depth": "previews/structure/front_left/hammer_crescent/attack_00_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_crescent/attack_00_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_crescent/attack_00_pose.png"
+      }
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "index": 1,
+      "pose": "anticipation",
+      "time_seconds": 0.15,
+      "frame_number": 16,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            144.65532,
+            57.59789
+          ],
+          "depth": 8.922445,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            115.34538,
+            139.52744
+          ],
+          "depth": 8.258276,
+          "world": [
+            -0.49,
+            -0.31,
+            1.35
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            144.65532,
+            57.59789
+          ],
+          "depth": 8.922445,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            144.65532,
+            57.59789
+          ],
+          "depth": 8.922445,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            154.25191,
+            80.57451
+          ],
+          "depth": 9.106725,
+          "world": [
+            0.640689,
+            0.02633,
+            1.935246
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            91.94547,
+            124.90045
+          ],
+          "depth": 8.186184,
+          "world": [
+            -0.734407,
+            -0.082457,
+            1.570203
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            126.86414,
+            20.84918
+          ],
+          "depth": 8.656504,
+          "world": [
+            0.218298,
+            0.158138,
+            2.875744
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            150.21506,
+            69.08183
+          ],
+          "depth": 9.005552,
+          "world": [
+            0.561782,
+            0.029332,
+            2.12008
+          ]
+        }
+      },
+      "weapon_grip_error_world": 3.003425057343598e-08,
+      "measured_grip_world": [
+        0.48000001907348633,
+        0.059999994933605194,
+        2.299999952316284
+      ],
+      "measured_hand_world": [
+        0.47999998927116394,
+        0.05999999865889549,
+        2.299999952316284
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightElbow",
+        "RightHip",
+        "WeaponButt",
+        "RightShoulder",
+        "LeftFoot",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "Pelvis",
+        "LeftKnee",
+        "LeftHip",
+        "Neck",
+        "WeaponHead",
+        "Head",
+        "LeftShoulder",
+        "LeftHandAnchor",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_crescent/attack_01_flat.png",
+        "normal": "previews/structure/front_left/hammer_crescent/attack_01_normal.png",
+        "depth": "previews/structure/front_left/hammer_crescent/attack_01_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_crescent/attack_01_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_crescent/attack_01_pose.png"
+      }
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "index": 2,
+      "pose": "strike",
+      "time_seconds": 0.31,
+      "frame_number": 32,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            181.08803,
+            130.85546
+          ],
+          "depth": 8.707492,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            98.81653,
+            143.25114
+          ],
+          "depth": 8.630625,
+          "world": [
+            -0.41,
+            0.1,
+            1.2
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            181.08803,
+            130.85546
+          ],
+          "depth": 8.707492,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            181.08803,
+            130.85546
+          ],
+          "depth": 8.707492,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            168.334,
+            113.96454
+          ],
+          "depth": 8.970046,
+          "world": [
+            0.59797,
+            -0.297878,
+            1.512518
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            87.1973,
+            130.11102
+          ],
+          "depth": 8.318446,
+          "world": [
+            -0.705215,
+            0.04145,
+            1.463476
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            214.99318,
+            156.19311
+          ],
+          "depth": 8.494411,
+          "world": [
+            0.62504,
+            -1.205734,
+            1.058239
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            170.49266,
+            122.93745
+          ],
+          "depth": 8.774079,
+          "world": [
+            0.460925,
+            -0.476333,
+            1.441175
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.5,
+        -0.6499999165534973,
+        1.350000023841858
+      ],
+      "measured_hand_world": [
+        0.5,
+        -0.6499999761581421,
+        1.350000023841858
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightHip",
+        "RightElbow",
+        "RightShoulder",
+        "LeftFoot",
+        "Pelvis",
+        "LeftKnee",
+        "WeaponButt",
+        "LeftHip",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "Neck",
+        "LeftHandAnchor",
+        "Head",
+        "LeftShoulder",
+        "WeaponHead",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_crescent/attack_02_flat.png",
+        "normal": "previews/structure/front_left/hammer_crescent/attack_02_normal.png",
+        "depth": "previews/structure/front_left/hammer_crescent/attack_02_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_crescent/attack_02_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_crescent/attack_02_pose.png"
+      }
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "index": 3,
+      "pose": "recovery",
+      "time_seconds": 0.6,
+      "frame_number": 61,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            124.00588,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            124.00589,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            124.0059,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            124.75479,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            139.76921,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            108.24258,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            168.02737,
+            137.82249
+          ],
+          "depth": 9.100246,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            112.31654,
+            152.30391
+          ],
+          "depth": 8.425463,
+          "world": [
+            -0.44,
+            -0.2,
+            1.13
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            132.87276,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            115.13902,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            135.34909,
+            179.88363
+          ],
+          "depth": 9.144719,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            112.66269,
+            184.92535
+          ],
+          "depth": 8.883554,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            137.32616,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            113.68118,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            168.02737,
+            137.82249
+          ],
+          "depth": 9.100246,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            168.02737,
+            137.82249
+          ],
+          "depth": 9.100246,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            163.27464,
+            111.02122
+          ],
+          "depth": 9.197131,
+          "world": [
+            0.711085,
+            -0.084934,
+            1.492715
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            94.79005,
+            133.72962
+          ],
+          "depth": 8.25987,
+          "world": [
+            -0.67913,
+            -0.084893,
+            1.429278
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            181.67993,
+            97.84674
+          ],
+          "depth": 8.883804,
+          "world": [
+            0.715837,
+            -0.448896,
+            1.756969
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            163.76094,
+            150.31491
+          ],
+          "depth": 9.167884,
+          "world": [
+            0.590051,
+            -0.214095,
+            0.960322
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.6200000643730164,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "measured_hand_world": [
+        0.6200000047683716,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "draw_order_far_to_near": [
+        "RightFoot",
+        "RightElbow",
+        "WeaponButt",
+        "CharacterRoot",
+        "FootAnchor",
+        "RightKnee",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "RightHip",
+        "RightShoulder",
+        "LeftFoot",
+        "Pelvis",
+        "WeaponHead",
+        "LeftKnee",
+        "LeftHip",
+        "Neck",
+        "Head",
+        "LeftShoulder",
+        "LeftHandAnchor",
+        "LeftElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_left/hammer_crescent/attack_03_flat.png",
+        "normal": "previews/structure/front_left/hammer_crescent/attack_03_normal.png",
+        "depth": "previews/structure/front_left/hammer_crescent/attack_03_depth.png",
+        "silhouette": "previews/structure/front_left/hammer_crescent/attack_03_silhouette.png",
+        "pose": "previews/structure/front_left/hammer_crescent/attack_03_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "index": 0,
+      "pose": "idle",
+      "time_seconds": 0.0,
+      "frame_number": 1,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            152.59692,
+            160.28468
+          ],
+          "depth": 8.42656,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            103.83581,
+            144.19997
+          ],
+          "depth": 9.109031,
+          "world": [
+            -0.45,
+            -0.12,
+            1.06
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            152.59692,
+            160.28468
+          ],
+          "depth": 8.42656,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            152.59692,
+            160.28468
+          ],
+          "depth": 8.42656,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            162.028,
+            135.35146
+          ],
+          "depth": 8.301888,
+          "world": [
+            0.662853,
+            -0.052447,
+            1.395832
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            96.83215,
+            117.99585
+          ],
+          "depth": 9.211215,
+          "world": [
+            -0.660841,
+            -0.052251,
+            1.393101
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            151.6158,
+            118.74498
+          ],
+          "depth": 8.184433,
+          "world": [
+            0.59447,
+            -0.193528,
+            1.655285
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            152.90353,
+            173.26585
+          ],
+          "depth": 8.502226,
+          "world": [
+            0.536103,
+            -0.110147,
+            0.821474
+          ]
+        }
+      },
+      "weapon_grip_error_world": 0.0,
+      "measured_grip_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "measured_hand_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "draw_order_far_to_near": [
+        "LeftFoot",
+        "LeftElbow",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHandAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "WeaponButt",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "RightElbow",
+        "WeaponHead"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_block/attack_00_flat.png",
+        "normal": "previews/structure/front_right/hammer_block/attack_00_normal.png",
+        "depth": "previews/structure/front_right/hammer_block/attack_00_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_block/attack_00_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_block/attack_00_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "index": 1,
+      "pose": "anticipation",
+      "time_seconds": 0.15,
+      "frame_number": 16,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            158.63464,
+            70.31702
+          ],
+          "depth": 8.263584,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            92.37944,
+            126.54332
+          ],
+          "depth": 8.930864,
+          "world": [
+            -0.49,
+            -0.31,
+            1.35
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            158.63464,
+            70.31702
+          ],
+          "depth": 8.263584,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            158.63464,
+            70.31702
+          ],
+          "depth": 8.263584,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            164.86925,
+            97.55162
+          ],
+          "depth": 8.227298,
+          "world": [
+            0.640689,
+            0.02633,
+            1.935246
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            91.70018,
+            105.43999
+          ],
+          "depth": 9.194251,
+          "world": [
+            -0.734407,
+            -0.082457,
+            1.570203
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            150.64276,
+            26.6337
+          ],
+          "depth": 8.356861,
+          "world": [
+            0.218298,
+            0.158138,
+            2.875744
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            161.13211,
+            83.96803
+          ],
+          "depth": 8.234435,
+          "world": [
+            0.561782,
+            0.029332,
+            2.12008
+          ]
+        }
+      },
+      "weapon_grip_error_world": 3.003425057343598e-08,
+      "measured_grip_world": [
+        0.48000001907348633,
+        0.059999994933605194,
+        2.299999952316284
+      ],
+      "measured_hand_world": [
+        0.47999998927116394,
+        0.05999999865889549,
+        2.299999952316284
+      ],
+      "draw_order_far_to_near": [
+        "LeftFoot",
+        "LeftElbow",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "LeftHandAnchor",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "WeaponHead",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "WeaponButt",
+        "RightElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_block/attack_01_flat.png",
+        "normal": "previews/structure/front_right/hammer_block/attack_01_normal.png",
+        "depth": "previews/structure/front_right/hammer_block/attack_01_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_block/attack_01_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_block/attack_01_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "index": 2,
+      "pose": "strike",
+      "time_seconds": 0.31,
+      "frame_number": 32,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            124.17236,
+            144.10456
+          ],
+          "depth": 8.021178,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            116.78996,
+            132.38687
+          ],
+          "depth": 9.193402,
+          "world": [
+            -0.41,
+            0.1,
+            1.2
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            124.17236,
+            144.10456
+          ],
+          "depth": 8.021178,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            124.17236,
+            144.10456
+          ],
+          "depth": 8.021178,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            146.57846,
+            129.80967
+          ],
+          "depth": 8.149256,
+          "world": [
+            0.59797,
+            -0.297878,
+            1.512518
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            99.32435,
+            111.42407
+          ],
+          "depth": 9.286445,
+          "world": [
+            -0.705215,
+            0.04145,
+            1.463476
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            102.58627,
+            172.75555
+          ],
+          "depth": 7.636464,
+          "world": [
+            0.62504,
+            -1.205734,
+            1.058239
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            130.91801,
+            135.15113
+          ],
+          "depth": 8.141401,
+          "world": [
+            0.460925,
+            -0.476333,
+            1.441175
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.5,
+        -0.6499999165534973,
+        1.350000023841858
+      ],
+      "measured_hand_world": [
+        0.5,
+        -0.6499999761581421,
+        1.350000023841858
+      ],
+      "draw_order_far_to_near": [
+        "LeftElbow",
+        "LeftFoot",
+        "LeftHandAnchor",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "RightElbow",
+        "WeaponButt",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "WeaponHead"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_block/attack_02_flat.png",
+        "normal": "previews/structure/front_right/hammer_block/attack_02_normal.png",
+        "depth": "previews/structure/front_right/hammer_block/attack_02_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_block/attack_02_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_block/attack_02_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "index": 3,
+      "pose": "recovery",
+      "time_seconds": 0.6,
+      "frame_number": 61,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            149.05551,
+            154.25138
+          ],
+          "depth": 8.249217,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            100.33433,
+            140.6447
+          ],
+          "depth": 9.029419,
+          "world": [
+            -0.44,
+            -0.2,
+            1.13
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            149.05551,
+            154.25138
+          ],
+          "depth": 8.249217,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            149.05551,
+            154.25138
+          ],
+          "depth": 8.249217,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            162.78204,
+            129.86372
+          ],
+          "depth": 8.221076,
+          "world": [
+            0.711085,
+            -0.084934,
+            1.492715
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            94.30149,
+            115.73389
+          ],
+          "depth": 9.192062,
+          "world": [
+            -0.67913,
+            -0.084893,
+            1.429278
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            144.84491,
+            116.81514
+          ],
+          "depth": 7.901227,
+          "world": [
+            0.715837,
+            -0.448896,
+            1.756969
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            150.37132,
+            165.9502
+          ],
+          "depth": 8.357965,
+          "world": [
+            0.590051,
+            -0.214095,
+            0.960322
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.6200000643730164,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "measured_hand_world": [
+        0.6200000047683716,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "draw_order_far_to_near": [
+        "LeftFoot",
+        "LeftElbow",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHandAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "WeaponButt",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "RightElbow",
+        "WeaponHead"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_block/attack_03_flat.png",
+        "normal": "previews/structure/front_right/hammer_block/attack_03_normal.png",
+        "depth": "previews/structure/front_right/hammer_block/attack_03_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_block/attack_03_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_block/attack_03_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "index": 0,
+      "pose": "idle",
+      "time_seconds": 0.0,
+      "frame_number": 1,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            152.59692,
+            160.28468
+          ],
+          "depth": 8.42656,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            103.83581,
+            144.19997
+          ],
+          "depth": 9.109031,
+          "world": [
+            -0.45,
+            -0.12,
+            1.06
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            152.59692,
+            160.28468
+          ],
+          "depth": 8.42656,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            152.59692,
+            160.28468
+          ],
+          "depth": 8.42656,
+          "world": [
+            0.55,
+            -0.13,
+            1.02
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            162.028,
+            135.35146
+          ],
+          "depth": 8.301888,
+          "world": [
+            0.662853,
+            -0.052447,
+            1.395832
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            96.83215,
+            117.99585
+          ],
+          "depth": 9.211215,
+          "world": [
+            -0.660841,
+            -0.052251,
+            1.393101
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            151.6158,
+            118.74498
+          ],
+          "depth": 8.184433,
+          "world": [
+            0.59447,
+            -0.193528,
+            1.655285
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            152.90353,
+            173.26585
+          ],
+          "depth": 8.502226,
+          "world": [
+            0.536103,
+            -0.110147,
+            0.821474
+          ]
+        }
+      },
+      "weapon_grip_error_world": 0.0,
+      "measured_grip_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "measured_hand_world": [
+        0.550000011920929,
+        -0.12999999523162842,
+        1.0199999809265137
+      ],
+      "draw_order_far_to_near": [
+        "LeftFoot",
+        "LeftElbow",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHandAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "WeaponButt",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "RightElbow",
+        "WeaponHead"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_crescent/attack_00_flat.png",
+        "normal": "previews/structure/front_right/hammer_crescent/attack_00_normal.png",
+        "depth": "previews/structure/front_right/hammer_crescent/attack_00_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_crescent/attack_00_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_crescent/attack_00_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "index": 1,
+      "pose": "anticipation",
+      "time_seconds": 0.15,
+      "frame_number": 16,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            158.63464,
+            70.31702
+          ],
+          "depth": 8.263584,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            92.37944,
+            126.54332
+          ],
+          "depth": 8.930864,
+          "world": [
+            -0.49,
+            -0.31,
+            1.35
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            158.63464,
+            70.31702
+          ],
+          "depth": 8.263584,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            158.63464,
+            70.31702
+          ],
+          "depth": 8.263584,
+          "world": [
+            0.48,
+            0.06,
+            2.3
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            164.86925,
+            97.55162
+          ],
+          "depth": 8.227298,
+          "world": [
+            0.640689,
+            0.02633,
+            1.935246
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            91.70018,
+            105.43999
+          ],
+          "depth": 9.194251,
+          "world": [
+            -0.734407,
+            -0.082457,
+            1.570203
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            150.64276,
+            26.6337
+          ],
+          "depth": 8.356861,
+          "world": [
+            0.218298,
+            0.158138,
+            2.875744
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            161.13211,
+            83.96803
+          ],
+          "depth": 8.234435,
+          "world": [
+            0.561782,
+            0.029332,
+            2.12008
+          ]
+        }
+      },
+      "weapon_grip_error_world": 3.003425057343598e-08,
+      "measured_grip_world": [
+        0.48000001907348633,
+        0.059999994933605194,
+        2.299999952316284
+      ],
+      "measured_hand_world": [
+        0.47999998927116394,
+        0.05999999865889549,
+        2.299999952316284
+      ],
+      "draw_order_far_to_near": [
+        "LeftFoot",
+        "LeftElbow",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "LeftHandAnchor",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "WeaponHead",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "WeaponButt",
+        "RightElbow"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_crescent/attack_01_flat.png",
+        "normal": "previews/structure/front_right/hammer_crescent/attack_01_normal.png",
+        "depth": "previews/structure/front_right/hammer_crescent/attack_01_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_crescent/attack_01_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_crescent/attack_01_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "index": 2,
+      "pose": "strike",
+      "time_seconds": 0.31,
+      "frame_number": 32,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            124.17236,
+            144.10456
+          ],
+          "depth": 8.021178,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            116.78996,
+            132.38687
+          ],
+          "depth": 9.193402,
+          "world": [
+            -0.41,
+            0.1,
+            1.2
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            124.17236,
+            144.10456
+          ],
+          "depth": 8.021178,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            124.17236,
+            144.10456
+          ],
+          "depth": 8.021178,
+          "world": [
+            0.5,
+            -0.65,
+            1.35
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            146.57846,
+            129.80967
+          ],
+          "depth": 8.149256,
+          "world": [
+            0.59797,
+            -0.297878,
+            1.512518
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            99.32435,
+            111.42407
+          ],
+          "depth": 9.286445,
+          "world": [
+            -0.705215,
+            0.04145,
+            1.463476
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            102.58627,
+            172.75555
+          ],
+          "depth": 7.636464,
+          "world": [
+            0.62504,
+            -1.205734,
+            1.058239
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            130.91801,
+            135.15113
+          ],
+          "depth": 8.141401,
+          "world": [
+            0.460925,
+            -0.476333,
+            1.441175
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.5,
+        -0.6499999165534973,
+        1.350000023841858
+      ],
+      "measured_hand_world": [
+        0.5,
+        -0.6499999761581421,
+        1.350000023841858
+      ],
+      "draw_order_far_to_near": [
+        "LeftElbow",
+        "LeftFoot",
+        "LeftHandAnchor",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "RightElbow",
+        "WeaponButt",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "WeaponHead"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_crescent/attack_02_flat.png",
+        "normal": "previews/structure/front_right/hammer_crescent/attack_02_normal.png",
+        "depth": "previews/structure/front_right/hammer_crescent/attack_02_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_crescent/attack_02_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_crescent/attack_02_pose.png"
+      }
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "index": 3,
+      "pose": "recovery",
+      "time_seconds": 0.6,
+      "frame_number": 61,
+      "joints": {
+        "CharacterRoot": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "FootAnchor": {
+          "xy": [
+            131.99411,
+            220.27295
+          ],
+          "depth": 9.162746,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        "Pelvis": {
+          "xy": [
+            131.99411,
+            151.29826
+          ],
+          "depth": 8.892064,
+          "world": [
+            0.0,
+            0.0,
+            1.02
+          ]
+        },
+        "Neck": {
+          "xy": [
+            131.99411,
+            100.58157
+          ],
+          "depth": 8.693033,
+          "world": [
+            0.0,
+            0.0,
+            1.77
+          ]
+        },
+        "Head": {
+          "xy": [
+            131.24521,
+            83.8721
+          ],
+          "depth": 8.616532,
+          "world": [
+            0.0,
+            -0.015,
+            2.02
+          ]
+        },
+        "RightShoulder": {
+          "xy": [
+            147.75743,
+            112.93596
+          ],
+          "depth": 8.505258,
+          "world": [
+            0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "LeftShoulder": {
+          "xy": [
+            116.23078,
+            104.45653
+          ],
+          "depth": 8.944499,
+          "world": [
+            -0.32,
+            0.0,
+            1.65
+          ]
+        },
+        "RightHandAnchor": {
+          "xy": [
+            149.05551,
+            154.25138
+          ],
+          "depth": 8.249217,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "LeftHandAnchor": {
+          "xy": [
+            100.33433,
+            140.6447
+          ],
+          "depth": 9.029419,
+          "world": [
+            -0.44,
+            -0.2,
+            1.13
+          ]
+        },
+        "RightHip": {
+          "xy": [
+            140.86098,
+            153.6831
+          ],
+          "depth": 8.768528,
+          "world": [
+            0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "LeftHip": {
+          "xy": [
+            123.12724,
+            148.91342
+          ],
+          "depth": 9.015601,
+          "world": [
+            -0.18,
+            0.0,
+            1.02
+          ]
+        },
+        "RightKnee": {
+          "xy": [
+            141.34027,
+            185.44825
+          ],
+          "depth": 8.856467,
+          "world": [
+            0.21,
+            -0.02,
+            0.56
+          ]
+        },
+        "LeftKnee": {
+          "xy": [
+            122.64795,
+            179.36073
+          ],
+          "depth": 9.171805,
+          "world": [
+            -0.21,
+            0.02,
+            0.56
+          ]
+        },
+        "RightFoot": {
+          "xy": [
+            142.31882,
+            215.05402
+          ],
+          "depth": 8.943217,
+          "world": [
+            0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "LeftFoot": {
+          "xy": [
+            118.67384,
+            208.69444
+          ],
+          "depth": 9.272648,
+          "world": [
+            -0.24,
+            -0.03,
+            0.13
+          ]
+        },
+        "WeaponSocket": {
+          "xy": [
+            149.05551,
+            154.25138
+          ],
+          "depth": 8.249217,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "WeaponGripOffset": {
+          "xy": [
+            149.05551,
+            154.25138
+          ],
+          "depth": 8.249217,
+          "world": [
+            0.62,
+            -0.27,
+            1.15
+          ]
+        },
+        "RightElbow": {
+          "xy": [
+            162.78204,
+            129.86372
+          ],
+          "depth": 8.221076,
+          "world": [
+            0.711085,
+            -0.084934,
+            1.492715
+          ]
+        },
+        "LeftElbow": {
+          "xy": [
+            94.30149,
+            115.73389
+          ],
+          "depth": 9.192062,
+          "world": [
+            -0.67913,
+            -0.084893,
+            1.429278
+          ]
+        },
+        "WeaponHead": {
+          "xy": [
+            144.84491,
+            116.81514
+          ],
+          "depth": 7.901227,
+          "world": [
+            0.715837,
+            -0.448896,
+            1.756969
+          ]
+        },
+        "WeaponButt": {
+          "xy": [
+            150.37132,
+            165.9502
+          ],
+          "depth": 8.357965,
+          "world": [
+            0.590051,
+            -0.214095,
+            0.960322
+          ]
+        }
+      },
+      "weapon_grip_error_world": 5.960464477539063e-08,
+      "measured_grip_world": [
+        0.6200000643730164,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "measured_hand_world": [
+        0.6200000047683716,
+        -0.27000001072883606,
+        1.149999976158142
+      ],
+      "draw_order_far_to_near": [
+        "LeftFoot",
+        "LeftElbow",
+        "LeftKnee",
+        "CharacterRoot",
+        "FootAnchor",
+        "LeftHandAnchor",
+        "LeftHip",
+        "LeftShoulder",
+        "RightFoot",
+        "Pelvis",
+        "RightKnee",
+        "RightHip",
+        "Neck",
+        "Head",
+        "RightShoulder",
+        "WeaponButt",
+        "RightHandAnchor",
+        "WeaponSocket",
+        "WeaponGripOffset",
+        "RightElbow",
+        "WeaponHead"
+      ],
+      "files": {
+        "flat": "previews/structure/front_right/hammer_crescent/attack_03_flat.png",
+        "normal": "previews/structure/front_right/hammer_crescent/attack_03_normal.png",
+        "depth": "previews/structure/front_right/hammer_crescent/attack_03_depth.png",
+        "silhouette": "previews/structure/front_right/hammer_crescent/attack_03_silhouette.png",
+        "pose": "previews/structure/front_right/hammer_crescent/attack_03_pose.png"
+      }
+    }
+  ]
+}

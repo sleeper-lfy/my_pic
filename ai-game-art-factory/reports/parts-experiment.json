@@ -1,0 +1,104 @@
+{
+  "status": "experimental_unapproved",
+  "technical_checks": {
+    "expected_clips": 4,
+    "actual_clips": 4,
+    "layers_recompose_exactly": true,
+    "no_blank_frames": true,
+    "files_complete": true
+  },
+  "visual_approval": "pending",
+  "scope": "front_left attack only; four keys interpolated to thirteen samples; not final animation",
+  "limitations": [
+    "Unapproved AI parts; local joint overlap and hands require visual redraw.",
+    "Fixed painted view cannot supply perspective changes or automatic anatomical occlusion.",
+    "Grip error measures affine pivot coincidence, not finger wrap quality.",
+    "C interpolates projected key points; it is not a fully sampled 3D animation.",
+    "Second view, idle and defense production remain gated by static art approval.",
+    "Visual inspection: collar/shoulder seams and proportions improved once through layout only; flat hand overlay and stiff elbow bends still fail art acceptance."
+  ],
+  "source_sha256": "4281a02b2219b80375a06ffbf1cfecffe63bad68b5dbe452c782516fbc9c13e4",
+  "projection_sha256": "27482b408ffe7c9099737567ddf4726804588afe4801a81a4bf87c00c82501f3",
+  "clips": [
+    {
+      "clip": "C_hammer_b",
+      "frame_count": 13,
+      "dimensions": [
+        256,
+        256
+      ],
+      "rgba": true,
+      "blank_frames": 0,
+      "max_layer_recomposition_error": 0,
+      "max_foot_anchor_drift_px": 0.0,
+      "rendered_lower_body_bottom_drift_px": 0,
+      "foot_metric_scope": "alpha bottom in body-only x75..185,y200..255; not semantic contact verification",
+      "weapon_source_sha256": "f7e50404860f6ffde93caf46bc3a48dbb6bccfcd5b9fc6c4815b50c9c0a5151b",
+      "max_weapon_grip_pivot_error_px": 6.355287432313019e-14,
+      "alpha_area_ratio": 1.2012786596119929,
+      "issues": [],
+      "technical_status": "pass",
+      "art_status": "not_accepted"
+    },
+    {
+      "clip": "B_hammer_b",
+      "frame_count": 13,
+      "dimensions": [
+        256,
+        256
+      ],
+      "rgba": true,
+      "blank_frames": 0,
+      "max_layer_recomposition_error": 0,
+      "max_foot_anchor_drift_px": 0.0,
+      "rendered_lower_body_bottom_drift_px": 0,
+      "foot_metric_scope": "alpha bottom in body-only x75..185,y200..255; not semantic contact verification",
+      "weapon_source_sha256": "f7e50404860f6ffde93caf46bc3a48dbb6bccfcd5b9fc6c4815b50c9c0a5151b",
+      "max_weapon_grip_pivot_error_px": 4.0194366942304644e-14,
+      "alpha_area_ratio": 1.2268357105124141,
+      "issues": [],
+      "technical_status": "pass",
+      "art_status": "not_accepted"
+    },
+    {
+      "clip": "C_hammer_a",
+      "frame_count": 13,
+      "dimensions": [
+        256,
+        256
+      ],
+      "rgba": true,
+      "blank_frames": 0,
+      "max_layer_recomposition_error": 0,
+      "max_foot_anchor_drift_px": 0.0,
+      "rendered_lower_body_bottom_drift_px": 0,
+      "foot_metric_scope": "alpha bottom in body-only x75..185,y200..255; not semantic contact verification",
+      "weapon_source_sha256": "d012ac4814366683bd34ab2f8f77c7fa55a1f024a3c0a581abee7688e78460d8",
+      "max_weapon_grip_pivot_error_px": 8.987733679556355e-14,
+      "alpha_area_ratio": 1.1951918835465374,
+      "issues": [],
+      "technical_status": "pass",
+      "art_status": "not_accepted"
+    },
+    {
+      "clip": "B_hammer_a",
+      "frame_count": 13,
+      "dimensions": [
+        256,
+        256
+      ],
+      "rgba": true,
+      "blank_frames": 0,
+      "max_layer_recomposition_error": 0,
+      "max_foot_anchor_drift_px": 0.0,
+      "rendered_lower_body_bottom_drift_px": 0,
+      "foot_metric_scope": "alpha bottom in body-only x75..185,y200..255; not semantic contact verification",
+      "weapon_source_sha256": "d012ac4814366683bd34ab2f8f77c7fa55a1f024a3c0a581abee7688e78460d8",
+      "max_weapon_grip_pivot_error_px": 4.0194366942304644e-14,
+      "alpha_area_ratio": 1.2137348124669836,
+      "issues": [],
+      "technical_status": "pass",
+      "art_status": "not_accepted"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "prompt": "Generate a transparent PNG of a FOUR KEY POSE animation diagnostic sheet for the exact original fortress warrior in reference image 1, following the FOUR corresponding pose silhouettes in reference image 2. Treat the FOUR poses jointly as ONE character sequence, never four different redesigns. Exactly FOUR evenly spaced columns in ONE horizontal row across a wide landscape canvas. All four entire figures and entire hammers fit, with blank gutters separating cells; aligned foot soles and same skeleton size, head size and armor. NO text, numbers, background or ground shadows. True alpha.\nUse the first concept sheet ONLY for appearance: adult silver forelock bearded human warrior, blue-gray copper ornate armor, burgundy scarf, ivory tabard, detailed 2D hand-drawn cartoon with designed 3-tone shading. ONE SINGLE rectangular steel hammer A design across ALL frames. Use the second supplied image as spatial pose guide, mapping each corresponding column 1:1: (1) ready idle with hammer up at weapon-side shoulder, other hand near hip; (2) anticipation, hammer arm raised ABOVE HEAD with hammer high, elbow bent, free hand near chest; (3) strike, hammer arm extended OUTWARD AND DOWN, free hand near waist; (4) recovery, hammer lifted again beside shoulder with elbow bent. Same front-left 45 perspective as structure, not side view. Same face angle, same two legs with feet planted in every panel; NO duplicated or missing hands. The hammer must be gripped by the SAME anatomical right hand in all four panels; fingers visibly overlap shaft. Keep hammer head dimensions and handle length IDENTICAL even when rotated. Preserve the same shoulder armor, coat tails and hair details frame to frame. Do not copy geometric appearance of pose proxies, replace entirely with premium final-looking 2D illustrated warrior. This is an exploratory four-keyframe test, NOT a full animation. Design full consistent silhouettes without clipping, feet at same baseline. Both hands must exist in all four sprites.",
+  "provider": "image_gen",
+  "model": "not_exposed",
+  "seed": null,
+  "reference_images": [
+    "assets/references/warrior-concept-v002.png",
+    "previews/structure/route-a-guide-strip.png"
+  ],
+  "output": "assets/characters/route_a/joint-keyposes-v001.png",
+  "method": "One joint four-key-pose generation, not independent per-frame img2img; image-conditioned substitute for unavailable ComfyUI",
+  "status": "visual_failure_face_direction_and_grip_side_change",
+  "human_approval": "pending",
+  "limitations": [
+    "No ControlNet or per-pass conditioning exercised",
+    "No deterministic generation seed or model version exposed",
+    "Four diagnostic keys cannot establish temporal animation stability"
+  ]
+}

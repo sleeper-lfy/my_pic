@@ -1,0 +1,192 @@
+{
+  "status": "passed",
+  "scope": "structure guide transforms and files, not art acceptance",
+  "records_checked": 16,
+  "png_files_checked": 80,
+  "max_measured_grip_error_world": 5.960464477539063e-08,
+  "foot_anchor_drift_pixels": {
+    "front_left": 0.0,
+    "front_right": 0.0
+  },
+  "failures": [],
+  "frame_bounds": [
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "pose": "idle",
+      "bbox": [
+        87,
+        62,
+        183,
+        230
+      ]
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "pose": "anticipation",
+      "bbox": [
+        85,
+        3,
+        161,
+        230
+      ]
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "pose": "strike",
+      "bbox": [
+        81,
+        62,
+        234,
+        230
+      ]
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_block",
+      "pose": "recovery",
+      "bbox": [
+        88,
+        62,
+        203,
+        230
+      ]
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "pose": "idle",
+      "bbox": [
+        87,
+        62,
+        178,
+        230
+      ]
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "pose": "anticipation",
+      "bbox": [
+        85,
+        5,
+        161,
+        230
+      ]
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "pose": "strike",
+      "bbox": [
+        81,
+        62,
+        229,
+        230
+      ]
+    },
+    {
+      "direction": "front_left",
+      "weapon": "hammer_crescent",
+      "pose": "recovery",
+      "bbox": [
+        88,
+        62,
+        197,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "pose": "idle",
+      "bbox": [
+        90,
+        62,
+        171,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "pose": "anticipation",
+      "bbox": [
+        85,
+        14,
+        171,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "pose": "strike",
+      "bbox": [
+        82,
+        62,
+        156,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_block",
+      "pose": "recovery",
+      "bbox": [
+        87,
+        62,
+        170,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "pose": "idle",
+      "bbox": [
+        90,
+        62,
+        169,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "pose": "anticipation",
+      "bbox": [
+        85,
+        12,
+        171,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "pose": "strike",
+      "bbox": [
+        84,
+        62,
+        156,
+        230
+      ]
+    },
+    {
+      "direction": "front_right",
+      "weapon": "hammer_crescent",
+      "pose": "recovery",
+      "bbox": [
+        87,
+        62,
+        170,
+        230
+      ]
+    }
+  ],
+  "visual_review": "not_human_approved",
+  "source_sha256": "27482b408ffe7c9099737567ddf4726804588afe4801a81a4bf87c00c82501f3"
+}
